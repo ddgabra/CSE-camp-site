@@ -65,6 +65,15 @@ export async function verifyMotion(browser){
     await page.waitForTimeout(250);
     record('Desktop menu fades out before hiding',{...data,closing},closing.opacity>0&&closing.opacity<1&&closing.inert&&await page.locator('[data-cse-open]').count()===0);
    }
+   if(mode==='mobile'){
+    const target=lang==='en'?'fr':'en';
+    await Promise.all([
+     page.waitForURL(url=>(url.searchParams.get('lang')||'en')===target),
+     page.locator('#MENU_AS_CONTAINER select').selectOption(target)
+    ]);
+    record('Native mobile language selector opens the selected language',data,(new URL(page.url()).searchParams.get('lang')||'en')===target);
+    return;
+   }
    const toggle=page.locator('[data-testid="languages-dropdown-handle"]').first();
    await toggle.click();await page.waitForTimeout(60);
    const language=page.locator('#cse-language-options');

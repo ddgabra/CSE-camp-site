@@ -150,6 +150,15 @@
   menu.inert=true;
   runMotion(menu,[{opacity:getComputedStyle(menu).opacity,transform:getComputedStyle(menu).transform},{opacity:0,transform:'translateY(-6px)'}],180,()=>menu.remove());
  };
+ // Mobile Wix uses a native select over the visual language button.
+ document.querySelectorAll('[data-testid="languages-dropdown-handle-container"] select').forEach(select=>{
+  select.value=lang;select.setAttribute('aria-label',lang==='fr'?'Langue':'Language');
+  select.addEventListener('change',()=>{
+   const url=new URL(location.href);
+   select.value==='fr'?url.searchParams.set('lang','fr'):url.searchParams.delete('lang');
+   location.href=url.pathname+url.search+url.hash;
+  });
+ });
  document.querySelectorAll('[data-testid="languages-dropdown-handle"]').forEach(button=>{
   button.addEventListener('click',()=>{
    const existing=document.getElementById('cse-language-options');

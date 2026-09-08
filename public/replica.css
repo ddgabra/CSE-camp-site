@@ -29,4 +29,4 @@ html{scroll-behavior:smooth;scroll-padding-top:96px}
 }
 
 /* Backgrounds must follow their live container, not Wix's captured pixel width. */
-wow-image.bgImage > img{width:100%!important;height:100%!important;object-fit:cover}
+wow-image:is(.bgImage,.bgVideoposter) > img{width:100%!important;height:100%!important;object-fit:cover}
