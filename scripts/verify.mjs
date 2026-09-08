@@ -41,7 +41,7 @@ for(const mode of ['desktop','mobile']){
    if(!frame)throw new Error('Missing standalone slideshow');
    await frame.waitForLoadState('domcontentloaded');
    const backgrounds=await frame.locator('.img').evaluateAll(nodes=>nodes.map(n=>getComputedStyle(n).backgroundImage.match(/url\(["']?(.*?)["']?\)/)?.[1]).filter(Boolean));
-   for(const src of new Set(backgrounds)){const r=await fetch(src);if(!r.ok())throw new Error('Broken slideshow image '+src);}
+   for(const src of new Set(backgrounds)){const r=await fetch(src);if(!r.ok)throw new Error('Broken slideshow image '+src);}
   }
   const state=await page.evaluate(()=>({title:document.title,text:document.body.innerText,images:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>({src:i.src,alt:i.alt})),links:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')),forms:document.forms.length}));
   const missingText=item.text.split('\n').map(x=>x.trim()).filter(x=>x.length>30&&!state.text.includes(x));
