@@ -99,11 +99,11 @@ for(const mode of ['desktop','mobile']){
     if(!res?.ok())throw new Error('HTTP '+res?.status());
     await page.waitForSelector('body',{timeout:15000});
     await page.waitForTimeout(1800);
-    await page.evaluate(async()=>{
-     await document.fonts.ready;
+    await Promise.race([page.evaluate(async()=>{
+     await Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,5000))]);
      for(let y=0;y<Math.min(document.documentElement.scrollHeight,50000);y+=650){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,90));}
      window.scrollTo(0,0);
-    });
+    }),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Page settling exceeded 20 seconds')),20000))]);
     await page.waitForTimeout(800);
     const info=await page.evaluate(()=>{
      const links=[...document.querySelectorAll('a[href]')].map(e=>({text:e.textContent.trim(),url:e.href}));
