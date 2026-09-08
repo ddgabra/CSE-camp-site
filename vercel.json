@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "functions": {
+    "api/page.js": {
+      "includeFiles": "public/capture/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/((?!assets/|capture/|replica\\.).*)",
+      "destination": "/api/page?route=/$1"
+    }
+  ]
+}
