@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T22:13:10.611Z",
+  "verifiedAt": "2026-09-08T22:15:02.193Z",
   "results": [
     {
       "test": "Opening another FAQ closes the previous answer",
@@ -26,18 +26,9 @@
       "query": "medcial",
       "expected": "medical staff",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "Do you have qualified medical staff on site?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -53,18 +44,9 @@
       "query": "homesik",
       "expected": "homesick",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "What if my kid get's homesick?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -80,15 +62,7 @@
       "query": "pakcing",
       "expected": "bring to camp",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
         "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
         "What should my kid bring to camp?"
       ],
       "passed": false
@@ -107,18 +81,9 @@
       "query": "swiming",
       "expected": "kids do",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "What do kids do at camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -134,15 +99,9 @@
       "query": "bullyng",
       "expected": "Bullying",
       "titles": [
-        "Modest Dress",
-        "Dating and Relationships",
-        "Outside Food or Drinks",
-        "Books, Music, and Electronics",
-        "Stay on Site",
-        "Weapons, Violence, and Bullying",
-        "Drugs or Alcohol"
+        "Weapons, Violence, and Bullying"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -158,18 +117,9 @@
       "query": "can my child be grouped with a freind",
       "expected": "friend",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "Can my child ask to be grouped with a friend?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -182,10 +132,10 @@
       "test": "FAQ search fits the viewport",
       "mode": "desktop",
       "lang": "en",
-      "input": 436.765625,
-      "container": 521,
+      "input": 831.765625,
+      "container": 916,
       "left": 262,
-      "right": 698.765625,
+      "right": 1093.765625,
       "viewport": 1440,
       "passed": true
     },
@@ -239,18 +189,9 @@
       "query": "medcal",
       "expected": "médical",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?"
+        "Avez-vous du personnel médical qualifié sur place?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -266,18 +207,9 @@
       "query": "medical",
       "expected": "médical",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?"
+        "Avez-vous du personnel médical qualifié sur place?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -293,25 +225,13 @@
       "query": "cout",
       "expected": "coût",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
         "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?",
-        "S'habiller modestement",
-        "Relation intime",
-        "Nourriture ou boissons à l'extérieur",
-        "Livres, musique et électronique",
-        "Stay on Site",
         "Armes, violence et intimidation",
-        "Drogues ou alcool"
+        "À quel camp dois-je inscrire mon enfant?",
+        "Et si mon enfant a le mal du pays?",
+        "S'habiller modestement"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -327,18 +247,9 @@
       "query": "nataton",
       "expected": "enfants au camp",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?"
+        "Que font les enfants au camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -354,15 +265,9 @@
       "query": "electroniqe",
       "expected": "électronique",
       "titles": [
-        "S'habiller modestement",
-        "Relation intime",
-        "Nourriture ou boissons à l'extérieur",
-        "Livres, musique et électronique",
-        "Stay on Site",
-        "Armes, violence et intimidation",
-        "Drogues ou alcool"
+        "Livres, musique et électronique"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -375,10 +280,10 @@
       "test": "FAQ search fits the viewport",
       "mode": "desktop",
       "lang": "fr",
-      "input": 424.59375,
-      "container": 521,
+      "input": 819.59375,
+      "container": 916,
       "left": 262,
-      "right": 686.59375,
+      "right": 1081.59375,
       "viewport": 1440,
       "passed": true
     },
@@ -432,18 +337,9 @@
       "query": "medcial",
       "expected": "medical staff",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "Do you have qualified medical staff on site?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -459,18 +355,9 @@
       "query": "homesik",
       "expected": "homesick",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "What if my kid get's homesick?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -486,15 +373,7 @@
       "query": "pakcing",
       "expected": "bring to camp",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
         "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
         "What should my kid bring to camp?"
       ],
       "passed": false
@@ -513,18 +392,9 @@
       "query": "swiming",
       "expected": "kids do",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "What do kids do at camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -540,15 +410,9 @@
       "query": "bullyng",
       "expected": "Bullying",
       "titles": [
-        "Modest Dress",
-        "Dating and Relationships",
-        "Outside Food or Drinks",
-        "Books, Music, and Electronics",
-        "Stay on Site",
-        "Weapons, Violence, and Bullying",
-        "Drugs or Alcohol"
+        "Weapons, Violence, and Bullying"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -564,18 +428,9 @@
       "query": "can my child be grouped with a freind",
       "expected": "friend",
       "titles": [
-        "Where is Saint Malo Catholic Camps",
-        "What do kids do at camp?",
-        "Which camp do I sign my kid up for?",
-        "Can someone help with the cost of camps?",
-        "Can my child ask to be grouped with a friend?",
-        "What if my child is nervous about coming to an overnight camp?",
-        "What if my kid get's homesick?",
-        "Do you have qualified medical staff on site?",
-        "Is your camp accredited by the Manitoba Camping Association?",
-        "What should my kid bring to camp?"
+        "Can my child ask to be grouped with a friend?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -645,18 +500,9 @@
       "query": "medcal",
       "expected": "médical",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?"
+        "Avez-vous du personnel médical qualifié sur place?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -672,18 +518,9 @@
       "query": "medical",
       "expected": "médical",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?"
+        "Avez-vous du personnel médical qualifié sur place?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -699,25 +536,13 @@
       "query": "cout",
       "expected": "coût",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
         "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?",
-        "S'habiller modestement",
-        "Relation intime",
-        "Nourriture ou boissons à l'extérieur",
-        "Livres, musique et électronique",
-        "Stay on Site",
         "Armes, violence et intimidation",
-        "Drogues ou alcool"
+        "À quel camp dois-je inscrire mon enfant?",
+        "Et si mon enfant a le mal du pays?",
+        "S'habiller modestement"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -733,18 +558,9 @@
       "query": "nataton",
       "expected": "enfants au camp",
       "titles": [
-        "Où se trouve les Camps catholiques de Saint Malo ?",
-        "Que font les enfants au camp?",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Mon enfant peut-il demander à être groupé avec un ami?",
-        "Que faire si mon enfant est nerveux à l'idée de venir dans un camp de nuit?",
-        "Et si mon enfant a le mal du pays?",
-        "Avez-vous du personnel médical qualifié sur place?",
-        "Votre camp est-il accrédité par la Manitoba Camping Association?",
-        "Que doit apporter mon enfant au camp?"
+        "Que font les enfants au camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -760,15 +576,9 @@
       "query": "electroniqe",
       "expected": "électronique",
       "titles": [
-        "S'habiller modestement",
-        "Relation intime",
-        "Nourriture ou boissons à l'extérieur",
-        "Livres, musique et électronique",
-        "Stay on Site",
-        "Armes, violence et intimidation",
-        "Drogues ou alcool"
+        "Livres, musique et électronique"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
