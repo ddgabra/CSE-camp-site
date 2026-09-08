@@ -10,3 +10,6 @@
 
 /* Facebook SDK is no longer present to expand its captured zero-size wrappers. */
 #comp-ieop50h5 .fb-page,#comp-ieop50h5 .fb-page > span,#comp-ieop50h5 iframe{width:100%!important;height:100%!important}
+
+/* Responsive home column photos */
+#img_comp-lq2mfhza > img,#img_comp-lq2mfhzn1 > img{width:100%!important;height:100%!important;object-fit:cover}

@@ -1,0 +1,14 @@
+{
+  "images": [
+    {
+      "id": "img_comp-lq2mfhza",
+      "source": "https://static.wixstatic.com/media/cfa17a_f15cf8f408f3478bb24de7cbf911d2eb~mv2.png",
+      "dest": "/assets/cse-dfp-original.png"
+    },
+    {
+      "id": "img_comp-lq2mfhzn1",
+      "source": "https://static.wixstatic.com/media/cfa17a_dfb0f8e02fb54db096b8085ed7cec806~mv2.jpg",
+      "dest": "/assets/cse-camps-original.jpg"
+    }
+  ]
+}
