@@ -137,7 +137,7 @@
   };
   const entries=faqButtons.map((button,index)=>{
    const panel=document.getElementById(button.getAttribute('aria-controls'));
-   const row=button.closest('[data-hook^="accordion-one-column-"]');
+   const row=button.parentElement;
    row.classList.add('cse-faq-item');
    return {button,row,parent:row.parentElement,index,title:words(button.textContent),answer:words(panel.textContent)};
   });
@@ -157,7 +157,8 @@
   const message=document.createElement('p');message.textContent=lang==='fr'?'Aucune réponse proche de votre question. Notre équipe peut vous aider.':'No close match for your question. Our team can help.';
   const email=document.createElement('a');email.textContent=lang==='fr'?'Écrire à info@catholicway.net':'Email info@catholicway.net';email.href='mailto:info@catholicway.net';
   empty.append(message,email);controls.append(input,clear);ui.append(label,controls,status,empty);
-  firstRoot.querySelector('h2').parentElement.append(ui);
+  const searchHeader=firstRoot.querySelector('h2').parentElement;
+  searchHeader.classList.add('cse-faq-header');searchHeader.append(ui);
   const restore=()=>{
    entries.forEach(entry=>{entry.parent.append(entry.row);entry.row.hidden=false;});
    otherSections.forEach(section=>{section.hidden=false;});

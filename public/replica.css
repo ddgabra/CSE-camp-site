@@ -15,7 +15,8 @@
 #img_comp-lq2mfhza > img,#img_comp-lq2mfhzn1 > img{width:100%!important;height:100%!important;object-fit:cover}
 
 /* FAQ search follows the original type and color palette. */
-.cse-faq-search{width:100%;margin:24px 0 8px;color:#383838;font:16px/1.5 Arial,sans-serif;text-align:left}
+[data-hook="faq-root"] .cse-faq-header{width:100%}
+[data-hook="faq-root"] .cse-faq-search{width:100%;margin:24px 0 8px;color:#383838;font:16px/1.5 Arial,sans-serif;text-align:left}
 .cse-faq-search label{display:block;margin-bottom:8px;font-weight:700}
 .cse-faq-search-controls{display:flex;gap:10px;align-items:center}
 .cse-faq-search input{box-sizing:border-box;flex:1;min-width:0;width:100%;padding:13px 14px;border:1px solid #8d9697;border-radius:4px;background:#fff;color:#383838;font:inherit}
