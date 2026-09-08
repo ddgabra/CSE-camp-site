@@ -13,3 +13,17 @@
 
 /* Responsive home column photos */
 #img_comp-lq2mfhza > img,#img_comp-lq2mfhzn1 > img{width:100%!important;height:100%!important;object-fit:cover}
+
+/* FAQ search follows the original type and color palette. */
+.cse-faq-search{width:100%;margin:24px 0 8px;color:#383838;font:16px/1.5 Arial,sans-serif;text-align:left}
+.cse-faq-search label{display:block;margin-bottom:8px;font-weight:700}
+.cse-faq-search-controls{display:flex;gap:10px;align-items:center}
+.cse-faq-search input{box-sizing:border-box;flex:1;min-width:0;width:100%;padding:13px 14px;border:1px solid #8d9697;border-radius:4px;background:#fff;color:#383838;font:inherit}
+.cse-faq-search button,.cse-faq-empty a{padding:12px 18px;border:0;border-radius:4px;background:#204a4f;color:#fff;font:inherit;text-decoration:none;cursor:pointer}
+.cse-faq-search input:focus-visible,.cse-faq-search button:focus-visible,.cse-faq-empty a:focus-visible{outline:3px solid #009bbb;outline-offset:3px}
+#cse-faq-search-status{margin:10px 0 0;font-size:14px;min-height:21px}
+.cse-faq-empty{padding:20px;margin-top:14px;background:#fff;border-left:3px solid #204a4f}
+.cse-faq-empty p{margin:0 0 14px}
+.cse-faq-empty a{display:inline-block;overflow-wrap:anywhere}
+.cse-faq-search [hidden],.cse-faq-item[hidden],[data-cse-faq-section][hidden]{display:none!important}
+@media(max-width:600px){.cse-faq-search-controls{gap:6px}.cse-faq-search button{padding:12px}.cse-faq-empty{padding:16px}}

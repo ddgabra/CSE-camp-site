@@ -6,6 +6,7 @@ import {PNG} from 'pngjs';
 import pixelmatch from 'pixelmatch';
 import handler from '../api/page.js';
 import {verifyEntrances} from './verify-entrances.mjs';
+import {verifyFaq} from './verify-faq.mjs';
 const report=JSON.parse(await readFile('migration/reports/capture.json','utf8'));
 const results=[];
 async function getSlideshowFrame(page){
@@ -34,6 +35,10 @@ const server=createServer(async(req,res)=>{
 await new Promise(r=>server.listen(4173,'127.0.0.1',r));
 await mkdir('migration/screenshots',{recursive:true});
 const browser=await chromium.launch();
+const faqResults=await verifyFaq(browser);
+results.push(...faqResults);
+await writeFile('migration/reports/faq-search.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:faqResults},null,2));
+faqResults.forEach(result=>console.log(JSON.stringify(result)));
 const entranceResults=await verifyEntrances(browser);
 results.push(...entranceResults);
 await writeFile('migration/reports/entrances.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:entranceResults},null,2));
