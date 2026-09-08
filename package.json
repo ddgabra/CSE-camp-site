@@ -1,0 +1,13 @@
+{
+  "name": "cse-camp-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "node scripts/capture.mjs",
+    "build": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}
