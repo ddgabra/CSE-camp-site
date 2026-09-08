@@ -38,7 +38,7 @@ for(const item of report.pages){
   await p.waitForTimeout(1500);
   const frameHTML=await frame.evaluate(()=>{const d=document.documentElement.cloneNode(true);d.querySelectorAll('script').forEach(x=>x.remove());d.querySelectorAll('*').forEach(e=>{for(const a of [...e.attributes])if(a.name.startsWith('on'))e.removeAttribute(a.name);});d.querySelectorAll('link[href]').forEach(e=>e.setAttribute('href',new URL(e.getAttribute('href'),location.href).href));d.querySelectorAll('a[href]').forEach(e=>e.setAttribute('href',new URL(e.getAttribute('href'),location.href).href));d.querySelectorAll('img').forEach((e,n)=>{e.src=document.images[n].currentSrc||document.images[n].src;e.removeAttribute('srcset');});return '<!doctype html>'+d.outerHTML;});
   await Promise.allSettled([...pending]);
-  let content=frameHTML.replace(/url\\(\\s*(['\"]?)([^'\")]+)\\1\\s*\\)/g,(s,q,u)=>u.startsWith('data:')?s:'url('+new URL(u,frame.url()).href+')');
+  let content=frameHTML.replace(/url\(\s*(['\"]?)([^'\")]+)\1\s*\)/g,(s,q,u)=>u.startsWith('data:')?s:'url('+new URL(u,frame.url()).href+')');
   for(const [url,a]of Object.entries(assets))content=content.split(url).join(a.dest).split(url.replaceAll('&','&amp;')).join(a.dest);
   const name='/capture/'+item.mode+'/'+item.lang+'/home-slideshow.html';
   await writeFile('public'+name,content);
