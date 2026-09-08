@@ -12,7 +12,7 @@ The Vercel route handler serves the appropriate language and device layout. Regi
 
 ## Status
 
-The online copy is ready for a preview deployment. GitHub Actions run 34279495308 passed on 2026-09-08: 240 route/language/device variants, visible-text comparisons, image loading, all 17 FAQ answers in each layout and language, language switching, desktop menus, and original mobile navigation.
+The online copy is deployed at https://cse-camp-site.vercel.app/ in the user-authorized current Vercel account. GitHub Actions run 34279495308 passed on 2026-09-08: 240 route/language/device variants, visible-text comparisons, image loading, all 17 FAQ answers in each layout and language, language switching, desktop menus, and original mobile navigation.
 
 This is a close visual copy, not a certified pixel-perfect or fully independent migration. Twelve full-page screenshot comparisons cover the welcome, home, and camp pages in both languages and device layouts. Six match exactly; the others show approximately 0.5–2.2% differing pixels at the comparison threshold. Other routes were checked for text and image loading, not exhaustively compared pixel by pixel. Reports and screenshots are under migration/.
 
@@ -20,10 +20,10 @@ The source route /category/all-products already returns 404 on Wix. External reg
 
 Wix form submissions still require the current Wix website; the preview explicitly routes visitors there. A replacement form backend is not configured. Domain/DNS changes are not part of this preview.
 
-The connected Vercel account currently exposes only a Pro team. The user is connecting a free Hobby account before deployment. Do not deploy to or change the Pro team without authorization.
+The user authorized deployment to the existing Vercel account on 2026-09-08. The production deployment completed successfully, and the live welcome page, home banner, images, and French language switch were checked. The existing plan and original catholicway.net domain were not changed.
 
 ## Online operations
 
 - Run the “Capture original bilingual website” workflow to regenerate captured pages and assets.
 - Inspect migration/reports/capture.json and verification.json before treating the copy as ready.
-- Import this repository in the authorized Vercel workspace. The framework is Other; build command is npm run build; output directory is public.
+- GitHub is connected to the Vercel project cse-camp-site. The framework is Other; build command is npm run build; output directory is public. Changes on main deploy through the Git integration.
