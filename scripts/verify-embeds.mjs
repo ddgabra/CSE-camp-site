@@ -15,8 +15,10 @@ export async function verifyEmbeds(browser){
     const zoom=frame.getByRole('button',{name:/^(Zoom in|Zoom avant|Agrandir)$/i,includeHidden:true});
     await zoom.waitFor({state:'attached',timeout:25000});
     if(!(await zoom.isVisible()))await frame.getByRole('button',{name:/camera controls|caméra/i}).click();
+    const beforeZoom=await frame.locator('a[href*="maps/@"]').getAttribute('href');
     await zoom.click();
-    const directions=await frame.locator('a[href*="0x33080f03886dd49"]').count(),bounds=await map.boundingBox();
+    await frame.waitForFunction(before=>document.querySelector('a[href*="maps/@"]')?.href!==before,beforeZoom,{timeout:5000});
+    const directions=await frame.locator('a[href*="0x33080f03886dd49"],a[href*="cid=229825350224764233"]').count(),bounds=await map.boundingBox();
     results.push({test:'Interactive location map loads and zooms',...data,bounds,directions,passed:directions>0&&bounds.width>200&&bounds.height>150});
     if(route==='contact-us'){
      const original=await page.locator('#img_comp-ll18nupa img').evaluate(img=>({src:img.getAttribute('src'),width:img.naturalWidth,height:img.naturalHeight}));
