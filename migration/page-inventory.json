@@ -1,0 +1,115 @@
+{
+  "source": "https://www.catholicway.net/",
+  "inventoryStatus": "Initial navigation inventory; not a complete crawl or content export",
+  "languages": {
+    "en": "English",
+    "fr": "French; append ?lang=fr"
+  },
+  "pages": [
+    {
+      "path": "/",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/home",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/camps",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/dfp",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/camp-staff-and-volunteers",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/camp-sponsors",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/camp-subsidies",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/camp-faq",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/mission-en",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/history",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/staff",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/board-of-directors",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/donate",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/pray-for-us",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/planned-giving",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/banquet",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/financials",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/policies",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/testimonials",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/newsletters",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/facility-rental",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/contact-us",
+      "status": "discovered; full capture and visual verification pending"
+    },
+    {
+      "path": "/careers",
+      "status": "discovered; full capture and visual verification pending"
+    }
+  ],
+  "externalServices": {
+    "registration": "https://stmalocamps.net/",
+    "donationsEnglish": "https://www.zeffy.com/en-CA/donation-form/a7ebe75e-669b-4c13-9d44-ab5b7fc5bb04",
+    "donationsFrench": "https://www.zeffy.com/fr-CA/donation-form/a7ebe75e-669b-4c13-9d44-ab5b7fc5bb04"
+  },
+  "remainingWork": [
+    "Discover all additional internal links and downloadable documents",
+    "Capture and compare both language versions of every page",
+    "Copy original media to destination storage",
+    "Rebuild and visually verify responsive layouts and navigation",
+    "Implement and verify forms and external-service links",
+    "Deploy to selected compatible host and verify before domain changes"
+  ]
+}
