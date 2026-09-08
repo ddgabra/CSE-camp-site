@@ -12,6 +12,7 @@ const failures = [];
 const inventory = [];
 const decodeXML=s=>s.replace(/&apos;/g,"'").replace(/&quot;/g,'"').replace(/&amp;/g,'&').replace(/&#(\d+);/g,(_,n)=>String.fromCharCode(+n));
 const pages = new Set(previous.failures.filter(f=>f.kind==='page').map(f=>new URL(decodeXML(f.url)).pathname));
+if(!pages.size){console.log('No source routes need repair');process.exit(0);}
 const hostOK = url => {try{return ['www.catholicway.net','catholicway.net'].includes(new URL(url).hostname);}catch{return false;}};
 const isPage = url => hostOK(url) && !/\.(pdf|jpg|jpeg|png|gif|svg|webp|zip|mp4|mp3|docx?|xlsx?|ico)$/i.test(new URL(url).pathname) && !/^\/(_api|_functions|account|members|cart|checkout|thank-you|login)/.test(new URL(url).pathname);
 const key = p => p === '/' ? 'index' : p.replace(/^\/|\/$/g,'');
