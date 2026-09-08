@@ -2,8 +2,8 @@ import {readFile} from 'node:fs/promises';
 import path from 'node:path';
 export default async function handler(req,res){
  const u=new URL(req.url,'https://cse-camp-site.vercel.app');
- const route=u.searchParams.get('route')||'/';
- const lang=u.searchParams.get('lang')==='fr'?'fr':'en';
+ const route=req.query?.route||u.searchParams.get('route')||'/';
+ const lang=(req.query?.lang||u.searchParams.get('lang'))==='fr'?'fr':'en';
  const mobile=/Android|iPhone|iPod|Mobile/i.test(req.headers['user-agent']||'');
  let decoded;try{decoded=decodeURIComponent(route);}catch{res.status(400).send('Invalid path');return;}
  const clean=decoded.replace(/^\/+|\/+$/g,'')||'index';
