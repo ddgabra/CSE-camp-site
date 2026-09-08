@@ -7,3 +7,6 @@
 #cse-mobile-nav a{display:block;color:white;padding:10px;font:16px Arial;text-decoration:none}
 #cse-mobile-nav button{position:absolute;right:20px;top:12px;font-size:36px;background:transparent;color:white;border:0}
 .cse-form-note{font:14px Arial,sans-serif;padding:10px;color:#204a4f;background:#fff}
+
+/* Facebook SDK is no longer present to expand its captured zero-size wrappers. */
+#comp-ieop50h5 .fb-page,#comp-ieop50h5 .fb-page > span,#comp-ieop50h5 iframe{width:100%!important;height:100%!important}

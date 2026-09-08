@@ -121,6 +121,11 @@ for(const mode of ['desktop','mobile']){
      const host=document.getElementById(id),image=host.querySelector('img'),h=host.getBoundingClientRect(),i=image.getBoundingClientRect();
      return {id,columnWidth:h.width,imageWidth:i.width,columnHeight:h.height,imageHeight:i.height,leftDifference:i.left-h.left,naturalWidth:image.naturalWidth,position:getComputedStyle(image).objectPosition};
     }));
+    const facebook=await responsivePage.locator('#comp-ieop50h5').evaluate(host=>{
+     const frame=host.querySelector('iframe'),wrapper=frame.parentElement,h=host.getBoundingClientRect(),f=frame.getBoundingClientRect(),w=wrapper.getBoundingClientRect();
+     return {containerWidth:h.width,containerHeight:h.height,frameWidth:f.width,frameHeight:f.height,wrapperWidth:w.width,wrapperHeight:w.height};
+    });
+    results.push({test:'Quick News Facebook preview has visible dimensions',lang,width,...facebook,passed:facebook.containerWidth>0&&facebook.containerHeight>0&&Math.abs(facebook.frameWidth-facebook.containerWidth)<1&&Math.abs(facebook.frameHeight-facebook.containerHeight)<1&&Math.abs(facebook.wrapperWidth-facebook.frameWidth)<1&&Math.abs(facebook.wrapperHeight-facebook.frameHeight)<1});
     for(const photo of photos)results.push({test:'Uncropped photo fills responsive column',lang,width,...photo,passed:Math.abs(photo.imageWidth-photo.columnWidth)<1&&Math.abs(photo.imageHeight-photo.columnHeight)<1&&Math.abs(photo.leftDifference)<1&&photo.naturalWidth>=1200});
 
    }
