@@ -38,17 +38,33 @@
   form.addEventListener('submit',e=>{e.preventDefault();location.href='https://www.catholicway.net'+location.pathname+location.search;});
   const note=document.createElement('p');note.className='cse-form-note';note.textContent=lang==='fr'?'Ce formulaire s’ouvre sur notre site actuel pour être envoyé en toute sécurité.':'This form opens on our current website for secure submission.';form.append(note);
  });
- // Original mobile menus depend on the Wix runtime. Provide the same links in an accessible drawer.
- const mobileButton=document.querySelector('[data-testid="mobile-menu-button"],[aria-label*="Open navigation"],[aria-label*="Ouvrir"],.wixui-hamburger-menu');
- if(mobileButton){
-  mobileButton.addEventListener('click',()=>{
-   let drawer=document.getElementById('cse-mobile-nav');
-   if(drawer){drawer.remove();return;}
-   drawer=document.createElement('nav');drawer.id='cse-mobile-nav';
-   const close=document.createElement('button');close.textContent='×';close.setAttribute('aria-label',lang==='fr'?'Fermer':'Close');close.onclick=()=>drawer.remove();drawer.append(close);
-   const seen=new Set();
-   document.querySelectorAll('a[href]').forEach(a=>{const href=a.getAttribute('href');const text=a.textContent.trim();if(href?.startsWith('/')&&text&&!seen.has(href)){seen.add(href);const link=document.createElement('a');link.href=href;link.textContent=text;drawer.append(link);}});
-   document.body.append(drawer);
+ // Reuse the original mobile menu layout and nested navigation.
+ const mobileButton=document.getElementById('MENU_AS_CONTAINER_TOGGLE');
+ const mobileMenu=document.getElementById('MENU_AS_CONTAINER');
+ if(mobileButton&&mobileMenu){
+  const setOpen=open=>{
+   mobileMenu.setAttribute('data-undisplayed',String(!open));
+   mobileMenu.classList.toggle('I_VSKP',open);
+   mobileButton.setAttribute('aria-expanded',String(open));
+   mobileButton.setAttribute('aria-label',open?(lang==='fr'?'Fermer le menu':'Close navigation menu'):(lang==='fr'?'Ouvrir le menu':'Open navigation menu'));
+   mobileButton.style.zIndex=open?'2147483646':'';
+   document.body.style.overflow=open?'hidden':'';
+  };
+  const toggle=()=>setOpen(mobileButton.getAttribute('aria-expanded')!=='true');
+  mobileButton.addEventListener('click',toggle);
+  mobileButton.addEventListener('keydown',e=>{if(['Enter',' '].includes(e.key)){e.preventDefault();toggle();}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')setOpen(false);});
+  mobileMenu.querySelectorAll('li').forEach(li=>{
+   const submenu=li.querySelector(':scope > ul');
+   const row=li.querySelector(':scope > [data-testid="itemWrapper"]');
+   if(!submenu||!row)return;
+   row.addEventListener('click',e=>{
+    if(e.target.closest('a'))return;
+    const open=!li.classList.contains('rErQ82');
+    li.classList.toggle('rErQ82',open);
+    submenu.style.display=open?'block':'none';submenu.style.opacity=open?'1':'0';
+    row.querySelector('button')?.setAttribute('aria-expanded',String(open));
+   });
   });
  }
 })();
