@@ -67,7 +67,7 @@ async function discoverSitemap(url=origin+'/sitemap.xml',seen=new Set()){
   if(!r.ok)return;
   const xml=await r.text();
   for(const m of xml.matchAll(/<loc>(.*?)<\/loc>/g)){
-   const link=m[1].replace(/&amp;/g,'&');
+   const link=m[1].replace(/&amp;/g,'&').replace(/&apos;/g,"'").replace(/&quot;/g,'"');
    if(link.endsWith('.xml')&&hostOK(link))await discoverSitemap(link,seen);
    else if(isPage(link))pages.add(new URL(link).pathname);
   }
@@ -76,23 +76,33 @@ async function discoverSitemap(url=origin+'/sitemap.xml',seen=new Set()){
 await discoverSitemap();
 const browser=await chromium.launch();
 const raw=[];
-for(const mode of ['desktop','mobile']){
- for(const lang of ['en','fr']){
+await Promise.all(['desktop','mobile'].flatMap(mode=>['en','fr'].map(lang=>({mode,lang}))).map(async ({mode,lang})=>{
  const context=await browser.newContext(mode==='mobile'?{...devices['iPhone 13'],locale:'en-CA'}:{viewport:{width:1440,height:1000},deviceScaleFactor:1,locale:'en-CA'});
  const page=await context.newPage();observe(page);
  for(const pathname of pages){
    const url=origin+pathname+'?lang='+lang;
    console.log('CAPTURE',mode,lang,pathname);
    try{
+    const initial=await fetch(url,{redirect:'manual',signal:AbortSignal.timeout(15000)});
+    const location=initial.headers.get('location');
+    if(location && !hostOK(new URL(location,url).href)){
+     const destination=new URL(location,url).href;
+     const html='<!doctype html><html lang="'+lang+'"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url='+esc(destination)+'"><title>Redirect</title></head><body><a href="'+esc(destination)+'">Continue</a></body></html>';
+     const dest='public/capture/'+mode+'/'+lang+'/'+key(pathname)+'.html';
+     raw.push({dest,html,pathname,lang,mode});
+    await mkdir(path.dirname(dest),{recursive:true});await writeFile(dest,html);inventory.push({pathname,lang,mode,url,title:'Redirect',text:'Continue',links:[{text:'Continue',url:destination}],media:[],forms:[],redirect:destination});
+     await mkdir(path.dirname(dest),{recursive:true});await writeFile(dest,html);
+     continue;
+    }
     const res=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
     if(!res?.ok())throw new Error('HTTP '+res?.status());
     await page.waitForSelector('#SITE_CONTAINER, #SITE_PAGES, #masterPage',{timeout:30000});
     await page.waitForTimeout(1800);
-    await page.evaluate(async()=>{
-     await document.fonts.ready;
+    await Promise.race([page.evaluate(async()=>{
+     await Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,5000))]);
      for(let y=0;y<Math.min(document.documentElement.scrollHeight,50000);y+=650){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,90));}
      window.scrollTo(0,0);
-    });
+    }),new Promise((_,reject)=>setTimeout(()=>reject(new Error('Page settling exceeded 20 seconds')),20000))]);
     await page.waitForTimeout(800);
     const info=await page.evaluate(()=>{
      const links=[...document.querySelectorAll('a[href]')].map(e=>({text:e.textContent.trim(),url:e.href}));
@@ -130,6 +140,7 @@ for(const mode of ['desktop','mobile']){
     const dest='public/capture/'+mode+'/'+lang+'/'+key(pathname)+'.html';
     raw.push({dest,html,pathname,lang,mode});
     inventory.push({pathname,lang,mode,url,...info});
+    await writeFile('migration/reports/checkpoint.json',JSON.stringify({capturedAt:new Date().toISOString(),routes:[...pages],pageCount:raw.length,assetCount:assets.size,failures,pages:inventory},null,2));
     if(['/', '/home','/camps'].includes(pathname)){
       const f='migration/screenshots/'+mode+'-'+lang+'-'+key(pathname).replaceAll('/','_')+'-source.png';
       await page.screenshot({path:f,fullPage:true,timeout:30000});
@@ -137,8 +148,7 @@ for(const mode of ['desktop','mobile']){
    }catch(e){failures.push({kind:'page',mode,lang,url,error:e.message});console.error('CAPTURE FAILED',url,e.message);}
  }
  await context.close();
- }
-}
+}));
 await Promise.allSettled([...assetJobs]);
 await browser.close();
 // Resolve stylesheet dependencies (fonts and background images), keeping all assets in GitHub.
