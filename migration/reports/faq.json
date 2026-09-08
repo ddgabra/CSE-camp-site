@@ -1,0 +1,105 @@
+{
+  "verifiedAt": "2026-09-08T22:22:45.026Z",
+  "results": [
+    {
+      "test": "Opening another FAQ closes the previous answer",
+      "mode": "desktop",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "test": "Only one answer opens across FAQ and rules sections",
+      "mode": "desktop",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "test": "FAQ keyboard toggle can close the open answer",
+      "mode": "desktop",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "test": "FAQ has no JavaScript errors",
+      "mode": "desktop",
+      "lang": "en",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Opening another FAQ closes the previous answer",
+      "mode": "desktop",
+      "lang": "fr",
+      "passed": true
+    },
+    {
+      "test": "Only one answer opens across FAQ and rules sections",
+      "mode": "desktop",
+      "lang": "fr",
+      "passed": true
+    },
+    {
+      "test": "FAQ keyboard toggle can close the open answer",
+      "mode": "desktop",
+      "lang": "fr",
+      "passed": true
+    },
+    {
+      "test": "FAQ has no JavaScript errors",
+      "mode": "desktop",
+      "lang": "fr",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Opening another FAQ closes the previous answer",
+      "mode": "mobile",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "test": "Only one answer opens across FAQ and rules sections",
+      "mode": "mobile",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "test": "FAQ keyboard toggle can close the open answer",
+      "mode": "mobile",
+      "lang": "en",
+      "passed": true
+    },
+    {
+      "test": "FAQ has no JavaScript errors",
+      "mode": "mobile",
+      "lang": "en",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Opening another FAQ closes the previous answer",
+      "mode": "mobile",
+      "lang": "fr",
+      "passed": true
+    },
+    {
+      "test": "Only one answer opens across FAQ and rules sections",
+      "mode": "mobile",
+      "lang": "fr",
+      "passed": true
+    },
+    {
+      "test": "FAQ keyboard toggle can close the open answer",
+      "mode": "mobile",
+      "lang": "fr",
+      "passed": true
+    },
+    {
+      "test": "FAQ has no JavaScript errors",
+      "mode": "mobile",
+      "lang": "fr",
+      "errors": [],
+      "passed": true
+    }
+  ]
+}

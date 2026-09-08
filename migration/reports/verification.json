@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T22:18:21.776Z",
+  "verifiedAt": "2026-09-08T22:23:55.747Z",
   "results": [
     {
       "test": "Opening another FAQ closes the previous answer",
@@ -20,145 +20,7 @@
       "passed": true
     },
     {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "medcial",
-      "expected": "medical staff",
-      "titles": [
-        "Do you have qualified medical staff on site?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "medcial",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "homesik",
-      "expected": "homesick",
-      "titles": [
-        "What if my kid get's homesick?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "homesik",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "pakcing",
-      "expected": "bring to camp",
-      "titles": [
-        "What should my kid bring to camp?",
-        "What if my child is nervous about coming to an overnight camp?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "pakcing",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "swiming",
-      "expected": "kids do",
-      "titles": [
-        "What do kids do at camp?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "swiming",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "bullyng",
-      "expected": "Bullying",
-      "titles": [
-        "Weapons, Violence, and Bullying"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "bullyng",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "can my child be grouped with a freind",
-      "expected": "friend",
-      "titles": [
-        "Can my child ask to be grouped with a friend?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "en",
-      "query": "can my child be grouped with a freind",
-      "passed": true
-    },
-    {
-      "test": "FAQ search fits the viewport",
-      "mode": "desktop",
-      "lang": "en",
-      "input": 831.765625,
-      "container": 916,
-      "left": 262,
-      "right": 1093.765625,
-      "viewport": 1440,
-      "passed": true
-    },
-    {
-      "test": "No close FAQ match offers the information email",
-      "mode": "desktop",
-      "lang": "en",
-      "passed": true
-    },
-    {
-      "test": "Clear restores all original questions, sections and links",
-      "mode": "desktop",
-      "lang": "en",
-      "passed": true
-    },
-    {
-      "test": "Escape clears the search and restores all questions",
-      "mode": "desktop",
-      "lang": "en",
-      "passed": true
-    },
-    {
-      "test": "FAQ search has no JavaScript errors",
+      "test": "FAQ has no JavaScript errors",
       "mode": "desktop",
       "lang": "en",
       "errors": [],
@@ -183,126 +45,7 @@
       "passed": true
     },
     {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "medcal",
-      "expected": "médical",
-      "titles": [
-        "Avez-vous du personnel médical qualifié sur place?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "medcal",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "medical",
-      "expected": "médical",
-      "titles": [
-        "Avez-vous du personnel médical qualifié sur place?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "medical",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "cout",
-      "expected": "coût",
-      "titles": [
-        "Quelqu'un peut-il m'aider avec le coût des camps?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "cout",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "nataton",
-      "expected": "enfants au camp",
-      "titles": [
-        "Que font les enfants au camp?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "nataton",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "electroniqe",
-      "expected": "électronique",
-      "titles": [
-        "Livres, musique et électronique"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "desktop",
-      "lang": "fr",
-      "query": "electroniqe",
-      "passed": true
-    },
-    {
-      "test": "FAQ search fits the viewport",
-      "mode": "desktop",
-      "lang": "fr",
-      "input": 819.59375,
-      "container": 916,
-      "left": 262,
-      "right": 1081.59375,
-      "viewport": 1440,
-      "passed": true
-    },
-    {
-      "test": "No close FAQ match offers the information email",
-      "mode": "desktop",
-      "lang": "fr",
-      "passed": true
-    },
-    {
-      "test": "Clear restores all original questions, sections and links",
-      "mode": "desktop",
-      "lang": "fr",
-      "passed": true
-    },
-    {
-      "test": "Escape clears the search and restores all questions",
-      "mode": "desktop",
-      "lang": "fr",
-      "passed": true
-    },
-    {
-      "test": "FAQ search has no JavaScript errors",
+      "test": "FAQ has no JavaScript errors",
       "mode": "desktop",
       "lang": "fr",
       "errors": [],
@@ -327,145 +70,7 @@
       "passed": true
     },
     {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "medcial",
-      "expected": "medical staff",
-      "titles": [
-        "Do you have qualified medical staff on site?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "medcial",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "homesik",
-      "expected": "homesick",
-      "titles": [
-        "What if my kid get's homesick?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "homesik",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "pakcing",
-      "expected": "bring to camp",
-      "titles": [
-        "What should my kid bring to camp?",
-        "What if my child is nervous about coming to an overnight camp?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "pakcing",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "swiming",
-      "expected": "kids do",
-      "titles": [
-        "What do kids do at camp?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "swiming",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "bullyng",
-      "expected": "Bullying",
-      "titles": [
-        "Weapons, Violence, and Bullying"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "bullyng",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "can my child be grouped with a freind",
-      "expected": "friend",
-      "titles": [
-        "Can my child ask to be grouped with a friend?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "en",
-      "query": "can my child be grouped with a freind",
-      "passed": true
-    },
-    {
-      "test": "FAQ search fits the viewport",
-      "mode": "mobile",
-      "lang": "en",
-      "input": 179.765625,
-      "container": 248,
-      "left": 36,
-      "right": 215.765625,
-      "viewport": 320,
-      "passed": true
-    },
-    {
-      "test": "No close FAQ match offers the information email",
-      "mode": "mobile",
-      "lang": "en",
-      "passed": true
-    },
-    {
-      "test": "Clear restores all original questions, sections and links",
-      "mode": "mobile",
-      "lang": "en",
-      "passed": true
-    },
-    {
-      "test": "Escape clears the search and restores all questions",
-      "mode": "mobile",
-      "lang": "en",
-      "passed": true
-    },
-    {
-      "test": "FAQ search has no JavaScript errors",
+      "test": "FAQ has no JavaScript errors",
       "mode": "mobile",
       "lang": "en",
       "errors": [],
@@ -490,126 +95,7 @@
       "passed": true
     },
     {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "medcal",
-      "expected": "médical",
-      "titles": [
-        "Avez-vous du personnel médical qualifié sur place?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "medcal",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "medical",
-      "expected": "médical",
-      "titles": [
-        "Avez-vous du personnel médical qualifié sur place?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "medical",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "cout",
-      "expected": "coût",
-      "titles": [
-        "Quelqu'un peut-il m'aider avec le coût des camps?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "cout",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "nataton",
-      "expected": "enfants au camp",
-      "titles": [
-        "Que font les enfants au camp?"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "nataton",
-      "passed": true
-    },
-    {
-      "test": "FAQ search ranks typo or accent match first",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "electroniqe",
-      "expected": "électronique",
-      "titles": [
-        "Livres, musique et électronique"
-      ],
-      "passed": true
-    },
-    {
-      "test": "Search result opens its original answer",
-      "mode": "mobile",
-      "lang": "fr",
-      "query": "electroniqe",
-      "passed": true
-    },
-    {
-      "test": "FAQ search fits the viewport",
-      "mode": "mobile",
-      "lang": "fr",
-      "input": 167.59375,
-      "container": 248,
-      "left": 36,
-      "right": 203.59375,
-      "viewport": 320,
-      "passed": true
-    },
-    {
-      "test": "No close FAQ match offers the information email",
-      "mode": "mobile",
-      "lang": "fr",
-      "passed": true
-    },
-    {
-      "test": "Clear restores all original questions, sections and links",
-      "mode": "mobile",
-      "lang": "fr",
-      "passed": true
-    },
-    {
-      "test": "Escape clears the search and restores all questions",
-      "mode": "mobile",
-      "lang": "fr",
-      "passed": true
-    },
-    {
-      "test": "FAQ search has no JavaScript errors",
+      "test": "FAQ has no JavaScript errors",
       "mode": "mobile",
       "lang": "fr",
       "errors": [],
@@ -632,8 +118,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642955,
-      "second": 0.430398,
+      "first": 0.0642696,
+      "second": 0.430334,
       "passed": true
     },
     {
@@ -945,8 +431,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642989,
-      "second": 0.430406,
+      "first": 0.0642553,
+      "second": 0.43044,
       "passed": true
     },
     {
@@ -2058,7 +1544,7 @@
           2442
         ]
       },
-      "pixelDifference": 0.021955478205478204,
+      "pixelDifference": 0.02194438756938757,
       "newScriptErrors": []
     },
     {
@@ -2080,7 +1566,7 @@
           2433
         ]
       },
-      "pixelDifference": 0.025144997031556836,
+      "pixelDifference": 0.025136434214732613,
       "newScriptErrors": []
     },
     {
@@ -2102,7 +1588,7 @@
           6142
         ]
       },
-      "pixelDifference": 0.05459846141322045,
+      "pixelDifference": 0.030212177538984766,
       "newScriptErrors": []
     },
     {
@@ -2124,7 +1610,7 @@
           6060
         ]
       },
-      "pixelDifference": 0.027828543270993766,
+      "pixelDifference": 0.027822240557389074,
       "newScriptErrors": []
     },
     {
@@ -3426,7 +2912,7 @@
           9678
         ]
       },
-      "pixelDifference": 0.0073232029689329755,
+      "pixelDifference": 0.007342469174071778,
       "newScriptErrors": []
     },
     {
@@ -3448,7 +2934,7 @@
           9831
         ]
       },
-      "pixelDifference": 0.004870541314888279,
+      "pixelDifference": 0.004840025599294748,
       "newScriptErrors": []
     },
     {
@@ -3470,7 +2956,7 @@
           28224
         ]
       },
-      "pixelDifference": 0,
+      "pixelDifference": 0.0062468259873393805,
       "newScriptErrors": []
     },
     {
@@ -4753,9 +4239,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.18304443359375,
-      "imageRight": 1024.1831665039062,
-      "imageWidth": 1024.3662109375,
+      "imageLeft": -0.0986328125,
+      "imageRight": 1024.0986328125,
+      "imageWidth": 1024.197265625,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -5747,9 +5233,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.25286865234375,
-      "imageRight": 1024.2529907226562,
-      "imageWidth": 1024.505859375,
+      "imageLeft": -0.15216064453125,
+      "imageRight": 1024.1520385742188,
+      "imageWidth": 1024.30419921875,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
