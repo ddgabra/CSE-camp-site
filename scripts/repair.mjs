@@ -96,6 +96,13 @@ for(const mode of ['desktop','mobile']){
      continue;
     }
     const res=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
+    if(!hostOK(page.url())){
+     const destination=page.url();
+     const html='<!doctype html><html lang="'+lang+'"><head><meta charset="utf-8"><meta name="robots" content="noindex"><meta http-equiv="refresh" content="0;url='+esc(destination)+'"><title>Redirect</title></head><body><a href="'+esc(destination)+'">Continue</a></body></html>';
+     raw.push({dest:'public/capture/'+mode+'/'+lang+'/'+key(pathname)+'.html',html,pathname,lang,mode});
+     inventory.push({pathname,lang,mode,url,title:'Redirect',text:'Continue',links:[{text:'Continue',url:destination}],media:[],forms:[],redirect:destination});
+     continue;
+    }
     if(!res?.ok())throw new Error('HTTP '+res?.status());
     await page.waitForSelector('body',{timeout:15000});
     await page.waitForTimeout(1800);
