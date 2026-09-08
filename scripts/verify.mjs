@@ -29,6 +29,7 @@ for(const mode of ['desktop','mobile']){
  const ctx=await browser.newContext(mode==='mobile'?{...devices['iPhone 13'],locale:'en-CA'}:{viewport:{width:1440,height:1000},deviceScaleFactor:1,locale:'en-CA'});
  const page=await ctx.newPage();
  for(const item of report.pages.filter(p=>p.mode===mode)){
+  if(item.redirect){results.push({pathname:item.pathname,lang:item.lang,mode,redirect:item.redirect,preserved:true});continue;}
   const url='http://127.0.0.1:4173'+item.pathname+(item.lang==='fr'?'?lang=fr':'');
   const errors=[];
   page.removeAllListeners('pageerror');page.on('pageerror',e=>errors.push(e.message));
