@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T21:10:18.808Z",
+  "verifiedAt": "2026-09-08T21:16:13.111Z",
   "results": [
     {
       "pathname": "/",
@@ -20,7 +20,8 @@
           1000
         ]
       },
-      "pixelDifference": 0
+      "pixelDifference": 0,
+      "newScriptErrors": []
     },
     {
       "pathname": "/",
@@ -41,7 +42,8 @@
           1000
         ]
       },
-      "pixelDifference": 0
+      "pixelDifference": 0,
+      "newScriptErrors": []
     },
     {
       "pathname": "/home",
@@ -62,7 +64,8 @@
           2442
         ]
       },
-      "pixelDifference": 0.1620145713895714
+      "pixelDifference": 0.021701815451815452,
+      "newScriptErrors": []
     },
     {
       "pathname": "/home",
@@ -83,7 +86,8 @@
           2433
         ]
       },
-      "pixelDifference": 0.15825398456409553
+      "pixelDifference": 0.021057964561355436,
+      "newScriptErrors": []
     },
     {
       "pathname": "/camps",
@@ -104,7 +108,8 @@
           6142
         ]
       },
-      "pixelDifference": 0.01776328286117443
+      "pixelDifference": 0.01776328286117443,
+      "newScriptErrors": []
     },
     {
       "pathname": "/camps",
@@ -125,7 +130,8 @@
           6060
         ]
       },
-      "pixelDifference": 0.012431128529519619
+      "pixelDifference": 0.012431128529519619,
+      "newScriptErrors": []
     },
     {
       "pathname": "/dfp",
@@ -135,7 +141,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/dfp",
@@ -145,7 +152,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-staff-and-volunteers",
@@ -155,7 +163,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-staff-and-volunteers",
@@ -165,7 +174,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-sponsors",
@@ -175,7 +185,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-sponsors",
@@ -185,7 +196,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-subsidies",
@@ -195,7 +207,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-subsidies",
@@ -205,7 +218,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-faq",
@@ -218,7 +232,8 @@
       "scriptErrors": [],
       "accordionCount": 17,
       "emptyAnswers": 0,
-      "accordionOpens": true
+      "accordionOpens": true,
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-faq",
@@ -231,7 +246,8 @@
       "scriptErrors": [],
       "accordionCount": 17,
       "emptyAnswers": 0,
-      "accordionOpens": true
+      "accordionOpens": true,
+      "newScriptErrors": []
     },
     {
       "pathname": "/mission-en",
@@ -241,7 +257,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/mission-en",
@@ -251,7 +268,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/history",
@@ -261,7 +279,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/history",
@@ -271,7 +290,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/staff",
@@ -281,7 +301,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/staff",
@@ -291,7 +312,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/board-of-directors",
@@ -301,7 +323,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/board-of-directors",
@@ -311,7 +334,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/donate",
@@ -321,7 +345,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/donate",
@@ -331,7 +356,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/pray-for-us",
@@ -341,7 +367,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/pray-for-us",
@@ -351,7 +378,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/planned-giving",
@@ -361,7 +389,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/planned-giving",
@@ -371,7 +400,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquet",
@@ -381,7 +411,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquet",
@@ -391,7 +422,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/financials",
@@ -401,7 +433,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/financials",
@@ -411,7 +444,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/policies",
@@ -421,7 +455,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/policies",
@@ -431,7 +466,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/testimonials",
@@ -441,7 +477,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/testimonials",
@@ -451,7 +488,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/newsletters",
@@ -461,7 +499,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/newsletters",
@@ -471,7 +510,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/facility-rental",
@@ -481,7 +521,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/facility-rental",
@@ -491,7 +532,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/contact-us",
@@ -501,7 +543,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/contact-us",
@@ -511,7 +554,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/careers",
@@ -521,7 +565,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/careers",
@@ -531,7 +576,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-1",
@@ -541,7 +587,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-1",
@@ -551,7 +598,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-10",
@@ -561,7 +609,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-10",
@@ -571,7 +620,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-11",
@@ -581,7 +631,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-11",
@@ -591,7 +642,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-9",
@@ -601,7 +653,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-9",
@@ -611,7 +664,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-4",
@@ -621,7 +675,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-4",
@@ -631,7 +686,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-2",
@@ -641,7 +697,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-2",
@@ -651,7 +708,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-5",
@@ -661,7 +719,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-5",
@@ -671,7 +730,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-6",
@@ -681,7 +741,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-6",
@@ -691,7 +752,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-7",
@@ -701,7 +763,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-7",
@@ -711,7 +774,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/shoes",
@@ -721,7 +785,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/shoes",
@@ -731,7 +796,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-8",
@@ -741,7 +807,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-8",
@@ -751,7 +818,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
@@ -761,7 +829,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
@@ -771,7 +840,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
@@ -781,7 +851,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
@@ -791,7 +862,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
@@ -801,7 +873,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
@@ -811,7 +884,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
@@ -821,7 +895,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
@@ -831,7 +906,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
@@ -841,7 +917,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
@@ -851,7 +928,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
@@ -861,7 +939,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
@@ -871,7 +950,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/your-name-here",
@@ -881,7 +961,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/your-name-here",
@@ -891,7 +972,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
@@ -901,7 +983,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
@@ -911,7 +994,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
@@ -921,7 +1005,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
@@ -931,7 +1016,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
@@ -941,7 +1027,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
@@ -951,7 +1038,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
@@ -961,7 +1049,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
@@ -971,7 +1060,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
@@ -981,7 +1071,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
@@ -991,7 +1082,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
@@ -1001,7 +1093,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
@@ -1011,7 +1104,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
@@ -1021,7 +1115,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
@@ -1031,7 +1126,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
@@ -1041,7 +1137,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/campmarketing",
@@ -1065,7 +1162,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/campmarketing",
@@ -1089,7 +1187,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/menmarketing",
@@ -1106,7 +1205,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/menmarketing",
@@ -1123,7 +1223,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/men",
@@ -1133,7 +1234,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/hiring",
@@ -1143,7 +1245,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/support-our-camps",
@@ -1153,7 +1256,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/hiring",
@@ -1163,7 +1267,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/cse-prayer",
@@ -1173,7 +1278,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquetmarketing",
@@ -1190,7 +1296,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/cse-prayer",
@@ -1200,7 +1307,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquetmarketing",
@@ -1217,7 +1325,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -1227,7 +1336,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-3",
@@ -1237,7 +1347,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -1247,7 +1358,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "test": "French language switch",
@@ -1276,7 +1388,8 @@
           3534
         ]
       },
-      "pixelDifference": 0
+      "pixelDifference": 0,
+      "newScriptErrors": []
     },
     {
       "pathname": "/",
@@ -1297,7 +1410,8 @@
           3534
         ]
       },
-      "pixelDifference": 0
+      "pixelDifference": 0,
+      "newScriptErrors": []
     },
     {
       "pathname": "/home",
@@ -1318,7 +1432,8 @@
           9678
         ]
       },
-      "pixelDifference": 0.036668216573672245
+      "pixelDifference": 0.006942722325549356,
+      "newScriptErrors": []
     },
     {
       "pathname": "/home",
@@ -1339,7 +1454,8 @@
           9831
         ]
       },
-      "pixelDifference": 0.03601670311599363
+      "pixelDifference": 0.0048810310921235545,
+      "newScriptErrors": []
     },
     {
       "pathname": "/camps",
@@ -1360,7 +1476,8 @@
           28224
         ]
       },
-      "pixelDifference": 0
+      "pixelDifference": 0,
+      "newScriptErrors": []
     },
     {
       "pathname": "/camps",
@@ -1381,7 +1498,8 @@
           29031
         ]
       },
-      "pixelDifference": 0
+      "pixelDifference": 0,
+      "newScriptErrors": []
     },
     {
       "pathname": "/dfp",
@@ -1391,7 +1509,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/dfp",
@@ -1401,7 +1520,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-staff-and-volunteers",
@@ -1411,7 +1531,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-staff-and-volunteers",
@@ -1421,7 +1542,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-sponsors",
@@ -1431,7 +1553,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-sponsors",
@@ -1441,7 +1564,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-subsidies",
@@ -1451,7 +1575,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-subsidies",
@@ -1461,7 +1586,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-faq",
@@ -1474,7 +1600,8 @@
       "scriptErrors": [],
       "accordionCount": 17,
       "emptyAnswers": 0,
-      "accordionOpens": true
+      "accordionOpens": true,
+      "newScriptErrors": []
     },
     {
       "pathname": "/camp-faq",
@@ -1487,7 +1614,8 @@
       "scriptErrors": [],
       "accordionCount": 17,
       "emptyAnswers": 0,
-      "accordionOpens": true
+      "accordionOpens": true,
+      "newScriptErrors": []
     },
     {
       "pathname": "/mission-en",
@@ -1497,7 +1625,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/mission-en",
@@ -1507,7 +1636,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/history",
@@ -1517,7 +1647,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/history",
@@ -1527,7 +1658,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/staff",
@@ -1537,7 +1669,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/staff",
@@ -1547,7 +1680,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/board-of-directors",
@@ -1557,7 +1691,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/board-of-directors",
@@ -1567,7 +1702,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/donate",
@@ -1577,7 +1713,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/donate",
@@ -1587,7 +1724,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/pray-for-us",
@@ -1597,7 +1735,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/pray-for-us",
@@ -1607,7 +1746,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/planned-giving",
@@ -1617,7 +1757,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/planned-giving",
@@ -1627,7 +1768,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquet",
@@ -1637,7 +1779,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquet",
@@ -1647,7 +1790,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/financials",
@@ -1662,7 +1806,8 @@
         }
       ],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/financials",
@@ -1677,7 +1822,8 @@
         }
       ],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/policies",
@@ -1687,7 +1833,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/policies",
@@ -1697,7 +1844,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/testimonials",
@@ -1707,7 +1855,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/testimonials",
@@ -1717,7 +1866,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/newsletters",
@@ -1727,7 +1877,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/newsletters",
@@ -1737,7 +1888,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/facility-rental",
@@ -1747,7 +1899,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/facility-rental",
@@ -1757,7 +1910,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/contact-us",
@@ -1767,7 +1921,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/contact-us",
@@ -1777,7 +1932,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/careers",
@@ -1787,7 +1943,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/careers",
@@ -1797,7 +1954,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-1",
@@ -1807,7 +1965,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-10",
@@ -1817,7 +1976,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-11",
@@ -1827,7 +1987,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-9",
@@ -1837,7 +1998,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-4",
@@ -1847,7 +2009,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-2",
@@ -1857,7 +2020,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-5",
@@ -1867,7 +2031,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-6",
@@ -1877,7 +2042,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-7",
@@ -1887,7 +2053,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/shoes",
@@ -1897,7 +2064,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-8",
@@ -1907,7 +2075,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-1",
@@ -1917,7 +2086,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
@@ -1927,7 +2097,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-10",
@@ -1937,7 +2108,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
@@ -1947,7 +2119,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-11",
@@ -1957,7 +2130,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
@@ -1967,7 +2141,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-9",
@@ -1977,7 +2152,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
@@ -1987,7 +2163,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-4",
@@ -1997,7 +2174,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
@@ -2007,7 +2185,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-2",
@@ -2017,7 +2196,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
@@ -2027,7 +2207,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-5",
@@ -2037,7 +2218,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-6",
@@ -2047,7 +2229,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/your-name-here",
@@ -2057,7 +2240,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-7",
@@ -2067,7 +2251,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
@@ -2077,7 +2262,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/shoes",
@@ -2087,7 +2273,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
@@ -2097,7 +2284,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-8",
@@ -2107,7 +2295,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
@@ -2117,7 +2306,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
@@ -2127,7 +2317,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
@@ -2137,7 +2328,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
@@ -2147,7 +2339,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
@@ -2157,7 +2350,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
@@ -2167,7 +2361,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
@@ -2177,7 +2372,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
@@ -2187,7 +2383,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
@@ -2197,7 +2394,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
@@ -2207,7 +2405,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
@@ -2217,7 +2416,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/campmarketing",
@@ -2241,7 +2441,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/archived-dfp-costs",
@@ -2251,7 +2452,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/menmarketing",
@@ -2268,7 +2470,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/hiring",
@@ -2278,7 +2481,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/support-our-camps",
@@ -2288,7 +2492,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/cse-prayer",
@@ -2298,7 +2503,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquetmarketing",
@@ -2315,7 +2521,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
@@ -2325,7 +2532,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
@@ -2335,7 +2543,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
@@ -2345,7 +2554,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
@@ -2355,7 +2565,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
@@ -2365,7 +2576,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
@@ -2375,7 +2587,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
@@ -2385,7 +2598,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
@@ -2395,7 +2609,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/campmarketing",
@@ -2419,7 +2634,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/menmarketing",
@@ -2436,7 +2652,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 1,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/hiring",
@@ -2446,7 +2663,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/support-our-camps",
@@ -2456,7 +2674,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/cse-prayer",
@@ -2466,7 +2685,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/banquetmarketing",
@@ -2483,7 +2703,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -2493,7 +2714,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/product-page/i-m-a-product-3",
@@ -2503,7 +2725,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -2513,7 +2736,8 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": []
+      "scriptErrors": [],
+      "newScriptErrors": []
     },
     {
       "test": "Original mobile menu opens",
