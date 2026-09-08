@@ -36,7 +36,7 @@ for(const mode of ['desktop','mobile']){
   await page.evaluate(()=>document.fonts.ready);
   const state=await page.evaluate(()=>({title:document.title,text:document.body.innerText,images:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>({src:i.src,alt:i.alt})),links:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')),forms:document.forms.length}));
   const missingText=item.text.split('\n').map(x=>x.trim()).filter(x=>x.length>30&&!state.text.includes(x));
-  const result={pathname:item.pathname,lang:item.lang,mode,status:response.status(),missingText,brokenImages:state.images,scriptErrors:errors};
+  const result={pathname:item.pathname,lang:item.lang,mode,status:response.status(),missingText,brokenImages:state.images,sourceBrokenImages:item.media.filter(i=>!i.loaded).length,scriptErrors:errors};
   if(['/', '/home','/camps'].includes(item.pathname)){
    const key=item.pathname==='/'?'index':item.pathname.replace(/^\/|\/$/g,'').replaceAll('/','_');
    const prefix='migration/screenshots/'+mode+'-'+item.lang+'-'+key;
@@ -48,6 +48,12 @@ for(const mode of ['desktop','mobile']){
     result.pixelDifference=pixelmatch(source.data,replica.data,diff.data,source.width,source.height,{threshold:0.15})/(source.width*source.height);
     await writeFile(prefix+'-diff.png',PNG.sync.write(diff));
    }
+  }
+  if(item.pathname==='/camp-faq'){
+   const headers=page.locator('[data-hook="accordion-item-header"]');
+   result.accordionCount=await headers.count();
+   result.emptyAnswers=await page.locator('[data-hook="accordion-item-content"]').evaluateAll(nodes=>nodes.filter(n=>!n.textContent.trim()).length);
+   if(result.accordionCount){const b=headers.first();await b.click();const id=await b.getAttribute('aria-controls');result.accordionOpens=await page.locator('[id="'+id+'"]').isVisible();}
   }
   results.push(result);console.log(JSON.stringify(result));
  }
@@ -62,4 +68,4 @@ for(const mode of ['desktop','mobile']){
 }
 await browser.close();server.close();
 await writeFile('migration/reports/verification.json',JSON.stringify({verifiedAt:new Date().toISOString(),results},null,2));
-if(results.some(r=>r.status&&r.status!==200||r.missingText?.length||r.scriptErrors?.length||r.passed===false))process.exitCode=1;
+if(results.some(r=>r.status&&r.status!==200||r.missingText?.length||r.scriptErrors?.length||r.passed===false||r.emptyAnswers>0||r.accordionOpens===false||r.brokenImages?.length>r.sourceBrokenImages))process.exitCode=1;
