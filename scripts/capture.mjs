@@ -77,10 +77,10 @@ await discoverSitemap();
 const browser=await chromium.launch();
 const raw=[];
 for(const mode of ['desktop','mobile']){
+ for(const lang of ['en','fr']){
  const context=await browser.newContext(mode==='mobile'?{...devices['iPhone 13'],locale:'en-CA'}:{viewport:{width:1440,height:1000},deviceScaleFactor:1,locale:'en-CA'});
  const page=await context.newPage();observe(page);
  for(const pathname of pages){
-  for(const lang of ['en','fr']){
    const url=origin+pathname+'?lang='+lang;
    console.log('CAPTURE',mode,lang,pathname);
    try{
@@ -98,8 +98,9 @@ for(const mode of ['desktop','mobile']){
      const links=[...document.querySelectorAll('a[href]')].map(e=>({text:e.textContent.trim(),url:e.href}));
      const media=[...document.images].map(e=>({src:e.currentSrc||e.src,alt:e.alt,loaded:e.complete&&e.naturalWidth>0}));
      const forms=[...document.forms].map(e=>({id:e.id,action:e.getAttribute('action'),fields:[...e.querySelectorAll('input,textarea,select')].map(x=>({name:x.name,type:x.type,label:x.getAttribute('aria-label')}))}));
-     return {title:document.title,text:document.body.innerText,links,media,forms,height:document.documentElement.scrollHeight};
+     return {documentLanguage:document.documentElement.lang,title:document.title,text:document.body.innerText,links,media,forms,height:document.documentElement.scrollHeight};
     });
+    if(info.documentLanguage && !info.documentLanguage.toLowerCase().startsWith(lang))throw new Error('Wrong document language: '+info.documentLanguage);
     if(mode==='desktop')for(const l of info.links)if(isPage(l.url))pages.add(new URL(l.url).pathname);
     if(pages.size>250)throw new Error('More than 250 routes discovered; review required.');
     const urls=info.media.map(i=>i.src);
@@ -134,9 +135,9 @@ for(const mode of ['desktop','mobile']){
       await page.screenshot({path:f,fullPage:true,timeout:30000});
     }
    }catch(e){failures.push({kind:'page',mode,lang,url,error:e.message});console.error('CAPTURE FAILED',url,e.message);}
-  }
  }
  await context.close();
+ }
 }
 await Promise.allSettled([...assetJobs]);
 await browser.close();
