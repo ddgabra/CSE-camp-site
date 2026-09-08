@@ -1,0 +1,2511 @@
+{
+  "verifiedAt": "2026-09-08T20:56:22.479Z",
+  "results": [
+    {
+      "pathname": "/",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          1440,
+          1000
+        ],
+        "replica": [
+          1440,
+          1000
+        ]
+      },
+      "pixelDifference": 0
+    },
+    {
+      "pathname": "/",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          1440,
+          1000
+        ],
+        "replica": [
+          1440,
+          1000
+        ]
+      },
+      "pixelDifference": 0
+    },
+    {
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          1440,
+          2442
+        ],
+        "replica": [
+          1440,
+          2442
+        ]
+      },
+      "pixelDifference": 0.16349047911547912
+    },
+    {
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          1440,
+          2433
+        ],
+        "replica": [
+          1440,
+          2433
+        ]
+      },
+      "pixelDifference": 0.1597356373019135
+    },
+    {
+      "pathname": "/camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          1440,
+          6142
+        ],
+        "replica": [
+          1440,
+          6142
+        ]
+      },
+      "pixelDifference": 0.01776328286117443
+    },
+    {
+      "pathname": "/camps",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          1440,
+          6060
+        ],
+        "replica": [
+          1440,
+          6060
+        ]
+      },
+      "pixelDifference": 0.012431128529519619
+    },
+    {
+      "pathname": "/dfp",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/dfp",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-sponsors",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-sponsors",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-subsidies",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-subsidies",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "accordionCount": 17,
+      "emptyAnswers": 17,
+      "accordionOpens": true
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "accordionCount": 17,
+      "emptyAnswers": 17,
+      "accordionOpens": true
+    },
+    {
+      "pathname": "/mission-en",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/mission-en",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/donate",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/pray-for-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquet",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/financials",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/financials",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/policies",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/policies",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/careers",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/careers",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/shoes",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/shoes",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/campmarketing",
+      "lang": "en",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/152GgeBbR0NM9cdmV4dBlVmKG_uhuiX9S?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/holisticsexualitymarketing",
+      "lang": "en",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/1Nwm2hmwKI_0KIu8ggeWYGdjXS-DC_TNG?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/campmarketing",
+      "lang": "fr",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/152GgeBbR0NM9cdmV4dBlVmKG_uhuiX9S?lang=fr&usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/holisticsexualitymarketing",
+      "lang": "fr",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/1Nwm2hmwKI_0KIu8ggeWYGdjXS-DC_TNG?lang=fr&usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/archived-dfp-costs",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/menmarketing",
+      "lang": "en",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/1jWiz66ZhfiGZmV5F_eNW8JvkdBFP0USj?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/archived-dfp-costs",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/menmarketing",
+      "lang": "fr",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/1jWiz66ZhfiGZmV5F_eNW8JvkdBFP0USj?lang=fr&usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/men",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/men",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/hiring",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/support-our-camps",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [
+        "ProgressEvent",
+        "ProgressEvent"
+      ]
+    },
+    {
+      "pathname": "/hiring",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/cse-prayer",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquetmarketing",
+      "lang": "en",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/1C_RmhjIhDZgzVhvxPhmQ56yzuBlbe3Ol?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/support-our-camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [
+        "ProgressEvent",
+        "ProgressEvent"
+      ]
+    },
+    {
+      "pathname": "/cse-prayer",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquetmarketing",
+      "lang": "fr",
+      "mode": "desktop",
+      "redirect": "https://drive.google.com/drive/folders/1C_RmhjIhDZgzVhvxPhmQ56yzuBlbe3Ol?lang=fr&usp=sharing",
+      "preserved": true
+    },
+    {
+      "test": "French language switch",
+      "passed": true
+    },
+    {
+      "test": "Main menu expands",
+      "passed": true
+    },
+    {
+      "pathname": "/",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          960,
+          3534
+        ],
+        "replica": [
+          960,
+          3534
+        ]
+      },
+      "pixelDifference": 0
+    },
+    {
+      "pathname": "/",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          960,
+          3534
+        ],
+        "replica": [
+          960,
+          3534
+        ]
+      },
+      "pixelDifference": 0
+    },
+    {
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          960,
+          9678
+        ],
+        "replica": [
+          960,
+          9678
+        ]
+      },
+      "pixelDifference": 0.04244990786663911
+    },
+    {
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          960,
+          9831
+        ],
+        "replica": [
+          960,
+          9831
+        ]
+      },
+      "pixelDifference": 0.04171699640592683
+    },
+    {
+      "pathname": "/camps",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 2,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          960,
+          28224
+        ],
+        "replica": [
+          960,
+          28224
+        ]
+      },
+      "pixelDifference": 0
+    },
+    {
+      "pathname": "/camps",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "dimensions": {
+        "source": [
+          960,
+          29031
+        ],
+        "replica": [
+          960,
+          29031
+        ]
+      },
+      "pixelDifference": 0
+    },
+    {
+      "pathname": "/dfp",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/dfp",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-sponsors",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-sponsors",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-subsidies",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-subsidies",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "accordionCount": 17,
+      "emptyAnswers": 17,
+      "accordionOpens": true
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "accordionCount": 17,
+      "emptyAnswers": 17,
+      "accordionOpens": true
+    },
+    {
+      "pathname": "/mission-en",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/mission-en",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/donate",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/pray-for-us",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquet",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/financials",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [
+        {
+          "src": "",
+          "alt": "2014CSEIncomeStatement"
+        }
+      ],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/financials",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [
+        {
+          "src": "",
+          "alt": "2014CSEIncomeStatement"
+        }
+      ],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/policies",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/policies",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/careers",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/careers",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/shoes",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/shoes",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/campmarketing",
+      "lang": "en",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/152GgeBbR0NM9cdmV4dBlVmKG_uhuiX9S?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/holisticsexualitymarketing",
+      "lang": "en",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/1Nwm2hmwKI_0KIu8ggeWYGdjXS-DC_TNG?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/archived-dfp-costs",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/menmarketing",
+      "lang": "en",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/1jWiz66ZhfiGZmV5F_eNW8JvkdBFP0USj?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/men",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/hiring",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/support-our-camps",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [
+        "ProgressEvent",
+        "ProgressEvent"
+      ]
+    },
+    {
+      "pathname": "/cse-prayer",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquetmarketing",
+      "lang": "en",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/1C_RmhjIhDZgzVhvxPhmQ56yzuBlbe3Ol?usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/campmarketing",
+      "lang": "fr",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/152GgeBbR0NM9cdmV4dBlVmKG_uhuiX9S?lang=fr&usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/holisticsexualitymarketing",
+      "lang": "fr",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/1Nwm2hmwKI_0KIu8ggeWYGdjXS-DC_TNG?lang=fr&usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/archived-dfp-costs",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/menmarketing",
+      "lang": "fr",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/1jWiz66ZhfiGZmV5F_eNW8JvkdBFP0USj?lang=fr&usp=sharing",
+      "preserved": true
+    },
+    {
+      "pathname": "/men",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 1,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/hiring",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/support-our-camps",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [
+        "ProgressEvent",
+        "ProgressEvent"
+      ]
+    },
+    {
+      "pathname": "/cse-prayer",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/banquetmarketing",
+      "lang": "fr",
+      "mode": "mobile",
+      "redirect": "https://drive.google.com/drive/folders/1C_RmhjIhDZgzVhvxPhmQ56yzuBlbe3Ol?lang=fr&usp=sharing",
+      "preserved": true
+    }
+  ]
+}
