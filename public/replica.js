@@ -139,7 +139,7 @@
    const panel=document.getElementById(button.getAttribute('aria-controls'));
    const row=button.parentElement;
    row.classList.add('cse-faq-item');
-   return {button,row,parent:row.parentElement,index,title:words(button.textContent),answer:words(panel.textContent)};
+   return {button,row,parent:row.parentElement,index,title:words(button.textContent),labels:words([...panel.querySelectorAll('[data-hook="file-upload-name"],a')].map(node=>node.textContent).join(' ')),answer:words(panel.textContent)};
   });
   const roots=[...document.querySelectorAll('[data-hook="faq-root"]')];
   const firstRoot=roots[0],firstList=entries[0].parent;
@@ -174,16 +174,17 @@
     return;
    }
    const scored=entries.map(entry=>{
-    const scores=tokens.map(token=>Math.max(0,...entry.title.map(word=>wordScore(token,word)),...entry.answer.map(word=>wordScore(token,word)*0.8)));
+    const scores=tokens.map(token=>Math.max(0,...entry.title.map(word=>wordScore(token,word)),...entry.labels.map(word=>wordScore(token,word)*0.95),...entry.answer.map(word=>wordScore(token,word)*0.8)));
     const matched=scores.filter(score=>score>=0.5).length;
     const required=tokens.length<=2?tokens.length:Math.ceil(tokens.length*0.7);
     return {entry,score:matched>=required?scores.reduce((sum,score)=>sum+score,0)/tokens.length:0};
    }).filter(result=>result.score>=0.5).sort((a,b)=>b.score-a.score||a.entry.index-b.entry.index);
+   const closest=scored.filter(result=>result.score>=Math.max(0.5,(scored[0]?.score||0)*0.8));
    entries.forEach(entry=>{entry.row.hidden=true;});
    otherSections.forEach(section=>{section.hidden=true;});
-   for(const {entry} of scored){firstList.append(entry.row);entry.row.hidden=false;}
-   empty.hidden=scored.length>0;
-   status.textContent=scored.length?(lang==='fr'?scored.length+' résultat'+(scored.length>1?'s':'')+' — les plus proches en premier.':scored.length+' result'+(scored.length>1?'s':'')+' — closest matches first.'):(lang==='fr'?'Aucun résultat proche.':'No close results.');
+   for(const {entry} of closest){firstList.append(entry.row);entry.row.hidden=false;}
+   empty.hidden=closest.length>0;
+   status.textContent=closest.length?(lang==='fr'?closest.length+' résultat'+(closest.length>1?'s':'')+' — les plus proches en premier.':closest.length+' result'+(closest.length>1?'s':'')+' — closest matches first.'):(lang==='fr'?'Aucun résultat proche.':'No close results.');
    email.href='mailto:info@catholicway.net?subject='+encodeURIComponent(lang==='fr'?'Question sur les camps':'Camp question')+'&body='+encodeURIComponent(query);
   };
   let searchTimer;
