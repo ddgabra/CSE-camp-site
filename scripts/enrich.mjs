@@ -34,7 +34,7 @@ for(const item of report.pages){
  if(item.pathname==='/home'){
   const frame=p.frames().find(f=>f.url().includes('StripSlideshow.html'));
   if(!frame)throw new Error('Slideshow frame missing');
-  await frame.waitForSelector('img, [style*="background-image"]',{state:'attached',timeout:30000});
+  await frame.waitForSelector('body',{state:'attached',timeout:30000});
   await p.waitForTimeout(1500);
   const frameHTML=await frame.evaluate(()=>{const d=document.documentElement.cloneNode(true);d.querySelectorAll('script').forEach(x=>x.remove());d.querySelectorAll('*').forEach(e=>{for(const a of [...e.attributes])if(a.name.startsWith('on'))e.removeAttribute(a.name);});d.querySelectorAll('link[href]').forEach(e=>e.setAttribute('href',new URL(e.getAttribute('href'),location.href).href));d.querySelectorAll('a[href]').forEach(e=>e.setAttribute('href',new URL(e.getAttribute('href'),location.href).href));d.querySelectorAll('img').forEach((e,n)=>{e.src=document.images[n].currentSrc||document.images[n].src;e.removeAttribute('srcset');});return '<!doctype html>'+d.outerHTML;});
   await Promise.allSettled([...pending]);
