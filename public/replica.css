@@ -1,4 +1,4 @@
-[data-cse-open] > [data-testid="positionBox"]{visibility:visible!important;opacity:1!important;pointer-events:auto!important;display:block!important}
+[data-cse-open] > [data-testid="positionBox"]{visibility:visible!important;pointer-events:auto!important;display:block!important}
 [data-cse-open] [class*="__animationBox"]{opacity:1!important;transform:none!important;visibility:visible!important}
 #cse-language-options{background:#204a4f;min-width:65px;box-shadow:0 3px 12px #0003}
 #cse-language-options a{display:block;padding:12px 18px;color:white;text-decoration:none;font:14px Arial}
@@ -13,3 +13,20 @@
 
 /* Responsive home column photos */
 #img_comp-lq2mfhza > img,#img_comp-lq2mfhzn1 > img{width:100%!important;height:100%!important;object-fit:cover}
+
+/* Native scrolling and page navigation remain fully usable without JavaScript. */
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+[id]{scroll-margin-top:96px}
+@view-transition{navigation:auto}
+::view-transition-old(root),::view-transition-new(root){animation-duration:280ms;animation-timing-function:ease-in-out}
+[data-hook="accordion-item-header"] svg{transition:transform 320ms cubic-bezier(0.22,1,0.36,1)}
+.wixui-button,.wixui-button__link,button,#cse-language-options a{transition:background-color 180ms ease,color 180ms ease,box-shadow 180ms ease}
+[data-cse-closing] > [data-testid="positionBox"]{pointer-events:none!important}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto}
+ ::view-transition-old(root),::view-transition-new(root){animation-duration:0.01ms}
+ [data-hook="accordion-item-header"] svg,.wixui-button,.wixui-button__link,button,#cse-language-options a{transition:none}
+}
+
+/* Backgrounds must follow their live container, not Wix's captured pixel width. */
+wow-image.bgImage > img{width:100%!important;height:100%!important;object-fit:cover}

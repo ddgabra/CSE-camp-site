@@ -7,6 +7,7 @@ import pixelmatch from 'pixelmatch';
 import handler from '../api/page.js';
 import {verifyEntrances} from './verify-entrances.mjs';
 import {verifyFaq} from './verify-faq.mjs';
+import {verifyMotion} from './verify-motion.mjs';
 const report=JSON.parse(await readFile('migration/reports/capture.json','utf8'));
 const results=[];
 async function getSlideshowFrame(page){
@@ -35,6 +36,10 @@ const server=createServer(async(req,res)=>{
 await new Promise(r=>server.listen(4173,'127.0.0.1',r));
 await mkdir('migration/screenshots',{recursive:true});
 const browser=await chromium.launch();
+const motionResults=await verifyMotion(browser);
+results.push(...motionResults);
+await writeFile('migration/reports/motion.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:motionResults},null,2));
+motionResults.forEach(result=>console.log(JSON.stringify(result)));
 const faqResults=await verifyFaq(browser);
 results.push(...faqResults);
 await writeFile('migration/reports/faq.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:faqResults},null,2));
@@ -109,6 +114,7 @@ for(const mode of ['desktop','mobile']){
   await row.click();
   results.push({test:'Mobile submenu opens',passed:await page.locator('#MENU_AS_CONTAINER li > ul').first().isVisible()});
   await toggle.click();
+  await page.locator('#MENU_AS_CONTAINER').waitFor({state:'hidden'});
   results.push({test:'Mobile menu closes',passed:!(await page.locator('#MENU_AS_CONTAINER').isVisible())});
  }
  await ctx.close();
