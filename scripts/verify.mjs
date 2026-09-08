@@ -34,7 +34,7 @@ for(const mode of ['desktop','mobile']){
   const errors=[];
   page.removeAllListeners('pageerror');page.on('pageerror',e=>errors.push(e.message));
   const response=await page.goto(url,{waitUntil:'load'});
-  await page.evaluate(()=>document.fonts.ready);
+  await page.evaluate(()=>Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,5000))]));
   const state=await page.evaluate(()=>({title:document.title,text:document.body.innerText,images:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>({src:i.src,alt:i.alt})),links:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')),forms:document.forms.length}));
   const missingText=item.text.split('\n').map(x=>x.trim()).filter(x=>x.length>30&&!state.text.includes(x));
   const result={pathname:item.pathname,lang:item.lang,mode,status:response.status(),missingText,brokenImages:state.images,sourceBrokenImages:item.media.filter(i=>!i.loaded).length,scriptErrors:errors};
