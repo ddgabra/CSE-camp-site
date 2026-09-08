@@ -7,6 +7,14 @@ import pixelmatch from 'pixelmatch';
 import handler from '../api/page.js';
 const report=JSON.parse(await readFile('migration/reports/capture.json','utf8'));
 const results=[];
+async function getSlideshowFrame(page){
+ const element=await page.waitForSelector('iframe[src*="home-slideshow.html"]');
+ const frame=await element.contentFrame();
+ await frame.waitForURL('**/home-slideshow.html');
+ await frame.locator('.cycle-pager span').first().waitFor({state:'visible'});
+ return frame;
+}
+
 const contentTypes={'.html':'text/html','.css':'text/css','.js':'application/javascript','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml','.webp':'image/webp','.woff2':'font/woff2','.woff':'font/woff','.pdf':'application/pdf'};
 const server=createServer(async(req,res)=>{
  try{
@@ -102,7 +110,7 @@ for(const mode of ['desktop','mobile']){
  const responsivePage=await responsiveContext.newPage();
  for(const lang of ['en','fr']){
   await responsivePage.goto('http://127.0.0.1:4173/home?lang='+lang,{waitUntil:'domcontentloaded'});
-  const frame=responsivePage.frames().find(f=>f.url().includes('home-slideshow.html'));
+  const frame=await getSlideshowFrame(responsivePage);
   await frame.waitForLoadState('load');
   await responsivePage.waitForFunction(()=>['img_comp-lq2mfhza','img_comp-lq2mfhzn1'].every(id=>{const i=document.getElementById(id)?.querySelector('img');return i?.complete&&i.naturalWidth>0;}));
   for(const width of [1024,1280,1440,1920,2560,1280,1920]){
@@ -139,7 +147,7 @@ for(const mode of ['desktop','mobile']){
 
  for(const lang of ['en','fr'])for(const slide of [0,1]){
   await responsivePage.goto('http://127.0.0.1:4173/home?lang='+lang,{waitUntil:'domcontentloaded'});
-  const frame=responsivePage.frames().find(f=>f.url().includes('home-slideshow.html'));
+  const frame=await getSlideshowFrame(responsivePage);
   await frame.waitForLoadState('load');
   await frame.locator('.cycle-pager span').nth(slide).click();
   const target=slide===0?'/camps':'/banquet';
