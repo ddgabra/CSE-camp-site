@@ -27,6 +27,21 @@
   if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;
   event.preventDefault();show(event.key==='Home'?0:event.key==='End'?slides.length-1:current+(event.key==='ArrowRight'?1:-1));
  });
+ // Match the source gallery's edge-hover scrolling, with native touch scrolling.
+ const strip=document.getElementById('thumbnails');
+ let edge=0,panFrame=0,lastTime=0;
+ const pan=time=>{
+  const elapsed=Math.min(32,time-lastTime||16);lastTime=time;
+  strip.scrollLeft+=edge*elapsed*.22;
+  if(edge)panFrame=requestAnimationFrame(pan);else panFrame=0;
+ };
+ strip.addEventListener('pointermove',event=>{
+  if(event.pointerType!=='mouse')return;
+  const box=strip.getBoundingClientRect(),x=event.clientX-box.left;
+  edge=x<24?-1:x>box.width-24?1:0;
+  if(edge&&!panFrame){lastTime=0;panFrame=requestAnimationFrame(pan);}
+ });
+ strip.addEventListener('pointerleave',()=>{edge=0;cancelAnimationFrame(panFrame);panFrame=0;});
  let touchX;
  display.addEventListener('pointerdown',event=>{if(event.pointerType==='touch')touchX=event.clientX;});
  display.addEventListener('pointerup',event=>{if(touchX!==undefined&&Math.abs(event.clientX-touchX)>45)show(current+(event.clientX<touchX?1:-1));touchX=undefined;});

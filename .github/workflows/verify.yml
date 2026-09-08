@@ -6,6 +6,7 @@ on:
       - public/replica.js
       - public/replica.css
       - public/slideshow.js
+      - public/capture/shared/**
       - scripts/verify*.mjs
       - scripts/restore-responsive-images.mjs
       - .github/workflows/verify.yml

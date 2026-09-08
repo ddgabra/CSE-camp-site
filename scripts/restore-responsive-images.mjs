@@ -16,6 +16,7 @@ images.push(...[{"id":"cse-facility-photo-0","source":"https://static.wixstatic.
 const bySource=new Map(images.map(image=>[image.source,image]));
 const capturedAssets=JSON.parse(await readFile('migration/reports/assets.json','utf8'));
 const capturedSources=new Map(Object.entries(capturedAssets).map(([url,asset])=>[asset.dest,url]));
+try{for(const image of JSON.parse(await readFile('migration/reports/responsive-images.json','utf8')).images)capturedSources.set(image.dest,image.source);}catch{}
 const files=[];
 async function list(directory){
  for(const item of await readdir(directory,{withFileTypes:true})){

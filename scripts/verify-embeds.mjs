@@ -13,10 +13,11 @@ export async function verifyEmbeds(browser){
     const frame=await (await map.elementHandle()).contentFrame();
     await frame.waitForSelector('body',{timeout:20000});
     const zoom=frame.getByRole('button',{name:/^(Zoom in|Zoom avant|Agrandir)$/i});
-    await zoom.waitFor({state:'visible',timeout:25000});
+    await zoom.waitFor({state:'attached',timeout:25000});
+    if(!(await zoom.isVisible()))await frame.getByRole('button',{name:/camera controls|caméra/i}).click();
     await zoom.click();
-    const text=await frame.locator('body').innerText(),bounds=await map.boundingBox();
-    results.push({test:'Interactive location map loads and zooms',...data,bounds,passed:/Catholic School Of Evangelization/i.test(text)&&bounds.width>200&&bounds.height>150});
+    const directions=await frame.locator('a[href*="0x33080f03886dd49"]').count(),bounds=await map.boundingBox();
+    results.push({test:'Interactive location map loads and zooms',...data,bounds,directions,passed:directions>0&&bounds.width>200&&bounds.height>150});
     if(route==='contact-us'){
      const original=await page.locator('#img_comp-ll18nupa img').evaluate(img=>({src:img.getAttribute('src'),width:img.naturalWidth,height:img.naturalHeight}));
      results.push({test:'Contact photo uses the original uncropped file',...data,...original,passed:original.src==='/assets/cse-contact-original.jpg'&&original.width===2016&&original.height===933});
@@ -27,6 +28,13 @@ export async function verifyEmbeds(browser){
      const thumbs=gallery.locator('.thumb'),slides=gallery.locator('[data-slide]');
      const count=await thumbs.count();
      await gallery.waitForFunction(()=>[...document.images].every(img=>img.complete&&img.naturalWidth>0));
+     if(mode==='desktop'){
+      const strip=gallery.locator('#thumbnails'),box=await strip.boundingBox();
+      await page.mouse.move(box.x+box.width-3,box.y+box.height/2);await page.waitForTimeout(200);
+      const shifted=await strip.evaluate(el=>el.scrollLeft);
+      await page.mouse.move(box.x+box.width/2,box.y-80);
+      results.push({test:'Facility thumbnails scroll when hovering at the edge',...data,shifted,passed:shifted>0});
+     }
      for(let i=0;i<count;i++){await thumbs.nth(i).click();await gallery.waitForTimeout(30);}
      await gallery.waitForTimeout(800);
      results.push({test:'All ten facility photos can be selected',...data,count,passed:count===10&&await thumbs.nth(9).getAttribute('aria-pressed')==='true'&&await slides.nth(9).getAttribute('aria-hidden')==='false'});
