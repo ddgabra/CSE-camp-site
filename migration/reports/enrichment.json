@@ -1,0 +1,53 @@
+{
+  "enrichedAt": "2026-09-08T21:09:28.283Z",
+  "enriched": [
+    {
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "desktop",
+      "slideshow": true
+    },
+    {
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "desktop",
+      "slideshow": true
+    },
+    {
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "mobile",
+      "slideshow": true
+    },
+    {
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "mobile",
+      "slideshow": true
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "desktop",
+      "answers": 17
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "desktop",
+      "answers": 17
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "mobile",
+      "answers": 17
+    },
+    {
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "mobile",
+      "answers": 17
+    }
+  ]
+}

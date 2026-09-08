@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T20:56:22.479Z",
+  "verifiedAt": "2026-09-08T21:10:18.808Z",
   "results": [
     {
       "pathname": "/",
@@ -62,7 +62,7 @@
           2442
         ]
       },
-      "pixelDifference": 0.16349047911547912
+      "pixelDifference": 0.1620145713895714
     },
     {
       "pathname": "/home",
@@ -83,7 +83,7 @@
           2433
         ]
       },
-      "pixelDifference": 0.1597356373019135
+      "pixelDifference": 0.15825398456409553
     },
     {
       "pathname": "/camps",
@@ -217,7 +217,7 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "accordionCount": 17,
-      "emptyAnswers": 17,
+      "emptyAnswers": 0,
       "accordionOpens": true
     },
     {
@@ -230,7 +230,7 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "accordionCount": 17,
-      "emptyAnswers": 17,
+      "emptyAnswers": 0,
       "accordionOpens": true
     },
     {
@@ -534,26 +534,6 @@
       "scriptErrors": []
     },
     {
-      "pathname": "/product-page/i-m-a-product-3",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": []
-    },
-    {
-      "pathname": "/product-page/i-m-a-product-3",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": []
-    },
-    {
       "pathname": "/product-page/i-m-a-product-1",
       "lang": "fr",
       "mode": "desktop",
@@ -885,26 +865,6 @@
     },
     {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": []
-    },
-    {
-      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": []
-    },
-    {
-      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
       "lang": "en",
       "mode": "desktop",
       "status": 200,
@@ -1193,10 +1153,7 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": [
-        "ProgressEvent",
-        "ProgressEvent"
-      ]
+      "scriptErrors": []
     },
     {
       "pathname": "/hiring",
@@ -1233,10 +1190,7 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": [
-        "ProgressEvent",
-        "ProgressEvent"
-      ]
+      "scriptErrors": []
     },
     {
       "pathname": "/cse-prayer",
@@ -1254,6 +1208,46 @@
       "mode": "desktop",
       "redirect": "https://drive.google.com/drive/folders/1C_RmhjIhDZgzVhvxPhmQ56yzuBlbe3Ol?lang=fr&usp=sharing",
       "preserved": true
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
     },
     {
       "test": "French language switch",
@@ -1324,7 +1318,7 @@
           9678
         ]
       },
-      "pixelDifference": 0.04244990786663911
+      "pixelDifference": 0.036668216573672245
     },
     {
       "pathname": "/home",
@@ -1345,7 +1339,7 @@
           9831
         ]
       },
-      "pixelDifference": 0.04171699640592683
+      "pixelDifference": 0.03601670311599363
     },
     {
       "pathname": "/camps",
@@ -1479,7 +1473,7 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "accordionCount": 17,
-      "emptyAnswers": 17,
+      "emptyAnswers": 0,
       "accordionOpens": true
     },
     {
@@ -1492,7 +1486,7 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "accordionCount": 17,
-      "emptyAnswers": 17,
+      "emptyAnswers": 0,
       "accordionOpens": true
     },
     {
@@ -1798,16 +1792,6 @@
     {
       "pathname": "/careers",
       "lang": "fr",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": []
-    },
-    {
-      "pathname": "/product-page/i-m-a-product-3",
-      "lang": "en",
       "mode": "mobile",
       "status": 200,
       "missingText": [],
@@ -2048,16 +2032,6 @@
     {
       "pathname": "/product-page/i-m-a-product-5",
       "lang": "fr",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": []
-    },
-    {
-      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
-      "lang": "en",
       "mode": "mobile",
       "status": 200,
       "missingText": [],
@@ -2314,10 +2288,7 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": [
-        "ProgressEvent",
-        "ProgressEvent"
-      ]
+      "scriptErrors": []
     },
     {
       "pathname": "/cse-prayer",
@@ -2485,10 +2456,7 @@
       "missingText": [],
       "brokenImages": [],
       "sourceBrokenImages": 0,
-      "scriptErrors": [
-        "ProgressEvent",
-        "ProgressEvent"
-      ]
+      "scriptErrors": []
     },
     {
       "pathname": "/cse-prayer",
@@ -2506,6 +2474,58 @@
       "mode": "mobile",
       "redirect": "https://drive.google.com/drive/folders/1C_RmhjIhDZgzVhvxPhmQ56yzuBlbe3Ol?lang=fr&usp=sharing",
       "preserved": true
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": []
+    },
+    {
+      "test": "Original mobile menu opens",
+      "passed": true
+    },
+    {
+      "test": "Mobile submenu opens",
+      "passed": true
+    },
+    {
+      "test": "Mobile menu closes",
+      "passed": true
     }
   ]
 }
