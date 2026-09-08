@@ -30,7 +30,7 @@
  document.querySelectorAll('[aria-controls]').forEach(button=>{
   if(button.matches('[data-testid="languages-dropdown-handle"]'))return;
   const panel=document.getElementById(button.getAttribute('aria-controls'));if(!panel)return;
-  button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));panel.hidden=!open;panel.style.display=open?'block':'none';});
+  button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));panel.hidden=!open;panel.style.display=open?'block':'none';panel.setAttribute('aria-hidden',String(!open));if(button.matches('[data-hook="accordion-item-header"]')){const inner=panel.parentElement,outer=inner.parentElement;inner.style.display=open?'block':'none';inner.style.opacity=open?'1':'0';outer.style.height=open?'auto':'0px';outer.style.overflow=open?'visible':'hidden';const arrow=button.querySelector('svg');if(arrow)arrow.style.transform=open?'rotate(180deg)':'';}});
  });
  // Keep the original Wix submission service until a replacement backend is configured.
  // Never claim a form succeeded without submitting it.
