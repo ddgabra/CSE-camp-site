@@ -28,14 +28,14 @@ for(const item of report.pages){
    }catch{}
   })();pending.add(task);task.finally(()=>pending.delete(task));
  });
- await p.goto(origin+item.pathname+'?lang='+item.lang,{waitUntil:'networkidle',timeout:60000}).catch(()=>{});
+ await p.goto(origin+item.pathname+'?lang='+item.lang,{waitUntil:'domcontentloaded',timeout:60000}).catch(()=>{});
  await p.waitForSelector('[data-hook="accordion-item-header"]');
  const count=await p.locator('[data-hook="accordion-item-header"]').count();
  const panels={};
  for(let n=0;n<count;n++){
   const button=p.locator('[data-hook="accordion-item-header"]').nth(n);
   const id=await button.getAttribute('aria-controls');
-  await button.click();await p.waitForTimeout(400);
+  await button.click();await p.waitForFunction(id=>document.getElementById(id)?.textContent.trim().length>0,id);await p.waitForTimeout(350);
   const content=await p.locator('[id="'+id+'"]').innerHTML();
   panels[id]=content;
   if(!content.replace(/<[^>]+>/g,'').trim())throw new Error('Empty FAQ answer '+id);
