@@ -96,6 +96,32 @@ for(const mode of ['desktop','mobile']){
  }
  await ctx.close();
 }
+
+ // Cover the original fixed-width regression at widths below and above capture size.
+ const responsiveContext=await browser.newContext({viewport:{width:1920,height:1000}});
+ const responsivePage=await responsiveContext.newPage();
+ for(const lang of ['en','fr']){
+  await responsivePage.goto('http://127.0.0.1:4173/home?lang='+lang,{waitUntil:'domcontentloaded'});
+  const frame=responsivePage.frames().find(f=>f.url().includes('home-slideshow.html'));
+  await frame.waitForLoadState('load');
+  for(const width of [1024,1280,1440,1920,2560,1280,1920]){
+   await responsivePage.setViewportSize({width,height:1000});
+   for(const slide of [0,1]){
+    await frame.locator('.cycle-pager span').nth(slide).click();
+    const bounds=await frame.evaluate(()=>{
+     const image=document.querySelector('.cycle-slide-active .img').getBoundingClientRect();
+     const overlay=document.querySelector('.cycle-slide-active .overlay').getBoundingClientRect();
+     return {viewport:innerWidth,imageLeft:image.left,imageRight:image.right,imageWidth:image.width,overlayLeft:overlay.left,overlayWidth:overlay.width};
+    });
+    const pageBounds=await responsivePage.evaluate(()=>({viewport:document.documentElement.clientWidth,frame:document.querySelector('iframe').getBoundingClientRect().width,scrollWidth:document.documentElement.scrollWidth}));
+    const passed=Math.abs(bounds.imageLeft)<1&&Math.abs(bounds.imageRight-bounds.viewport)<1&&Math.abs(pageBounds.frame-pageBounds.viewport)<1&&pageBounds.scrollWidth<=pageBounds.viewport+1;
+    results.push({test:'Full-width responsive slideshow',lang,width,slide,...bounds,...pageBounds,passed});
+   }
+   if(width===1920)await responsivePage.screenshot({path:'migration/screenshots/desktop-'+lang+'-home-wide-replica.png',fullPage:false});
+  }
+ }
+ await responsiveContext.close();
+
 await browser.close();server.close();
 await writeFile('migration/reports/verification.json',JSON.stringify({verifiedAt:new Date().toISOString(),results},null,2));
 if(results.some(r=>r.status&&r.status!==200||r.missingText?.length||r.newScriptErrors?.length||r.passed===false||r.emptyAnswers>0||r.accordionOpens===false||r.brokenImages?.length>r.sourceBrokenImages))process.exitCode=1;
