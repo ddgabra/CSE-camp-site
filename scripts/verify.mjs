@@ -66,6 +66,17 @@ for(const mode of ['desktop','mobile']){
   const trigger=page.locator('[data-testid="menuItemDepth0"] [aria-haspopup]').first();
   if(await trigger.count()){await trigger.click();results.push({test:'Main menu expands',passed:await page.locator('[data-cse-open] [data-testid="positionBox"]').isVisible()});}
  }
+ if(mode==='mobile'){
+  await page.goto('http://127.0.0.1:4173/home',{waitUntil:'domcontentloaded'});
+  const toggle=page.locator('#MENU_AS_CONTAINER_TOGGLE');
+  await toggle.click();
+  results.push({test:'Original mobile menu opens',passed:await page.locator('#MENU_AS_CONTAINER').isVisible()});
+  const row=page.locator('#MENU_AS_CONTAINER li > [data-testid="itemWrapper"]').first();
+  await row.click();
+  results.push({test:'Mobile submenu opens',passed:await page.locator('#MENU_AS_CONTAINER li > ul').first().isVisible()});
+  await toggle.click();
+  results.push({test:'Mobile menu closes',passed:!(await page.locator('#MENU_AS_CONTAINER').isVisible())});
+ }
  await ctx.close();
 }
 await browser.close();server.close();
