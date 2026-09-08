@@ -112,11 +112,15 @@ for(const mode of ['desktop','mobile']){
     const bounds=await frame.evaluate(()=>{
      const image=document.querySelector('.cycle-slide-active .img').getBoundingClientRect();
      const overlay=document.querySelector('.cycle-slide-active .overlay').getBoundingClientRect();
-     return {viewport:innerWidth,imageLeft:image.left,imageRight:image.right,imageWidth:image.width,overlayLeft:overlay.left,overlayWidth:overlay.width};
+     return {slideWidth:document.querySelector('.cycle-slide-active').getBoundingClientRect().width,viewport:innerWidth,imageLeft:image.left,imageRight:image.right,imageWidth:image.width,overlayLeft:overlay.left,overlayWidth:overlay.width};
     });
     const pageBounds=await responsivePage.evaluate(()=>({viewport:document.documentElement.clientWidth,frame:document.querySelector('iframe').getBoundingClientRect().width,scrollWidth:document.documentElement.scrollWidth}));
-    const passed=Math.abs(bounds.imageLeft)<1&&Math.abs(bounds.imageRight-bounds.viewport)<1&&Math.abs(pageBounds.frame-pageBounds.viewport)<1&&pageBounds.scrollWidth<=pageBounds.viewport+1;
+    const passed=bounds.imageLeft<=1&&bounds.imageRight>=bounds.viewport-1&&Math.abs(bounds.slideWidth-bounds.viewport)<1&&Math.abs(pageBounds.frame-pageBounds.viewport)<1&&pageBounds.scrollWidth<=pageBounds.viewport+1;
     results.push({test:'Full-width responsive slideshow',lang,width,slide,...bounds,...pageBounds,passed});
+    const buttonBounds=await frame.locator('.cycle-slide-active .more').evaluate(button=>{
+     const b=button.getBoundingClientRect();return {left:b.left,right:b.right,top:b.top,bottom:b.bottom,width:b.width,height:b.height,viewportWidth:innerWidth,viewportHeight:innerHeight};
+    });
+    results.push({test:'Read more button is visible within its slide',lang,width,slide,...buttonBounds,passed:buttonBounds.width>0&&buttonBounds.height>0&&buttonBounds.left>=0&&buttonBounds.right<=buttonBounds.viewportWidth+1&&buttonBounds.top>=0&&buttonBounds.bottom<=buttonBounds.viewportHeight+1});
     const photos=await responsivePage.evaluate(()=>['img_comp-lq2mfhza','img_comp-lq2mfhzn1'].map(id=>{
      const host=document.getElementById(id),image=host.querySelector('img'),h=host.getBoundingClientRect(),i=image.getBoundingClientRect();
      return {id,columnWidth:h.width,imageWidth:i.width,columnHeight:h.height,imageHeight:i.height,leftDifference:i.left-h.left,naturalWidth:image.naturalWidth,position:getComputedStyle(image).objectPosition};
@@ -132,6 +136,18 @@ for(const mode of ['desktop','mobile']){
    if(width===1920)await responsivePage.screenshot({path:'migration/screenshots/desktop-'+lang+'-home-wide-replica.png',fullPage:false});
   }
  }
+
+ for(const lang of ['en','fr'])for(const slide of [0,1]){
+  await responsivePage.goto('http://127.0.0.1:4173/home?lang='+lang,{waitUntil:'domcontentloaded'});
+  const frame=responsivePage.frames().find(f=>f.url().includes('home-slideshow.html'));
+  await frame.waitForLoadState('load');
+  await frame.locator('.cycle-pager span').nth(slide).click();
+  const target=slide===0?'/camps':'/banquet';
+  await Promise.all([responsivePage.waitForURL(u=>u.pathname===target),frame.locator('.cycle-slide-active .more').click()]);
+  const destination=new URL(responsivePage.url());
+  results.push({test:'Read more opens the correct page',lang,slide,target,destination:destination.pathname+destination.search,passed:destination.pathname===target&&(lang!=='fr'||destination.searchParams.get('lang')==='fr')});
+ }
+
  await responsiveContext.close();
 
 await browser.close();server.close();
