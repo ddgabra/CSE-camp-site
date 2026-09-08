@@ -81,7 +81,7 @@ for(const mode of ['desktop','mobile']){
  const page=await context.newPage();observe(page);
  for(const pathname of pages){
   for(const lang of ['en','fr']){
-   const url=origin+pathname+(lang==='fr'?'?lang=fr':'');
+   const url=origin+pathname+'?lang='+lang;
    console.log('CAPTURE',mode,lang,pathname);
    try{
     const res=await page.goto(url,{waitUntil:'domcontentloaded',timeout:60000});
@@ -111,7 +111,7 @@ for(const mode of ['desktop','mobile']){
      clone.querySelectorAll('*').forEach(e=>{
       [...e.attributes].filter(a=>/^on/i.test(a.name)).forEach(a=>e.removeAttribute(a.name));
       if(e.tagName==='IMG'){
-       const real=document.querySelector('img[id="'+CSS.escape(e.id)+'"]');
+       
        e.setAttribute('loading','eager');
       }
      });

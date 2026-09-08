@@ -1,25 +1,25 @@
 # CSE camp site
 
-Migration workspace for https://www.catholicway.net/ — Catholic School of Evangelization / École catholique d’évangélisation.
+Online migration of https://www.catholicway.net/ — Catholic School of Evangelization / École catholique d’évangélisation.
 
-## Requested result
+## Build and hosting
 
-Preserve all public pages, original English and French wording, images, layout, navigation and functionality. All source code and build work must remain online in GitHub; no local development checkout.
+The user selected GitHub source hosting and Vercel deployment. All capture, development, and validation run online through GitHub Actions. No local checkout is required.
+
+The capture workflow visits public site routes in English and French, captures separate desktop and mobile layouts, preserves rendered HTML and styles, and copies image/font/document assets into this repository. Explicit language parameters prevent Wix language-cookie redirects from contaminating English captures.
+
+The Vercel route handler serves the appropriate language and device layout. Registration and donations retain their original external destinations. Preview pages use noindex.
 
 ## Status
 
-Repository created. Source Wix site and both language variants verified. Implementation and migration are not complete; this repository is not yet a working replica.
+Capture and verification in progress. This is not yet a verified exact replica. See migration/reports for captured routes, asset inventory, missing-page reports, and visual comparisons when the workflow finishes.
 
-The French language selector uses `?lang=fr`. Both variants must be captured individually; the original English and French landing pages differ in wording and footer details.
+Wix form submissions still require the current Wix website; the preview explicitly routes visitors there. A replacement form backend is not configured. Domain/DNS changes are not part of this preview.
 
-External services observed: camp registration at https://stmalocamps.net/ and donations through Zeffy. Migration must preserve and verify those destinations. Contact and mailing-list forms require a functioning backend.
+The connected Vercel account currently exposes only a Pro team. The user is connecting a free Hobby account before deployment. Do not deploy to or change the Pro team without authorization.
 
-## Hosting decision pending
+## Online operations
 
-WordPress.com Free does not support connecting an existing custom domain or uploading a custom theme. An exact custom build requires compatible WordPress hosting, or a different hosting platform if zero hosting cost is the priority. GitHub source hosting does not itself run a WordPress installation.
-
-Official documentation:
-- https://wordpress.com/support/domains/connect-existing-domain/
-- https://wordpress.com/support/themes/uploading-setting-up-custom-themes/
-
-No domain or live Wix site changes have been made.
+- Run the “Capture original bilingual website” workflow to regenerate captured pages and assets.
+- Inspect migration/reports/capture.json and verification.json before treating the copy as ready.
+- Import this repository in the authorized Vercel workspace. The framework is Other; build command is npm run build; output directory is public.

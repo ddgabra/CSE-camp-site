@@ -1,10 +1,10 @@
 (()=>{
  const lang=new URLSearchParams(location.search).get('lang')==='fr'?'fr':'en';
- const closeMenus=()=>document.querySelectorAll('[data-cse-open]').forEach(e=>{e.removeAttribute('data-cse-open');e.querySelector('[aria-expanded]')?.setAttribute('aria-expanded','false');});
+ const closeMenus=()=>document.querySelectorAll('[data-cse-open]').forEach(e=>{e.removeAttribute('data-cse-open');e.removeAttribute('data-hovered');e.removeAttribute('data-shown');e.querySelector('[aria-expanded]')?.setAttribute('aria-expanded','false');});
  document.querySelectorAll('[data-testid="menuItemDepth0"]').forEach(item=>{
   const trigger=item.querySelector('[aria-haspopup]');
   if(!trigger)return;
-  const open=()=>{closeMenus();item.setAttribute('data-cse-open','');trigger.setAttribute('aria-expanded','true');};
+  const open=()=>{closeMenus();item.setAttribute('data-cse-open','');item.setAttribute('data-hovered','true');item.setAttribute('data-shown','true');trigger.setAttribute('aria-expanded','true');const panel=item.querySelector('[data-testid="positionBox"]');if(panel){const nav=item.closest('nav');const r=nav.getBoundingClientRect();panel.style.left=(-r.left)+'px';panel.style.right='auto';panel.style.width=Math.max(document.documentElement.clientWidth,document.body.clientWidth)+'px';panel.style.top=r.height+'px';}};
   item.addEventListener('mouseenter',open);
   item.addEventListener('mouseleave',closeMenus);
   for(const t of [trigger,item.querySelector('button[aria-label^="Toggle"]')].filter(Boolean)){

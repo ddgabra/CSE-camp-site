@@ -10,8 +10,8 @@
   },
   "rewrites": [
     {
-      "source": "/((?!assets/|capture/|replica\\.).*)",
-      "destination": "/api/page?route=/$1"
+      "source": "/:path((?!assets/|capture/|replica\\.|api/).*)",
+      "destination": "/api/page?route=/:path"
     }
   ]
 }
