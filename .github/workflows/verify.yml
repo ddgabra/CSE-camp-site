@@ -1,5 +1,14 @@
 name: Enrich and verify replica
 on:
+  push:
+    branches: [main]
+    paths:
+      - public/replica.js
+      - public/replica.css
+      - public/slideshow.js
+      - scripts/verify*.mjs
+      - scripts/restore-responsive-images.mjs
+      - .github/workflows/verify.yml
   workflow_dispatch:
     inputs:
       capture_components:
@@ -16,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   verify:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion != 'cancelled'
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion != 'cancelled'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -34,7 +43,7 @@ jobs:
       - name: Capture every accordion answer
         if: github.event_name == 'workflow_run' || inputs.capture_components
         run: node scripts/enrich.mjs
-      - name: Restore responsive home photos
+      - name: Restore original responsive photos
         run: node scripts/restore-responsive-images.mjs
       - name: Validate pages and interactions
         id: verify
