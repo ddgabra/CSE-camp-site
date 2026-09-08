@@ -1,6 +1,6 @@
 (()=>{
  const lang=new URLSearchParams(location.search).get('lang')==='fr'?'fr':'en';
- const closeMenus=()=>document.querySelectorAll('[data-cse-open]').forEach(e=>{e.removeAttribute('data-cse-open');e.removeAttribute('data-hovered');e.removeAttribute('data-shown');e.querySelector('[aria-expanded]')?.setAttribute('aria-expanded','false');});
+ const closeMenus=()=>document.querySelectorAll('[data-cse-open]').forEach(e=>{e.removeAttribute('data-cse-open');e.removeAttribute('data-hovered');e.removeAttribute('data-shown');delete e.dataset.cseClicked;e.querySelector('[aria-expanded]')?.setAttribute('aria-expanded','false');});
  document.querySelectorAll('[data-testid="menuItemDepth0"]').forEach(item=>{
   const trigger=item.querySelector('[aria-haspopup]');
   if(!trigger)return;
@@ -8,7 +8,7 @@
   item.addEventListener('mouseenter',open);
   item.addEventListener('mouseleave',closeMenus);
   for(const t of [trigger,item.querySelector('button[aria-label^="Toggle"]')].filter(Boolean)){
-   t.addEventListener('click',e=>{e.stopPropagation();item.hasAttribute('data-cse-open')?closeMenus():open();});
+   t.addEventListener('click',e=>{e.stopPropagation();if(item.dataset.cseClicked==='true'){closeMenus();}else{open();item.dataset.cseClicked='true';}});
    t.addEventListener('keydown',e=>{if(['Enter',' '].includes(e.key)){e.preventDefault();open();}if(e.key==='Escape')closeMenus();});
   }
  });
