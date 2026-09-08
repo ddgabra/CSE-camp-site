@@ -12,7 +12,11 @@ The Vercel route handler serves the appropriate language and device layout. Regi
 
 ## Status
 
-Capture and verification in progress. This is not yet a verified exact replica. See migration/reports for captured routes, asset inventory, missing-page reports, and visual comparisons when the workflow finishes.
+The online copy is ready for a preview deployment. GitHub Actions run 34279495308 passed on 2026-09-08: 240 route/language/device variants, visible-text comparisons, image loading, all 17 FAQ answers in each layout and language, language switching, desktop menus, and original mobile navigation.
+
+This is a close visual copy, not a certified pixel-perfect or fully independent migration. Twelve full-page screenshot comparisons cover the welcome, home, and camp pages in both languages and device layouts. Six match exactly; the others show approximately 0.5–2.2% differing pixels at the comparison threshold. Other routes were checked for text and image loading, not exhaustively compared pixel by pixel. Reports and screenshots are under migration/.
+
+The source route /category/all-products already returns 404 on Wix. External registration, donation, mailing-list, social, and marketing destinations remain external services. The home slideshow uses captured images with replacement navigation controls.
 
 Wix form submissions still require the current Wix website; the preview explicitly routes visitors there. A replacement form backend is not configured. Domain/DNS changes are not part of this preview.
 
