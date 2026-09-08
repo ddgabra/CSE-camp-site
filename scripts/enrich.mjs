@@ -12,7 +12,8 @@ for(const item of report.pages){
  const key=item.pathname==='/'?'index':item.pathname.replace(/^\/|\/$/g,'');
  const file='public/capture/'+item.mode+'/'+item.lang+'/'+key+'.html';
  let html=await readFile(file,'utf8');
- if(!html.includes('data-hook="accordion-item-header"'))continue;
+ if(item.pathname!=='/camp-faq'&&item.pathname!=='/home')continue;
+ console.log('Enrich '+item.mode+' '+item.lang+' '+item.pathname);
  const ctx=await browser.newContext(item.mode==='mobile'?{...devices['iPhone 13']}:{viewport:{width:1440,height:1000}});
  const p=await ctx.newPage();
  p.on('response',r=>{
@@ -29,11 +30,28 @@ for(const item of report.pages){
   })();pending.add(task);task.finally(()=>pending.delete(task));
  });
  await p.goto(origin+item.pathname+'?lang='+item.lang,{waitUntil:'domcontentloaded',timeout:60000}).catch(()=>{});
- await p.waitForSelector('[data-hook="accordion-item-header"]');
- const count=await p.locator('[data-hook="accordion-item-header"]').count();
+ await p.waitForTimeout(2500);
+ if(item.pathname==='/home'){
+  const frame=p.frames().find(f=>f.url().includes('StripSlideshow.html'));
+  if(!frame)throw new Error('Slideshow frame missing');
+  await frame.waitForSelector('img, [style*="background-image"]',{state:'attached',timeout:30000});
+  await p.waitForTimeout(1500);
+  const frameHTML=await frame.evaluate(()=>{const d=document.documentElement.cloneNode(true);d.querySelectorAll('script').forEach(x=>x.remove());d.querySelectorAll('*').forEach(e=>{for(const a of [...e.attributes])if(a.name.startsWith('on'))e.removeAttribute(a.name);});d.querySelectorAll('img').forEach((e,n)=>{e.src=document.images[n].currentSrc||document.images[n].src;e.removeAttribute('srcset');});return '<!doctype html>'+d.outerHTML;});
+  await Promise.allSettled([...pending]);
+  let content=frameHTML;
+  for(const [url,a]of Object.entries(assets))content=content.split(url).join(a.dest).split(url.replaceAll('&','&amp;')).join(a.dest);
+  const name='/capture/'+item.mode+'/'+item.lang+'/home-slideshow.html';
+  await writeFile('public'+name,content);
+  html=html.replace(/(<iframe[^>]*src=")[^"]*StripSlideshow[^" ]*(")/, '$1'+name+'$2');
+  await writeFile(file,html);
+  enriched.push({pathname:item.pathname,lang:item.lang,mode:item.mode,slideshow:true});
+  await ctx.close();continue;
+ }
+ await p.waitForSelector('[data-hook="accordion-item-header"]:visible');
+ const count=await p.locator('[data-hook="accordion-item-header"]:visible').count();
  const panels={};
  for(let n=0;n<count;n++){
-  const button=p.locator('[data-hook="accordion-item-header"]').nth(n);
+  const button=p.locator('[data-hook="accordion-item-header"]:visible').nth(n);
   const id=await button.getAttribute('aria-controls');
   await button.click();await p.waitForFunction(id=>document.getElementById(id)?.textContent.trim().length>0,id);await p.waitForTimeout(350);
   const content=await p.locator('[id="'+id+'"]').innerHTML();
