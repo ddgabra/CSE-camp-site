@@ -1,14 +1,14 @@
 {
-  "verifiedAt": "2026-09-08T22:47:45.383Z",
+  "verifiedAt": "2026-09-08T22:51:54.965Z",
   "results": [
     {
       "test": "FAQ expands through intermediate heights",
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "height": 134.6875,
+        "height": 134.65625,
         "target": 189,
-        "opacity": 0.712633,
+        "opacity": 0.712539,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -28,9 +28,9 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "height": 71.71875,
+        "height": 71.75,
         "target": 189,
-        "opacity": 0.380541,
+        "opacity": 0.380661,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -90,7 +90,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.90752,
+        "opacity": 0.907304,
         "animations": 1
       },
       "passed": true
@@ -100,7 +100,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.133377,
+        "opacity": 0.132996,
         "inert": true
       },
       "passed": true
@@ -109,7 +109,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.72677,
+      "opacity": 0.726624,
       "passed": true
     },
     {
@@ -130,9 +130,9 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "height": 156.734375,
+        "height": 156.75,
         "target": 220,
-        "opacity": 0.71246,
+        "opacity": 0.712559,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -152,9 +152,9 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "height": 83.71875,
+        "height": 83.734375,
         "target": 220,
-        "opacity": 0.380547,
+        "opacity": 0.380635,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -214,7 +214,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.854277,
+        "opacity": 0.854518,
         "animations": 1
       },
       "passed": true
@@ -224,7 +224,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.133224,
+        "opacity": 0.0732841,
         "inert": true
       },
       "passed": true
@@ -233,7 +233,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.727038,
+      "opacity": 0.727006,
       "passed": true
     },
     {
@@ -254,9 +254,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.125,
+        "height": 324.1875,
         "target": 455,
-        "opacity": 0.712367,
+        "opacity": 0.712524,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -276,9 +276,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 130.671875,
+        "height": 173.015625,
         "target": 455,
-        "opacity": 0.287525,
+        "opacity": 0.380679,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -338,8 +338,8 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.80493,
-        "transform": "matrix(1, 0, 0, 1, 4.68169, 0)"
+        "opacity": 0.805044,
+        "transform": "matrix(1, 0, 0, 1, 4.67895, 0)"
       },
       "passed": true
     },
@@ -349,7 +349,7 @@
       "lang": "en",
       "expanding": {
         "height": 77.390625,
-        "opacity": 0.691001
+        "opacity": 0.690989
       },
       "full": 112,
       "passed": true
@@ -365,7 +365,7 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "opacity": 0.281864,
+        "opacity": 0.281901,
         "inert": true
       },
       "passed": true
@@ -389,9 +389,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 369.109375,
+        "height": 369.125,
         "target": 518,
-        "opacity": 0.712569,
+        "opacity": 0.712623,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -411,9 +411,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 197.078125,
+        "height": 197.046875,
         "target": 518,
-        "opacity": 0.380849,
+        "opacity": 0.380767,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -473,8 +473,8 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.805088,
-        "transform": "matrix(1, 0, 0, 1, 4.67789, 0)"
+        "opacity": 0.718081,
+        "transform": "matrix(1, 0, 0, 1, 6.76607, 0)"
       },
       "passed": true
     },
@@ -483,8 +483,8 @@
       "mode": "mobile",
       "lang": "fr",
       "expanding": {
-        "height": 77.390625,
-        "opacity": 0.691001
+        "height": 77.40625,
+        "opacity": 0.691213
       },
       "full": 112,
       "passed": true
@@ -500,7 +500,7 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "opacity": 0.282048,
+        "opacity": 0.281993,
         "inert": true
       },
       "passed": true
@@ -524,11 +524,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.982117,
+          "opacity": 0.982114,
           "inert": true
         },
         {
-          "opacity": 0.409924,
+          "opacity": 0.40995,
           "inert": false
         }
       ],
@@ -561,11 +561,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.982115,
+          "opacity": 0.982114,
           "inert": true
         },
         {
-          "opacity": 0.40994,
+          "opacity": 0.409955,
           "inert": false
         }
       ],
@@ -1529,7 +1529,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "history",
-      "midway": 31,
+      "midway": 11,
       "end": 500,
       "passed": true
     },
@@ -1818,8 +1818,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642294,
-      "second": 0.430518,
+      "first": 0.0642397,
+      "second": 0.430402,
       "passed": true
     },
     {
@@ -2131,8 +2131,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642645,
-      "second": 0.430463,
+      "first": 0.0642415,
+      "second": 0.430406,
       "passed": true
     },
     {
@@ -3182,6 +3182,36 @@
       "passed": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/",
       "lang": "fr",
       "mode": "desktop",
@@ -3204,6 +3234,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/",
       "lang": "en",
       "mode": "desktop",
@@ -3226,6 +3286,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 2,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 2,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 2,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/home",
       "lang": "fr",
       "mode": "desktop",
@@ -3244,8 +3334,38 @@
           2442
         ]
       },
-      "pixelDifference": 0.022864910364910365,
+      "pixelDifference": 0.022790688415688414,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 2,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 2,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 2,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/home",
@@ -3266,8 +3386,38 @@
           2433
         ]
       },
-      "pixelDifference": 0.02589766863040599,
+      "pixelDifference": 0.025751815317166735,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camps",
@@ -3288,8 +3438,38 @@
           6142
         ]
       },
-      "pixelDifference": 0.030212177538984766,
+      "pixelDifference": 0.046846394587358446,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camps",
@@ -3310,8 +3490,82 @@
           6060
         ]
       },
-      "pixelDifference": 0.027828543270993766,
+      "pixelDifference": 0.027824647048038137,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu1ddo1_img",
+          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 1920,
+            "height": 746
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 746
+          },
+          "rightGap": 480,
+          "leftGap": 0,
+          "bottomGap": 0,
+          "topGap": 0
+        }
+      ],
+      "passed": false
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu1ddo1_img",
+          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 2560,
+            "height": 746
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 746
+          },
+          "rightGap": 1120,
+          "leftGap": 0,
+          "bottomGap": 0,
+          "topGap": 0
+        }
+      ],
+      "passed": false
     },
     {
       "pathname": "/dfp",
@@ -3325,6 +3579,80 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu1ddo1_img",
+          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 1920,
+            "height": 746
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 746
+          },
+          "rightGap": 480,
+          "leftGap": 0,
+          "bottomGap": 0,
+          "topGap": 0
+        }
+      ],
+      "passed": false
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu1ddo1_img",
+          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 2560,
+            "height": 746
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 746
+          },
+          "rightGap": 1120,
+          "leftGap": 0,
+          "bottomGap": 0,
+          "topGap": 0
+        }
+      ],
+      "passed": false
+    },
+    {
       "pathname": "/dfp",
       "lang": "en",
       "mode": "desktop",
@@ -3336,6 +3664,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-staff-and-volunteers",
       "lang": "en",
       "mode": "desktop",
@@ -3347,6 +3705,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-staff-and-volunteers",
       "lang": "fr",
       "mode": "desktop",
@@ -3356,6 +3744,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 16,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 16,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 16,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camp-sponsors",
@@ -3369,6 +3787,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 16,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 16,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 16,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-sponsors",
       "lang": "en",
       "mode": "desktop",
@@ -3378,6 +3826,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camp-subsidies",
@@ -3391,6 +3869,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-subsidies",
       "lang": "en",
       "mode": "desktop",
@@ -3400,6 +3908,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camp-faq",
@@ -3416,6 +3954,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-faq",
       "lang": "en",
       "mode": "desktop",
@@ -3430,6 +3998,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/mission-en",
       "lang": "fr",
       "mode": "desktop",
@@ -3441,6 +4039,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/mission-en",
       "lang": "en",
       "mode": "desktop",
@@ -3450,6 +4078,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 7,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/history",
@@ -3463,6 +4121,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/history",
       "lang": "en",
       "mode": "desktop",
@@ -3474,6 +4162,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/staff",
       "lang": "fr",
       "mode": "desktop",
@@ -3485,6 +4203,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/staff",
       "lang": "en",
       "mode": "desktop",
@@ -3494,6 +4242,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/board-of-directors",
@@ -3507,6 +4285,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/board-of-directors",
       "lang": "en",
       "mode": "desktop",
@@ -3518,6 +4326,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/donate",
       "lang": "fr",
       "mode": "desktop",
@@ -3529,6 +4367,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/donate",
       "lang": "en",
       "mode": "desktop",
@@ -3538,6 +4406,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/pray-for-us",
@@ -3551,6 +4449,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/pray-for-us",
       "lang": "en",
       "mode": "desktop",
@@ -3562,6 +4490,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/planned-giving",
       "lang": "fr",
       "mode": "desktop",
@@ -3573,6 +4531,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/planned-giving",
       "lang": "en",
       "mode": "desktop",
@@ -3582,6 +4570,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/banquet",
@@ -3595,6 +4613,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/banquet",
       "lang": "en",
       "mode": "desktop",
@@ -3606,6 +4654,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/financials",
       "lang": "fr",
       "mode": "desktop",
@@ -3617,6 +4695,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/financials",
       "lang": "en",
       "mode": "desktop",
@@ -3626,6 +4734,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/policies",
@@ -3639,6 +4777,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/policies",
       "lang": "en",
       "mode": "desktop",
@@ -3650,6 +4818,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/testimonials",
       "lang": "fr",
       "mode": "desktop",
@@ -3661,6 +4859,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/testimonials",
       "lang": "en",
       "mode": "desktop",
@@ -3670,6 +4898,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/newsletters",
@@ -3683,6 +4941,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/newsletters",
       "lang": "en",
       "mode": "desktop",
@@ -3694,6 +4982,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/facility-rental",
       "lang": "fr",
       "mode": "desktop",
@@ -3705,6 +5023,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/facility-rental",
       "lang": "en",
       "mode": "desktop",
@@ -3714,6 +5062,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/contact-us",
@@ -3727,6 +5105,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/contact-us",
       "lang": "en",
       "mode": "desktop",
@@ -3738,6 +5146,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/careers",
       "lang": "fr",
       "mode": "desktop",
@@ -3749,6 +5187,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/careers",
       "lang": "en",
       "mode": "desktop",
@@ -3758,6 +5226,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-1",
@@ -3771,6 +5269,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-1",
       "lang": "en",
       "mode": "desktop",
@@ -3782,6 +5310,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-10",
       "lang": "fr",
       "mode": "desktop",
@@ -3793,6 +5351,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-10",
       "lang": "en",
       "mode": "desktop",
@@ -3802,6 +5390,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-11",
@@ -3815,6 +5433,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-11",
       "lang": "en",
       "mode": "desktop",
@@ -3826,6 +5474,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-9",
       "lang": "fr",
       "mode": "desktop",
@@ -3837,6 +5515,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-9",
       "lang": "en",
       "mode": "desktop",
@@ -3846,6 +5554,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-4",
@@ -3859,6 +5597,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-4",
       "lang": "en",
       "mode": "desktop",
@@ -3870,6 +5638,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-2",
       "lang": "fr",
       "mode": "desktop",
@@ -3881,6 +5679,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-2",
       "lang": "en",
       "mode": "desktop",
@@ -3890,6 +5718,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-5",
@@ -3903,6 +5761,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-5",
       "lang": "en",
       "mode": "desktop",
@@ -3914,6 +5802,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-6",
       "lang": "fr",
       "mode": "desktop",
@@ -3925,6 +5843,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-6",
       "lang": "en",
       "mode": "desktop",
@@ -3934,6 +5882,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-7",
@@ -3947,6 +5925,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-7",
       "lang": "en",
       "mode": "desktop",
@@ -3958,6 +5966,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/shoes",
       "lang": "fr",
       "mode": "desktop",
@@ -3969,6 +6007,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/shoes",
       "lang": "en",
       "mode": "desktop",
@@ -3978,6 +6046,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-8",
@@ -3991,6 +6089,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-8",
       "lang": "en",
       "mode": "desktop",
@@ -4002,6 +6130,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
       "lang": "fr",
       "mode": "desktop",
@@ -4013,6 +6171,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
       "lang": "en",
       "mode": "desktop",
@@ -4022,6 +6210,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
@@ -4035,6 +6253,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
       "lang": "en",
       "mode": "desktop",
@@ -4046,6 +6294,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
       "lang": "fr",
       "mode": "desktop",
@@ -4057,6 +6335,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
       "lang": "en",
       "mode": "desktop",
@@ -4066,6 +6374,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
@@ -4079,6 +6417,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
       "lang": "en",
       "mode": "desktop",
@@ -4090,6 +6458,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
       "lang": "fr",
       "mode": "desktop",
@@ -4101,6 +6499,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
       "lang": "en",
       "mode": "desktop",
@@ -4110,6 +6538,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
@@ -4123,6 +6581,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
       "lang": "en",
       "mode": "desktop",
@@ -4134,6 +6622,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/your-name-here",
       "lang": "fr",
       "mode": "desktop",
@@ -4145,6 +6663,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/your-name-here",
       "lang": "en",
       "mode": "desktop",
@@ -4154,6 +6702,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
@@ -4167,6 +6745,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
       "lang": "en",
       "mode": "desktop",
@@ -4178,6 +6786,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
       "lang": "fr",
       "mode": "desktop",
@@ -4189,6 +6827,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
       "lang": "en",
       "mode": "desktop",
@@ -4198,6 +6866,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
@@ -4211,6 +6909,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
       "lang": "en",
       "mode": "desktop",
@@ -4222,6 +6950,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
       "lang": "fr",
       "mode": "desktop",
@@ -4233,6 +6991,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
       "lang": "en",
       "mode": "desktop",
@@ -4242,6 +7030,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
@@ -4255,6 +7073,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
       "lang": "en",
       "mode": "desktop",
@@ -4266,6 +7114,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
       "lang": "fr",
       "mode": "desktop",
@@ -4275,6 +7153,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
@@ -4288,6 +7196,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
       "lang": "fr",
       "mode": "desktop",
@@ -4299,6 +7237,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
       "lang": "en",
       "mode": "desktop",
@@ -4308,6 +7276,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
@@ -4335,6 +7333,36 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
       "lang": "fr",
       "mode": "desktop",
@@ -4360,6 +7388,80 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu8ii1j_img",
+          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 1920,
+            "height": 585.203125
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 585
+          },
+          "rightGap": 480,
+          "leftGap": 0,
+          "bottomGap": 0.203125,
+          "topGap": 0
+        }
+      ],
+      "passed": false
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu8ii1j_img",
+          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 2560,
+            "height": 585.203125
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 585
+          },
+          "rightGap": 1120,
+          "leftGap": 0,
+          "bottomGap": 0.203125,
+          "topGap": 0
+        }
+      ],
+      "passed": false
+    },
+    {
       "pathname": "/archived-dfp-costs",
       "lang": "en",
       "mode": "desktop",
@@ -4376,6 +7478,80 @@
       "mode": "desktop",
       "redirect": "https://drive.google.com/drive/folders/1jWiz66ZhfiGZmV5F_eNW8JvkdBFP0USj?usp=sharing",
       "preserved": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu8ii1j_img",
+          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 1920,
+            "height": 585.203125
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 585
+          },
+          "rightGap": 480,
+          "leftGap": 0,
+          "bottomGap": 0.203125,
+          "topGap": 0
+        }
+      ],
+      "passed": false
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 1,
+      "issues": [
+        {
+          "id": "comp-lpu8ii1j_img",
+          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
+          "fit": "cover",
+          "host": {
+            "x": 0,
+            "y": 83,
+            "width": 2560,
+            "height": 585.203125
+          },
+          "image": {
+            "x": 0,
+            "y": 83,
+            "width": 1440,
+            "height": 585
+          },
+          "rightGap": 1120,
+          "leftGap": 0,
+          "bottomGap": 0.203125,
+          "topGap": 0
+        }
+      ],
+      "passed": false
     },
     {
       "pathname": "/archived-dfp-costs",
@@ -4396,6 +7572,36 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/men",
       "lang": "en",
       "mode": "desktop",
@@ -4405,6 +7611,36 @@
       "sourceBrokenImages": 1,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 10,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/men",
@@ -4418,6 +7654,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/hiring",
       "lang": "en",
       "mode": "desktop",
@@ -4427,6 +7693,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/support-our-camps",
@@ -4440,6 +7736,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/hiring",
       "lang": "fr",
       "mode": "desktop",
@@ -4449,6 +7775,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/cse-prayer",
@@ -4469,6 +7825,36 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/support-our-camps",
       "lang": "fr",
       "mode": "desktop",
@@ -4478,6 +7864,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/cse-prayer",
@@ -4498,6 +7914,36 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-3",
       "lang": "en",
       "mode": "desktop",
@@ -4507,6 +7953,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -4520,6 +7996,36 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-3",
       "lang": "fr",
       "mode": "desktop",
@@ -4529,6 +8035,36 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -4550,6 +8086,16 @@
       "passed": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/",
       "lang": "en",
       "mode": "mobile",
@@ -4570,6 +8116,16 @@
       },
       "pixelDifference": 0,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/",
@@ -4594,6 +8150,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 2,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/home",
       "lang": "en",
       "mode": "mobile",
@@ -4612,8 +8178,18 @@
           9678
         ]
       },
-      "pixelDifference": 0.007310394709650754,
+      "pixelDifference": 0.0073185747744024246,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/home",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 2,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/home",
@@ -4634,8 +8210,18 @@
           9831
         ]
       },
-      "pixelDifference": 0.004870541314888279,
+      "pixelDifference": 0.004840025599294748,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camps",
@@ -4656,8 +8242,18 @@
           28224
         ]
       },
-      "pixelDifference": 0,
+      "pixelDifference": 0.028450151762093725,
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camps",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camps",
@@ -4682,6 +8278,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/dfp",
       "lang": "en",
       "mode": "mobile",
@@ -4693,6 +8299,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/dfp",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/dfp",
       "lang": "fr",
       "mode": "mobile",
@@ -4702,6 +8318,16 @@
       "sourceBrokenImages": 1,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camp-staff-and-volunteers",
@@ -4715,6 +8341,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-staff-and-volunteers",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-staff-and-volunteers",
       "lang": "fr",
       "mode": "mobile",
@@ -4726,6 +8362,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 16,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-sponsors",
       "lang": "en",
       "mode": "mobile",
@@ -4735,6 +8381,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-sponsors",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 16,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camp-sponsors",
@@ -4748,6 +8404,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-subsidies",
       "lang": "en",
       "mode": "mobile",
@@ -4759,6 +8425,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-subsidies",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-subsidies",
       "lang": "fr",
       "mode": "mobile",
@@ -4768,6 +8444,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/camp-faq",
@@ -4784,6 +8470,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/camp-faq",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/camp-faq",
       "lang": "fr",
       "mode": "mobile",
@@ -4798,6 +8494,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/mission-en",
       "lang": "en",
       "mode": "mobile",
@@ -4809,6 +8515,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/mission-en",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/mission-en",
       "lang": "fr",
       "mode": "mobile",
@@ -4818,6 +8534,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 7,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/history",
@@ -4831,6 +8557,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/history",
       "lang": "fr",
       "mode": "mobile",
@@ -4842,6 +8578,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/staff",
       "lang": "en",
       "mode": "mobile",
@@ -4853,6 +8599,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/staff",
       "lang": "fr",
       "mode": "mobile",
@@ -4862,6 +8618,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/board-of-directors",
@@ -4875,6 +8641,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/board-of-directors",
       "lang": "fr",
       "mode": "mobile",
@@ -4886,6 +8662,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/donate",
       "lang": "en",
       "mode": "mobile",
@@ -4897,6 +8683,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/donate",
       "lang": "fr",
       "mode": "mobile",
@@ -4906,6 +8702,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/pray-for-us",
@@ -4919,6 +8725,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/pray-for-us",
       "lang": "fr",
       "mode": "mobile",
@@ -4930,6 +8746,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/planned-giving",
       "lang": "en",
       "mode": "mobile",
@@ -4939,6 +8765,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/planned-giving",
@@ -4952,6 +8788,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/banquet",
       "lang": "en",
       "mode": "mobile",
@@ -4963,6 +8809,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/banquet",
       "lang": "fr",
       "mode": "mobile",
@@ -4972,6 +8828,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/financials",
@@ -4990,6 +8856,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/financials",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/financials",
       "lang": "fr",
       "mode": "mobile",
@@ -5006,6 +8882,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/policies",
       "lang": "en",
       "mode": "mobile",
@@ -5017,6 +8903,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/policies",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/policies",
       "lang": "fr",
       "mode": "mobile",
@@ -5026,6 +8922,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 2,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/testimonials",
@@ -5039,6 +8945,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 2,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/testimonials",
       "lang": "fr",
       "mode": "mobile",
@@ -5050,6 +8966,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/newsletters",
       "lang": "en",
       "mode": "mobile",
@@ -5061,6 +8987,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/newsletters",
       "lang": "fr",
       "mode": "mobile",
@@ -5070,6 +9006,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/facility-rental",
@@ -5083,6 +9029,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/facility-rental",
       "lang": "fr",
       "mode": "mobile",
@@ -5094,6 +9050,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/contact-us",
       "lang": "en",
       "mode": "mobile",
@@ -5103,6 +9069,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/contact-us",
@@ -5116,6 +9092,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/careers",
       "lang": "en",
       "mode": "mobile",
@@ -5127,6 +9113,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/careers",
       "lang": "fr",
       "mode": "mobile",
@@ -5136,6 +9132,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-1",
@@ -5149,6 +9155,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-10",
       "lang": "en",
       "mode": "mobile",
@@ -5158,6 +9174,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-11",
@@ -5171,6 +9197,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-9",
       "lang": "en",
       "mode": "mobile",
@@ -5180,6 +9216,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-4",
@@ -5193,6 +9239,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-2",
       "lang": "en",
       "mode": "mobile",
@@ -5202,6 +9258,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-5",
@@ -5215,6 +9281,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-6",
       "lang": "en",
       "mode": "mobile",
@@ -5224,6 +9300,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-7",
@@ -5237,6 +9323,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/shoes",
       "lang": "en",
       "mode": "mobile",
@@ -5246,6 +9342,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-8",
@@ -5259,6 +9365,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-1",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-1",
       "lang": "fr",
       "mode": "mobile",
@@ -5268,6 +9384,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
@@ -5281,6 +9407,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-10",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-10",
       "lang": "fr",
       "mode": "mobile",
@@ -5290,6 +9426,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
@@ -5303,6 +9449,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-11",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-11",
       "lang": "fr",
       "mode": "mobile",
@@ -5312,6 +9468,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
@@ -5325,6 +9491,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-9",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-9",
       "lang": "fr",
       "mode": "mobile",
@@ -5334,6 +9510,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
@@ -5347,6 +9533,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-4",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-4",
       "lang": "fr",
       "mode": "mobile",
@@ -5356,6 +9552,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
@@ -5369,6 +9575,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-2",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-2",
       "lang": "fr",
       "mode": "mobile",
@@ -5378,6 +9594,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
@@ -5391,6 +9617,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-5",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-5",
       "lang": "fr",
       "mode": "mobile",
@@ -5400,6 +9636,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-6",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-6",
@@ -5413,6 +9659,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/your-name-here",
       "lang": "en",
       "mode": "mobile",
@@ -5422,6 +9678,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-7",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-7",
@@ -5435,6 +9701,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
       "lang": "en",
       "mode": "mobile",
@@ -5444,6 +9720,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/shoes",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/shoes",
@@ -5457,6 +9743,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
       "lang": "en",
       "mode": "mobile",
@@ -5466,6 +9762,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-8",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/product-page/i-m-a-product-8",
@@ -5479,6 +9785,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
       "lang": "en",
       "mode": "mobile",
@@ -5488,6 +9804,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-therese-institute-of-faith-and-mission",
@@ -5501,6 +9827,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
       "lang": "en",
       "mode": "mobile",
@@ -5510,6 +9846,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/genesis-electric",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/genesis-electric",
@@ -5523,6 +9869,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
       "lang": "en",
       "mode": "mobile",
@@ -5532,6 +9888,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/nu-life-kitchens",
@@ -5545,6 +9911,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
       "lang": "en",
       "mode": "mobile",
@@ -5554,6 +9930,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/jmd-electric-ltd.",
@@ -5567,6 +9953,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
       "lang": "en",
       "mode": "mobile",
@@ -5578,6 +9974,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/galaxy-travel",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/galaxy-travel",
       "lang": "fr",
       "mode": "mobile",
@@ -5587,6 +9993,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
@@ -5614,6 +10030,16 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/the-catholic-charismatic-renewal-services-of-manitoba",
       "lang": "fr",
       "mode": "mobile",
@@ -5623,6 +10049,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/archived-dfp-costs",
@@ -5643,6 +10079,16 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/men",
       "lang": "en",
       "mode": "mobile",
@@ -5652,6 +10098,16 @@
       "sourceBrokenImages": 1,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/hiring",
@@ -5665,6 +10121,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/support-our-camps",
       "lang": "en",
       "mode": "mobile",
@@ -5674,6 +10140,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/cse-prayer",
@@ -5694,6 +10170,16 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/your-name-here",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/your-name-here",
       "lang": "fr",
       "mode": "mobile",
@@ -5703,6 +10189,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/manitoba-camping-association",
@@ -5716,6 +10212,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/eastman-seal-coating-ltd.",
       "lang": "fr",
       "mode": "mobile",
@@ -5725,6 +10231,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/baltic-athletics",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/baltic-athletics",
@@ -5738,6 +10254,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/oak-island-designs",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/oak-island-designs",
       "lang": "fr",
       "mode": "mobile",
@@ -5747,6 +10273,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/catholic-women's-league",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/catholic-women's-league",
@@ -5760,6 +10296,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus-castillo-agency",
       "lang": "fr",
       "mode": "mobile",
@@ -5771,6 +10317,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/knights-of-columbus",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/smcc-sponsors-2025/knights-of-columbus",
       "lang": "fr",
       "mode": "mobile",
@@ -5780,6 +10336,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/st.-joseph's-carpentry-ltd.",
@@ -5807,6 +10373,16 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/archived-dfp-costs",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 1,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/archived-dfp-costs",
       "lang": "fr",
       "mode": "mobile",
@@ -5825,6 +10401,16 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/men",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/men",
       "lang": "fr",
       "mode": "mobile",
@@ -5834,6 +10420,16 @@
       "sourceBrokenImages": 1,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/hiring",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/hiring",
@@ -5847,6 +10443,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/support-our-camps",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/support-our-camps",
       "lang": "fr",
       "mode": "mobile",
@@ -5856,6 +10462,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/cse-prayer",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 0,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/cse-prayer",
@@ -5876,6 +10492,16 @@
       "preserved": true
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-3",
       "lang": "en",
       "mode": "mobile",
@@ -5885,6 +10511,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -5898,6 +10534,16 @@
       "newScriptErrors": []
     },
     {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/product-page/i-m-a-product-3",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
       "pathname": "/product-page/i-m-a-product-3",
       "lang": "fr",
       "mode": "mobile",
@@ -5907,6 +10553,16 @@
       "sourceBrokenImages": 0,
       "scriptErrors": [],
       "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/smcc-sponsors-2025/canopy-mgmt",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 17,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/smcc-sponsors-2025/canopy-mgmt",
@@ -5939,9 +10595,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.12408447265625,
-      "imageRight": 1024.1239624023438,
-      "imageWidth": 1024.248046875,
+      "imageLeft": -0.09857177734375,
+      "imageRight": 1024.0986938476562,
+      "imageWidth": 1024.197265625,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -6010,9 +10666,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.25262451171875,
-      "imageRight": 1024.2527465820312,
-      "imageWidth": 1024.50537109375,
+      "imageLeft": -0.2164306640625,
+      "imageRight": 1024.2164306640625,
+      "imageWidth": 1024.432861328125,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -6081,9 +10737,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.47064208984375,
-      "imageRight": 1280.4707641601562,
-      "imageWidth": 1280.94140625,
+      "imageLeft": -0.4703369140625,
+      "imageRight": 1280.4703369140625,
+      "imageWidth": 1280.940673828125,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -6152,9 +10808,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.7188720703125,
-      "imageRight": 1280.7188720703125,
-      "imageWidth": 1281.437744140625,
+      "imageLeft": -0.6522216796875,
+      "imageRight": 1280.6522216796875,
+      "imageWidth": 1281.304443359375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -6223,9 +10879,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -1.05255126953125,
-      "imageRight": 1441.0524291992188,
-      "imageWidth": 1442.10498046875,
+      "imageLeft": -0.968017578125,
+      "imageRight": 1440.968017578125,
+      "imageWidth": 1441.93603515625,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -6294,9 +10950,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -1.3240966796875,
-      "imageRight": 1441.3240966796875,
-      "imageWidth": 1442.648193359375,
+      "imageLeft": -1.23095703125,
+      "imageRight": 1441.23095703125,
+      "imageWidth": 1442.4619140625,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -6436,9 +11092,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -3.0592041015625,
-      "imageRight": 1923.0592041015625,
-      "imageWidth": 1926.118408203125,
+      "imageLeft": -2.90155029296875,
+      "imageRight": 1922.9016723632812,
+      "imageWidth": 1925.80322265625,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -6507,9 +11163,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -12.3548583984375,
-      "imageRight": 2572.3551025390625,
-      "imageWidth": 2584.7099609375,
+      "imageLeft": -11.3746337890625,
+      "imageRight": 2571.3743896484375,
+      "imageWidth": 2582.7490234375,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -6578,9 +11234,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -13.70947265625,
-      "imageRight": 2573.70947265625,
-      "imageWidth": 2587.4189453125,
+      "imageLeft": -12.353515625,
+      "imageRight": 2572.353515625,
+      "imageWidth": 2584.70703125,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -6649,9 +11305,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -7.3795166015625,
-      "imageRight": 1287.3795166015625,
-      "imageWidth": 1294.759033203125,
+      "imageLeft": -6.854736328125,
+      "imageRight": 1286.854736328125,
+      "imageWidth": 1293.70947265625,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -6720,9 +11376,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -7.91900634765625,
-      "imageRight": 1287.9188842773438,
-      "imageWidth": 1295.837890625,
+      "imageLeft": -7.379638671875,
+      "imageRight": 1287.379638671875,
+      "imageWidth": 1294.75927734375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -6788,83 +11444,83 @@
       "lang": "en",
       "width": 1920,
       "slide": 0,
+      "innerScrollWidth": 1920,
+      "slideWidth": 1920,
+      "viewport": 1920,
+      "imageLeft": -12.151123046875,
+      "imageRight": 1932.151123046875,
+      "imageWidth": 1944.30224609375,
+      "overlayLeft": 470,
+      "overlayWidth": 980,
+      "frame": 1920,
+      "scrollWidth": 1920,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 1296.96875,
+      "right": 1430,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1920,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1920,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1920,
+      "slide": 1,
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
       "imageLeft": -12.9874267578125,
       "imageRight": 1932.9874267578125,
       "imageWidth": 1945.974853515625,
-      "overlayLeft": 470,
-      "overlayWidth": 980,
-      "frame": 1920,
-      "scrollWidth": 1920,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 1296.96875,
-      "right": 1430,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1920,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1920,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1920,
-      "slide": 1,
-      "innerScrollWidth": 1920,
-      "slideWidth": 1920,
-      "viewport": 1920,
-      "imageLeft": -13.84393310546875,
-      "imageRight": 1933.8440551757812,
-      "imageWidth": 1947.68798828125,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -7075,9 +11731,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.1903076171875,
-      "imageRight": 1280.1903076171875,
-      "imageWidth": 1280.380615234375,
+      "imageLeft": -0.190185546875,
+      "imageRight": 1280.190185546875,
+      "imageWidth": 1280.38037109375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -7146,9 +11802,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.36431884765625,
-      "imageRight": 1280.3641967773438,
-      "imageWidth": 1280.728515625,
+      "imageLeft": -0.31591796875,
+      "imageRight": 1280.31591796875,
+      "imageWidth": 1280.6318359375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -7217,9 +11873,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -0.59417724609375,
-      "imageRight": 1440.5942993164062,
-      "imageWidth": 1441.1884765625,
+      "imageLeft": -0.5941162109375,
+      "imageRight": 1440.5941162109375,
+      "imageWidth": 1441.188232421875,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -7288,9 +11944,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -0.8089599609375,
-      "imageRight": 1440.8089599609375,
-      "imageWidth": 1441.617919921875,
+      "imageLeft": -0.7340087890625,
+      "imageRight": 1440.7340087890625,
+      "imageWidth": 1441.468017578125,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -7359,9 +12015,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -1.52056884765625,
-      "imageRight": 1921.5204467773438,
-      "imageWidth": 1923.041015625,
+      "imageLeft": -1.40313720703125,
+      "imageRight": 1921.4030151367188,
+      "imageWidth": 1922.80615234375,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -7430,9 +12086,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -1.89398193359375,
-      "imageRight": 1921.8941040039062,
-      "imageWidth": 1923.7880859375,
+      "imageLeft": -1.7652587890625,
+      "imageRight": 1921.7652587890625,
+      "imageWidth": 1923.530517578125,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -7501,9 +12157,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -9.5078125,
-      "imageRight": 2569.5078125,
-      "imageWidth": 2579.015625,
+      "imageLeft": -10.1162109375,
+      "imageRight": 2570.1162109375,
+      "imageWidth": 2580.232421875,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -7572,9 +12228,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -10.738037109375,
-      "imageRight": 2570.738037109375,
-      "imageWidth": 2581.47607421875,
+      "imageLeft": -11.053466796875,
+      "imageRight": 2571.053466796875,
+      "imageWidth": 2582.10693359375,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -7643,9 +12299,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -5.8487548828125,
-      "imageRight": 1285.8487548828125,
-      "imageWidth": 1291.697509765625,
+      "imageLeft": -6.17669677734375,
+      "imageRight": 1286.1768188476562,
+      "imageWidth": 1292.353515625,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -7714,9 +12370,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -6.34429931640625,
-      "imageRight": 1286.3441772460938,
-      "imageWidth": 1292.6884765625,
+      "imageLeft": -6.683349609375,
+      "imageRight": 1286.683349609375,
+      "imageWidth": 1293.36669921875,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -7785,9 +12441,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -10.5418701171875,
-      "imageRight": 1930.5418701171875,
-      "imageWidth": 1941.083740234375,
+      "imageLeft": -11.0682373046875,
+      "imageRight": 1931.0682373046875,
+      "imageWidth": 1942.136474609375,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -7856,9 +12512,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -11.3363037109375,
-      "imageRight": 1931.3363037109375,
-      "imageWidth": 1942.672607421875,
+      "imageLeft": -11.8785400390625,
+      "imageRight": 1931.8785400390625,
+      "imageWidth": 1943.757080078125,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
