@@ -31,10 +31,140 @@
       "dest": "/assets/cse-spirituality-original.jpg"
     },
     {
+      "page": "contact-us",
+      "id": "img_comp-ll18nupa",
+      "source": "https://static.wixstatic.com/media/cfa17a_f9ae9958388c4e5488b2292fc93585fc~mv2.jpg",
+      "dest": "/assets/cse-contact-original.jpg"
+    },
+    {
       "page": "history",
       "id": "img_comp-jmb2cy4i",
       "source": "https://static.wixstatic.com/media/cfa17a_d44ad92fcedb4401a18b71b1974c405a.jpg",
       "dest": "/assets/cse-history-original.jpg"
+    },
+    {
+      "id": "cse-facility-photo-0",
+      "source": "https://static.wixstatic.com/media/cfa17a_fea96519443f4b968f994e3b299566e5.jpg",
+      "dest": "/assets/cse-facility-1.jpg"
+    },
+    {
+      "id": "cse-facility-photo-1",
+      "source": "https://static.wixstatic.com/media/cfa17a_741976bea04c434f974ca121a4ff9c54.jpg",
+      "dest": "/assets/cse-facility-2.jpg"
+    },
+    {
+      "id": "cse-facility-photo-2",
+      "source": "https://static.wixstatic.com/media/cfa17a_d4d97cf6dc5b42939df28c30c3fbb4b2.jpg",
+      "dest": "/assets/cse-facility-3.jpg"
+    },
+    {
+      "id": "cse-facility-photo-3",
+      "source": "https://static.wixstatic.com/media/cfa17a_eb780272faab4a8193b5cab76bb052be.jpg",
+      "dest": "/assets/cse-facility-4.jpg"
+    },
+    {
+      "id": "cse-facility-photo-4",
+      "source": "https://static.wixstatic.com/media/cfa17a_97ad665f5aa749b8bc97bbab9d8fd7a8.jpg",
+      "dest": "/assets/cse-facility-5.jpg"
+    },
+    {
+      "id": "cse-facility-photo-5",
+      "source": "https://static.wixstatic.com/media/cfa17a_9c7e2a368e564b13b39788774005003a.jpg",
+      "dest": "/assets/cse-facility-6.jpg"
+    },
+    {
+      "id": "cse-facility-photo-6",
+      "source": "https://static.wixstatic.com/media/cfa17a_43edab52b627461b90ea5baa92e104eb.jpg",
+      "dest": "/assets/cse-facility-7.jpg"
+    },
+    {
+      "id": "cse-facility-photo-7",
+      "source": "https://static.wixstatic.com/media/cfa17a_936088b670614dba983d0594ee834dae.jpg",
+      "dest": "/assets/cse-facility-8.jpg"
+    },
+    {
+      "id": "cse-facility-photo-8",
+      "source": "https://static.wixstatic.com/media/cfa17a_b69a9aaad3834bb9910932cfbd16b829.jpg",
+      "dest": "/assets/cse-facility-9.jpg"
+    },
+    {
+      "id": "cse-facility-photo-9",
+      "source": "https://static.wixstatic.com/media/cfa17a_ed00c27527094dd7971fd317b3234694.jpg",
+      "dest": "/assets/cse-facility-10.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_6100ad32d3b74344be85b98cc675b1d2f000.jpg",
+      "dest": "/assets/cse-bg-original-d8e806040023ad0e.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/nsplsh_42436b4c78696c44764a55~mv2_d_4720_3147_s_4_2.jpg",
+      "dest": "/assets/cse-bg-original-f4d2d18eaab43025.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_f9e9aa0db53c4031b1626e3015d7e5e9~mv2.jpg",
+      "dest": "/assets/cse-bg-original-4d9ed19685ff1f49.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_8ca37f26671f4b298d7f0b8f498530eb~mv2.jpg",
+      "dest": "/assets/cse-bg-original-6e46b94f0768db61.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_e9c7cfc50a784d0386ca2614424ec963~mv2.jpg",
+      "dest": "/assets/cse-bg-original-fe705be3a3a93a4b.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_5ddb4d190f604641af2e58e627de5fba~mv2_d_1746_1310_s_2.jpg",
+      "dest": "/assets/cse-bg-original-91c6f90471356be1.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_45f1bf1f891f4293a4c95d219b5f4c00~mv2.jpg",
+      "dest": "/assets/cse-bg-original-010709fa580bace8.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_b2ccb2ab7ccd436db29cd047ea879a06~mv2.jpg",
+      "dest": "/assets/cse-bg-original-66aebf99ec5a484c.jpg"
+    },
+    {
+      "source": "https://static.wixstatic.com/media/cfa17a_e5ac1484313241c4b37e009b5a1972f2~mv2_d_2016_1512_s_2.jpg",
+      "dest": "/assets/cse-bg-original-2574685a5653c782.jpg"
     }
+  ],
+  "updatedPages": [
+    "public/capture/desktop/en/archived-dfp-costs.html",
+    "public/capture/desktop/en/banquet.html",
+    "public/capture/desktop/en/camps.html",
+    "public/capture/desktop/en/contact-us.html",
+    "public/capture/desktop/en/dfp.html",
+    "public/capture/desktop/en/donate.html",
+    "public/capture/desktop/en/facility-rental.html",
+    "public/capture/desktop/en/men.html",
+    "public/capture/desktop/en/policies.html",
+    "public/capture/desktop/fr/archived-dfp-costs.html",
+    "public/capture/desktop/fr/banquet.html",
+    "public/capture/desktop/fr/camps.html",
+    "public/capture/desktop/fr/contact-us.html",
+    "public/capture/desktop/fr/dfp.html",
+    "public/capture/desktop/fr/donate.html",
+    "public/capture/desktop/fr/facility-rental.html",
+    "public/capture/desktop/fr/men.html",
+    "public/capture/desktop/fr/policies.html",
+    "public/capture/mobile/en/archived-dfp-costs.html",
+    "public/capture/mobile/en/banquet.html",
+    "public/capture/mobile/en/camps.html",
+    "public/capture/mobile/en/contact-us.html",
+    "public/capture/mobile/en/dfp.html",
+    "public/capture/mobile/en/donate.html",
+    "public/capture/mobile/en/facility-rental.html",
+    "public/capture/mobile/en/men.html",
+    "public/capture/mobile/en/policies.html",
+    "public/capture/mobile/fr/archived-dfp-costs.html",
+    "public/capture/mobile/fr/banquet.html",
+    "public/capture/mobile/fr/camps.html",
+    "public/capture/mobile/fr/contact-us.html",
+    "public/capture/mobile/fr/dfp.html",
+    "public/capture/mobile/fr/donate.html",
+    "public/capture/mobile/fr/facility-rental.html",
+    "public/capture/mobile/fr/men.html",
+    "public/capture/mobile/fr/policies.html"
   ]
 }

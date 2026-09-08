@@ -1,14 +1,106 @@
 {
-  "verifiedAt": "2026-09-08T22:51:54.965Z",
+  "verifiedAt": "2026-09-08T23:00:52.987Z",
   "results": [
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "desktop",
+      "lang": "en",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "desktop",
+      "lang": "fr",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "en",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "en",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "mobile",
+      "lang": "en",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "fr",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "fr",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "mobile",
+      "lang": "fr",
+      "errors": [],
+      "passed": true
+    },
     {
       "test": "FAQ expands through intermediate heights",
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "height": 134.65625,
+        "height": 134.609375,
         "target": 189,
-        "opacity": 0.712539,
+        "opacity": 0.712283,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -28,9 +120,9 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "height": 71.75,
+        "height": 71.734375,
         "target": 189,
-        "opacity": 0.380661,
+        "opacity": 0.380585,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -90,7 +182,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.907304,
+        "opacity": 0.854211,
         "animations": 1
       },
       "passed": true
@@ -100,7 +192,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.132996,
+        "opacity": 0.133303,
         "inert": true
       },
       "passed": true
@@ -109,7 +201,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.726624,
+      "opacity": 0.7269,
       "passed": true
     },
     {
@@ -130,9 +222,9 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "height": 156.75,
+        "height": 156.734375,
         "target": 220,
-        "opacity": 0.712559,
+        "opacity": 0.7125,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -152,9 +244,9 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "height": 83.734375,
+        "height": 83.75,
         "target": 220,
-        "opacity": 0.380635,
+        "opacity": 0.380723,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -214,7 +306,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.854518,
+        "opacity": 0.854359,
         "animations": 1
       },
       "passed": true
@@ -224,7 +316,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.0732841,
+        "opacity": 0.23462,
         "inert": true
       },
       "passed": true
@@ -233,7 +325,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.727006,
+      "opacity": 0.726119,
       "passed": true
     },
     {
@@ -254,9 +346,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.1875,
+        "height": 324.125,
         "target": 455,
-        "opacity": 0.712524,
+        "opacity": 0.712376,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -276,9 +368,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 173.015625,
+        "height": 172.90625,
         "target": 455,
-        "opacity": 0.380679,
+        "opacity": 0.380466,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -338,8 +430,8 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.805044,
-        "transform": "matrix(1, 0, 0, 1, 4.67895, 0)"
+        "opacity": 0.805123,
+        "transform": "matrix(1, 0, 0, 1, 4.67705, 0)"
       },
       "passed": true
     },
@@ -365,17 +457,16 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "opacity": 0.281901,
+        "opacity": 0.281999,
         "inert": true
       },
       "passed": true
     },
     {
-      "test": "Navigation transitions",
+      "test": "Native mobile language selector opens the selected language",
       "mode": "mobile",
       "lang": "en",
-      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"languages-dropdown-handle\"]').first()\n    - locator resolved to <button type=\"button\" class=\"clBgzu wixui-language-menu\" aria-label=\"Language Selector: English\" data-testid=\"languages-dropdown-handle\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <select>…</select> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
-      "passed": false
+      "passed": true
     },
     {
       "test": "Motion interactions have no JavaScript errors",
@@ -389,9 +480,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 369.125,
+        "height": 369.03125,
         "target": 518,
-        "opacity": 0.712623,
+        "opacity": 0.712436,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -411,9 +502,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 197.046875,
+        "height": 197.0625,
         "target": 518,
-        "opacity": 0.380767,
+        "opacity": 0.380805,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -473,8 +564,8 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.718081,
-        "transform": "matrix(1, 0, 0, 1, 6.76607, 0)"
+        "opacity": 0.805083,
+        "transform": "matrix(1, 0, 0, 1, 4.678, 0)"
       },
       "passed": true
     },
@@ -484,7 +575,7 @@
       "lang": "fr",
       "expanding": {
         "height": 77.40625,
-        "opacity": 0.691213
+        "opacity": 0.691201
       },
       "full": 112,
       "passed": true
@@ -500,17 +591,16 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "opacity": 0.281993,
+        "opacity": 0.282239,
         "inert": true
       },
       "passed": true
     },
     {
-      "test": "Navigation transitions",
+      "test": "Native mobile language selector opens the selected language",
       "mode": "mobile",
       "lang": "fr",
-      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"languages-dropdown-handle\"]').first()\n    - locator resolved to <button type=\"button\" class=\"clBgzu wixui-language-menu\" aria-label=\"Language Selector: French\" data-testid=\"languages-dropdown-handle\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <select>…</select> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
-      "passed": false
+      "passed": true
     },
     {
       "test": "Motion interactions have no JavaScript errors",
@@ -524,11 +614,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.982114,
+          "opacity": 0.982112,
           "inert": true
         },
         {
-          "opacity": 0.40995,
+          "opacity": 0.409971,
           "inert": false
         }
       ],
@@ -561,11 +651,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.982114,
+          "opacity": 0.982145,
           "inert": true
         },
         {
-          "opacity": 0.409955,
+          "opacity": 0.40964,
           "inert": false
         }
       ],
@@ -1059,7 +1149,7 @@
       "mode": "desktop",
       "lang": "en",
       "route": "history",
-      "midway": 31,
+      "midway": 11,
       "end": 500,
       "passed": true
     },
@@ -1818,8 +1908,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642397,
-      "second": 0.430402,
+      "first": 0.0642455,
+      "second": 0.430416,
       "passed": true
     },
     {
@@ -2131,8 +2221,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642415,
-      "second": 0.430406,
+      "first": 0.0642237,
+      "second": 0.430362,
       "passed": true
     },
     {
@@ -3187,7 +3277,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -3197,7 +3287,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -3207,7 +3297,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -3239,7 +3329,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -3249,7 +3339,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -3259,7 +3349,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -3291,7 +3381,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 2,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3301,7 +3391,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 2,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3311,7 +3401,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 2,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3334,7 +3424,7 @@
           2442
         ]
       },
-      "pixelDifference": 0.022790688415688414,
+      "pixelDifference": 0.022846710346710347,
       "newScriptErrors": []
     },
     {
@@ -3343,7 +3433,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 2,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3353,7 +3443,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 2,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3363,7 +3453,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 2,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3386,7 +3476,7 @@
           2433
         ]
       },
-      "pixelDifference": 0.025751815317166735,
+      "pixelDifference": 0.025798910809699958,
       "newScriptErrors": []
     },
     {
@@ -3395,7 +3485,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 25,
       "issues": [],
       "passed": true
     },
@@ -3405,7 +3495,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 25,
       "issues": [],
       "passed": true
     },
@@ -3415,7 +3505,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 25,
       "issues": [],
       "passed": true
     },
@@ -3438,7 +3528,7 @@
           6142
         ]
       },
-      "pixelDifference": 0.046846394587358446,
+      "pixelDifference": 0.05341161945077608,
       "newScriptErrors": []
     },
     {
@@ -3447,7 +3537,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 25,
       "issues": [],
       "passed": true
     },
@@ -3457,7 +3547,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 25,
       "issues": [],
       "passed": true
     },
@@ -3467,7 +3557,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 25,
       "issues": [],
       "passed": true
     },
@@ -3490,7 +3580,7 @@
           6060
         ]
       },
-      "pixelDifference": 0.027824647048038137,
+      "pixelDifference": 0.026967707187385406,
       "newScriptErrors": []
     },
     {
@@ -3499,7 +3589,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 1,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3509,31 +3599,9 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu1ddo1_img",
-          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 1920,
-            "height": 746
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 746
-          },
-          "rightGap": 480,
-          "leftGap": 0,
-          "bottomGap": 0,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "test": "Every page has no cut-off cover images",
@@ -3541,31 +3609,9 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu1ddo1_img",
-          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 2560,
-            "height": 746
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 746
-          },
-          "rightGap": 1120,
-          "leftGap": 0,
-          "bottomGap": 0,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/dfp",
@@ -3584,7 +3630,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 1,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -3594,31 +3640,9 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu1ddo1_img",
-          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 1920,
-            "height": 746
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 746
-          },
-          "rightGap": 480,
-          "leftGap": 0,
-          "bottomGap": 0,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "test": "Every page has no cut-off cover images",
@@ -3626,31 +3650,9 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu1ddo1_img",
-          "src": "/assets/982fb2c6ba2daebd56edd436.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 2560,
-            "height": 746
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 746
-          },
-          "rightGap": 1120,
-          "leftGap": 0,
-          "bottomGap": 0,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/dfp",
@@ -3669,7 +3671,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 12,
       "issues": [],
       "passed": true
     },
@@ -3679,7 +3681,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 12,
       "issues": [],
       "passed": true
     },
@@ -3689,7 +3691,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 12,
       "issues": [],
       "passed": true
     },
@@ -3710,7 +3712,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 12,
       "issues": [],
       "passed": true
     },
@@ -3720,7 +3722,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 12,
       "issues": [],
       "passed": true
     },
@@ -3730,7 +3732,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 12,
       "issues": [],
       "passed": true
     },
@@ -3751,7 +3753,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 16,
+      "checked": 19,
       "issues": [],
       "passed": true
     },
@@ -3761,7 +3763,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 16,
+      "checked": 19,
       "issues": [],
       "passed": true
     },
@@ -3771,7 +3773,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 16,
+      "checked": 19,
       "issues": [],
       "passed": true
     },
@@ -3792,7 +3794,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 16,
+      "checked": 19,
       "issues": [],
       "passed": true
     },
@@ -3802,7 +3804,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 16,
+      "checked": 19,
       "issues": [],
       "passed": true
     },
@@ -3812,7 +3814,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 16,
+      "checked": 19,
       "issues": [],
       "passed": true
     },
@@ -3833,7 +3835,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3843,7 +3845,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3853,7 +3855,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3874,7 +3876,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3884,7 +3886,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3894,7 +3896,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3915,7 +3917,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3925,7 +3927,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3935,7 +3937,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3959,7 +3961,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3969,7 +3971,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -3979,7 +3981,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -4003,7 +4005,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -4013,7 +4015,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -4023,7 +4025,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -4044,7 +4046,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -4054,7 +4056,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -4064,7 +4066,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -4082,6 +4084,252 @@
     {
       "test": "Every page has no cut-off cover images",
       "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/history",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/history",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/staff",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/staff",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/board-of-directors",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/board-of-directors",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
@@ -4091,7 +4339,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/history",
+      "pathname": "/donate",
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
@@ -4101,7 +4349,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/history",
+      "pathname": "/donate",
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
@@ -4110,7 +4358,7 @@
       "passed": true
     },
     {
-      "pathname": "/history",
+      "pathname": "/donate",
       "lang": "fr",
       "mode": "desktop",
       "status": 200,
@@ -4122,7 +4370,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/history",
+      "pathname": "/donate",
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
@@ -4132,7 +4380,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/history",
+      "pathname": "/donate",
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
@@ -4142,7 +4390,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/history",
+      "pathname": "/donate",
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
@@ -4151,252 +4399,6 @@
       "passed": true
     },
     {
-      "pathname": "/history",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/staff",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/staff",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/staff",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/staff",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/staff",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/staff",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/staff",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/staff",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/board-of-directors",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/board-of-directors",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/board-of-directors",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/board-of-directors",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/board-of-directors",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/board-of-directors",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/board-of-directors",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/board-of-directors",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/donate",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/donate",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/donate",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/donate",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/donate",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/donate",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/donate",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
       "pathname": "/donate",
       "lang": "en",
       "mode": "desktop",
@@ -4410,170 +4412,6 @@
     {
       "test": "Every page has no cut-off cover images",
       "pathname": "/pray-for-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/pray-for-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/pray-for-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/pray-for-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/pray-for-us",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/pray-for-us",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/pray-for-us",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/pray-for-us",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/planned-giving",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/planned-giving",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/planned-giving",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/planned-giving",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/planned-giving",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/planned-giving",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/planned-giving",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/planned-giving",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/banquet",
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
@@ -4583,7 +4421,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/banquet",
+      "pathname": "/pray-for-us",
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
@@ -4593,11 +4431,175 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/banquet",
+      "pathname": "/pray-for-us",
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
       "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/pray-for-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/planned-giving",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/planned-giving",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/banquet",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -4618,7 +4620,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -4628,7 +4630,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -4638,7 +4640,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -4659,7 +4661,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 8,
       "issues": [],
       "passed": true
     },
@@ -4669,7 +4671,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 8,
       "issues": [],
       "passed": true
     },
@@ -4679,7 +4681,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 8,
       "issues": [],
       "passed": true
     },
@@ -4700,7 +4702,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 8,
       "issues": [],
       "passed": true
     },
@@ -4710,7 +4712,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 8,
       "issues": [],
       "passed": true
     },
@@ -4720,7 +4722,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 8,
       "issues": [],
       "passed": true
     },
@@ -4741,7 +4743,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 1,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -4751,7 +4753,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 1,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -4761,7 +4763,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 1,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -4782,7 +4784,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 1,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -4792,7 +4794,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 1,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -4802,7 +4804,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 1,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -4820,6 +4822,334 @@
     {
       "test": "Every page has no cut-off cover images",
       "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 7,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 14,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 14,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 14,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 14,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 14,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 14,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 6,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 6,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 6,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 6,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 6,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 6,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/contact-us",
+      "lang": "fr",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1440,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 1920,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "width": 2560,
+      "checked": 5,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "desktop",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/careers",
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
@@ -4829,7 +5159,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/testimonials",
+      "pathname": "/careers",
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
@@ -4839,7 +5169,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/testimonials",
+      "pathname": "/careers",
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
@@ -4848,7 +5178,7 @@
       "passed": true
     },
     {
-      "pathname": "/testimonials",
+      "pathname": "/careers",
       "lang": "fr",
       "mode": "desktop",
       "status": 200,
@@ -4860,7 +5190,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/testimonials",
+      "pathname": "/careers",
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
@@ -4870,7 +5200,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/testimonials",
+      "pathname": "/careers",
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
@@ -4880,7 +5210,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/testimonials",
+      "pathname": "/careers",
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
@@ -4889,334 +5219,6 @@
       "passed": true
     },
     {
-      "pathname": "/testimonials",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/newsletters",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/newsletters",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/facility-rental",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/facility-rental",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/contact-us",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/contact-us",
-      "lang": "en",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/careers",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/careers",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/careers",
-      "lang": "fr",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/careers",
-      "lang": "fr",
-      "mode": "desktop",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/careers",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1440,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/careers",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 1920,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/careers",
-      "lang": "en",
-      "mode": "desktop",
-      "width": 2560,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
       "pathname": "/careers",
       "lang": "en",
       "mode": "desktop",
@@ -5233,7 +5235,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5243,7 +5245,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5253,7 +5255,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5274,7 +5276,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5284,7 +5286,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5294,7 +5296,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5315,7 +5317,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5325,7 +5327,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5335,7 +5337,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5356,7 +5358,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5366,7 +5368,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5376,7 +5378,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5397,7 +5399,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5407,7 +5409,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5417,7 +5419,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5438,7 +5440,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5448,7 +5450,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5458,7 +5460,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5479,7 +5481,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5489,7 +5491,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5499,7 +5501,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5520,7 +5522,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5530,7 +5532,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5540,7 +5542,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5561,7 +5563,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5571,7 +5573,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5581,7 +5583,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5602,7 +5604,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5612,7 +5614,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5622,7 +5624,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5643,7 +5645,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5653,7 +5655,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5663,7 +5665,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5684,7 +5686,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5694,7 +5696,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5704,7 +5706,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5725,7 +5727,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5735,7 +5737,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5745,7 +5747,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5766,7 +5768,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5776,7 +5778,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5786,7 +5788,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5807,7 +5809,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5817,7 +5819,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5827,7 +5829,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5848,7 +5850,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5858,7 +5860,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5868,7 +5870,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5889,7 +5891,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5899,7 +5901,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5909,7 +5911,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5930,7 +5932,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5940,7 +5942,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5950,7 +5952,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 4,
+      "checked": 7,
       "issues": [],
       "passed": true
     },
@@ -5971,7 +5973,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5981,7 +5983,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -5991,7 +5993,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6012,7 +6014,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6022,7 +6024,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6032,7 +6034,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6053,7 +6055,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6063,7 +6065,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6073,7 +6075,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6094,7 +6096,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6104,7 +6106,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6114,7 +6116,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -6135,7 +6137,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6145,7 +6147,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6155,7 +6157,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6176,7 +6178,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6186,7 +6188,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6196,7 +6198,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6217,7 +6219,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6227,7 +6229,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6237,7 +6239,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6258,7 +6260,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6268,7 +6270,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6278,7 +6280,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6299,7 +6301,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6309,7 +6311,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6319,7 +6321,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6340,7 +6342,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6350,7 +6352,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6360,7 +6362,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6381,7 +6383,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6391,7 +6393,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6401,7 +6403,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6422,7 +6424,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6432,7 +6434,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6442,7 +6444,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6463,7 +6465,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6473,7 +6475,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6483,7 +6485,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6504,7 +6506,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6514,7 +6516,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6524,7 +6526,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6545,7 +6547,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6555,7 +6557,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6565,7 +6567,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6586,7 +6588,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6596,7 +6598,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6606,7 +6608,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6627,7 +6629,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6637,7 +6639,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6647,7 +6649,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6668,7 +6670,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6678,7 +6680,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6688,7 +6690,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6709,7 +6711,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6719,7 +6721,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6729,7 +6731,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6750,7 +6752,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6760,7 +6762,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6770,7 +6772,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6791,7 +6793,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6801,7 +6803,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6811,7 +6813,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6832,7 +6834,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6842,7 +6844,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6852,7 +6854,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6873,7 +6875,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6883,7 +6885,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6893,7 +6895,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6914,7 +6916,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6924,7 +6926,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6934,7 +6936,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6955,7 +6957,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6965,7 +6967,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6975,7 +6977,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -6996,7 +6998,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7006,7 +7008,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7016,7 +7018,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7037,7 +7039,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7047,7 +7049,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7057,7 +7059,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7078,7 +7080,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7088,7 +7090,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7098,7 +7100,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7119,7 +7121,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7129,7 +7131,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7139,7 +7141,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7160,7 +7162,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7170,7 +7172,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7180,7 +7182,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7201,7 +7203,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7211,7 +7213,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7221,7 +7223,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7242,7 +7244,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7252,7 +7254,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7262,7 +7264,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7283,7 +7285,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7293,7 +7295,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7303,7 +7305,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7338,7 +7340,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7348,7 +7350,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7358,7 +7360,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7393,7 +7395,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 1,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -7403,31 +7405,9 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu8ii1j_img",
-          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 1920,
-            "height": 585.203125
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 585
-          },
-          "rightGap": 480,
-          "leftGap": 0,
-          "bottomGap": 0.203125,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "test": "Every page has no cut-off cover images",
@@ -7435,31 +7415,9 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu8ii1j_img",
-          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 2560,
-            "height": 585.203125
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 585
-          },
-          "rightGap": 1120,
-          "leftGap": 0,
-          "bottomGap": 0.203125,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/archived-dfp-costs",
@@ -7485,7 +7443,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 1,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -7495,31 +7453,9 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu8ii1j_img",
-          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 1920,
-            "height": 585.203125
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 585
-          },
-          "rightGap": 480,
-          "leftGap": 0,
-          "bottomGap": 0.203125,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "test": "Every page has no cut-off cover images",
@@ -7527,31 +7463,9 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 1,
-      "issues": [
-        {
-          "id": "comp-lpu8ii1j_img",
-          "src": "/assets/e3f7bb708a243b9f34fd3110.jpg",
-          "fit": "cover",
-          "host": {
-            "x": 0,
-            "y": 83,
-            "width": 2560,
-            "height": 585.203125
-          },
-          "image": {
-            "x": 0,
-            "y": 83,
-            "width": 1440,
-            "height": 585
-          },
-          "rightGap": 1120,
-          "leftGap": 0,
-          "bottomGap": 0.203125,
-          "topGap": 0
-        }
-      ],
-      "passed": false
+      "checked": 5,
+      "issues": [],
+      "passed": true
     },
     {
       "pathname": "/archived-dfp-costs",
@@ -7577,7 +7491,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 10,
+      "checked": 17,
       "issues": [],
       "passed": true
     },
@@ -7587,7 +7501,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 10,
+      "checked": 17,
       "issues": [],
       "passed": true
     },
@@ -7597,7 +7511,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 10,
+      "checked": 17,
       "issues": [],
       "passed": true
     },
@@ -7618,7 +7532,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 10,
+      "checked": 17,
       "issues": [],
       "passed": true
     },
@@ -7628,7 +7542,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 10,
+      "checked": 17,
       "issues": [],
       "passed": true
     },
@@ -7638,7 +7552,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 10,
+      "checked": 17,
       "issues": [],
       "passed": true
     },
@@ -7659,7 +7573,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7669,7 +7583,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7679,7 +7593,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7700,7 +7614,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7710,7 +7624,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7720,7 +7634,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7741,7 +7655,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7751,7 +7665,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7761,7 +7675,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7782,7 +7696,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -7792,7 +7706,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -7802,7 +7716,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -7830,7 +7744,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7840,7 +7754,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7850,7 +7764,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 3,
       "issues": [],
       "passed": true
     },
@@ -7871,7 +7785,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -7881,7 +7795,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -7891,7 +7805,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -7919,7 +7833,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -7929,7 +7843,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -7939,7 +7853,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -7960,7 +7874,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7970,7 +7884,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -7980,7 +7894,7 @@
       "lang": "en",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -8001,7 +7915,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -8011,7 +7925,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -8021,7 +7935,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 3,
+      "checked": 6,
       "issues": [],
       "passed": true
     },
@@ -8042,7 +7956,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1440,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -8052,7 +7966,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 1920,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -8062,7 +7976,7 @@
       "lang": "fr",
       "mode": "desktop",
       "width": 2560,
-      "checked": 17,
+      "checked": 20,
       "issues": [],
       "passed": true
     },
@@ -8178,7 +8092,7 @@
           9678
         ]
       },
-      "pixelDifference": 0.0073185747744024246,
+      "pixelDifference": 0.0073232029689329755,
       "newScriptErrors": []
     },
     {
@@ -8210,7 +8124,7 @@
           9831
         ]
       },
-      "pixelDifference": 0.004840025599294748,
+      "pixelDifference": 0.004876263011562065,
       "newScriptErrors": []
     },
     {
@@ -8219,7 +8133,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 17,
+      "checked": 22,
       "issues": [],
       "passed": true
     },
@@ -8242,7 +8156,7 @@
           28224
         ]
       },
-      "pixelDifference": 0.028450151762093725,
+      "pixelDifference": 0.028599145821523054,
       "newScriptErrors": []
     },
     {
@@ -8251,7 +8165,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 17,
+      "checked": 22,
       "issues": [],
       "passed": true
     },
@@ -8274,7 +8188,7 @@
           29031
         ]
       },
-      "pixelDifference": 0,
+      "pixelDifference": 0.00014485234174962396,
       "newScriptErrors": []
     },
     {
@@ -8283,7 +8197,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 1,
+      "checked": 2,
       "issues": [],
       "passed": true
     },
@@ -8304,7 +8218,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 1,
+      "checked": 2,
       "issues": [],
       "passed": true
     },
@@ -8325,7 +8239,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 9,
       "issues": [],
       "passed": true
     },
@@ -8346,7 +8260,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 9,
       "issues": [],
       "passed": true
     },
@@ -8409,7 +8323,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -8430,7 +8344,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 4,
       "issues": [],
       "passed": true
     },
@@ -8667,12 +8581,54 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/donate",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 4,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/donate",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/pray-for-us",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
       "checked": 1,
       "issues": [],
       "passed": true
     },
     {
-      "pathname": "/donate",
+      "pathname": "/pray-for-us",
       "lang": "en",
       "mode": "mobile",
       "status": 200,
@@ -8684,7 +8640,7 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/donate",
+      "pathname": "/pray-for-us",
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
@@ -8693,48 +8649,6 @@
       "passed": true
     },
     {
-      "pathname": "/donate",
-      "lang": "fr",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/pray-for-us",
-      "lang": "en",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/pray-for-us",
-      "lang": "en",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/pray-for-us",
-      "lang": "fr",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
       "pathname": "/pray-for-us",
       "lang": "fr",
       "mode": "mobile",
@@ -8751,7 +8665,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 2,
       "issues": [],
       "passed": true
     },
@@ -8772,7 +8686,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 2,
       "issues": [],
       "passed": true
     },
@@ -8835,7 +8749,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 5,
       "issues": [],
       "passed": true
     },
@@ -8929,12 +8843,138 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/testimonials",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 10,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/newsletters",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "en",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "mobile",
+      "width": 390,
+      "checked": 3,
+      "issues": [],
+      "passed": true
+    },
+    {
+      "pathname": "/facility-rental",
+      "lang": "fr",
+      "mode": "mobile",
+      "status": 200,
+      "missingText": [],
+      "brokenImages": [],
+      "sourceBrokenImages": 0,
+      "scriptErrors": [],
+      "newScriptErrors": []
+    },
+    {
+      "test": "Every page has no cut-off cover images",
+      "pathname": "/contact-us",
+      "lang": "en",
+      "mode": "mobile",
+      "width": 390,
       "checked": 2,
       "issues": [],
       "passed": true
     },
     {
-      "pathname": "/testimonials",
+      "pathname": "/contact-us",
       "lang": "en",
       "mode": "mobile",
       "status": 200,
@@ -8946,137 +8986,11 @@
     },
     {
       "test": "Every page has no cut-off cover images",
-      "pathname": "/testimonials",
+      "pathname": "/contact-us",
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
       "checked": 2,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/testimonials",
-      "lang": "fr",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "en",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/newsletters",
-      "lang": "en",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/newsletters",
-      "lang": "fr",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 0,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/newsletters",
-      "lang": "fr",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "en",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/facility-rental",
-      "lang": "en",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/facility-rental",
-      "lang": "fr",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/facility-rental",
-      "lang": "fr",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "en",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 1,
-      "issues": [],
-      "passed": true
-    },
-    {
-      "pathname": "/contact-us",
-      "lang": "en",
-      "mode": "mobile",
-      "status": 200,
-      "missingText": [],
-      "brokenImages": [],
-      "sourceBrokenImages": 0,
-      "scriptErrors": [],
-      "newScriptErrors": []
-    },
-    {
-      "test": "Every page has no cut-off cover images",
-      "pathname": "/contact-us",
-      "lang": "fr",
-      "mode": "mobile",
-      "width": 390,
-      "checked": 1,
       "issues": [],
       "passed": true
     },
@@ -10056,7 +9970,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 1,
+      "checked": 2,
       "issues": [],
       "passed": true
     },
@@ -10084,7 +9998,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 10,
+      "checked": 14,
       "issues": [],
       "passed": true
     },
@@ -10147,7 +10061,7 @@
       "lang": "en",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 1,
       "issues": [],
       "passed": true
     },
@@ -10378,7 +10292,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 1,
+      "checked": 2,
       "issues": [],
       "passed": true
     },
@@ -10406,7 +10320,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 10,
+      "checked": 14,
       "issues": [],
       "passed": true
     },
@@ -10469,7 +10383,7 @@
       "lang": "fr",
       "mode": "mobile",
       "width": 390,
-      "checked": 0,
+      "checked": 1,
       "issues": [],
       "passed": true
     },
@@ -10581,7 +10495,7 @@
     },
     {
       "test": "Mobile submenu opens",
-      "passed": false
+      "passed": true
     },
     {
       "test": "Mobile menu closes",
@@ -10592,1071 +10506,6 @@
       "lang": "en",
       "width": 1024,
       "slide": 0,
-      "innerScrollWidth": 1024,
-      "slideWidth": 1024,
-      "viewport": 1024,
-      "imageLeft": -0.09857177734375,
-      "imageRight": 1024.0986938476562,
-      "imageWidth": 1024.197265625,
-      "overlayLeft": 22,
-      "overlayWidth": 980,
-      "frame": 1024,
-      "scrollWidth": 1194,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 848.96875,
-      "right": 982,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1024,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1024,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1024,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 256,
-      "imageWidth": 256,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1024,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 256,
-      "imageWidth": 256,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1024,
-      "slide": 1,
-      "innerScrollWidth": 1024,
-      "slideWidth": 1024,
-      "viewport": 1024,
-      "imageLeft": -0.2164306640625,
-      "imageRight": 1024.2164306640625,
-      "imageWidth": 1024.432861328125,
-      "overlayLeft": 22,
-      "overlayWidth": 980,
-      "frame": 1024,
-      "scrollWidth": 1194,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 1,
-      "left": 848.96875,
-      "right": 982,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1024,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1024,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1024,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 256,
-      "imageWidth": 256,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1024,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 256,
-      "imageWidth": 256,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1280,
-      "slide": 0,
-      "innerScrollWidth": 1280,
-      "slideWidth": 1280,
-      "viewport": 1280,
-      "imageLeft": -0.4703369140625,
-      "imageRight": 1280.4703369140625,
-      "imageWidth": 1280.940673828125,
-      "overlayLeft": 150,
-      "overlayWidth": 980,
-      "frame": 1280,
-      "scrollWidth": 1322,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 976.96875,
-      "right": 1110,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1280,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1280,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1280,
-      "slide": 1,
-      "innerScrollWidth": 1280,
-      "slideWidth": 1280,
-      "viewport": 1280,
-      "imageLeft": -0.6522216796875,
-      "imageRight": 1280.6522216796875,
-      "imageWidth": 1281.304443359375,
-      "overlayLeft": 150,
-      "overlayWidth": 980,
-      "frame": 1280,
-      "scrollWidth": 1322,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 1,
-      "left": 976.96875,
-      "right": 1110,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1280,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1280,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1440,
-      "slide": 0,
-      "innerScrollWidth": 1440,
-      "slideWidth": 1440,
-      "viewport": 1440,
-      "imageLeft": -0.968017578125,
-      "imageRight": 1440.968017578125,
-      "imageWidth": 1441.93603515625,
-      "overlayLeft": 230,
-      "overlayWidth": 980,
-      "frame": 1440,
-      "scrollWidth": 1440,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 1056.96875,
-      "right": 1190,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1440,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1440,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1440,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 360,
-      "imageWidth": 360,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1440,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 360,
-      "imageWidth": 360,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1440,
-      "slide": 1,
-      "innerScrollWidth": 1440,
-      "slideWidth": 1440,
-      "viewport": 1440,
-      "imageLeft": -1.23095703125,
-      "imageRight": 1441.23095703125,
-      "imageWidth": 1442.4619140625,
-      "overlayLeft": 230,
-      "overlayWidth": 980,
-      "frame": 1440,
-      "scrollWidth": 1440,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 1,
-      "left": 1056.96875,
-      "right": 1190,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1440,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1440,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1440,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 360,
-      "imageWidth": 360,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1440,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 360,
-      "imageWidth": 360,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1920,
-      "slide": 0,
-      "innerScrollWidth": 1920,
-      "slideWidth": 1920,
-      "viewport": 1920,
-      "imageLeft": -2.44696044921875,
-      "imageRight": 1922.4470825195312,
-      "imageWidth": 1924.89404296875,
-      "overlayLeft": 470,
-      "overlayWidth": 980,
-      "frame": 1920,
-      "scrollWidth": 1920,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 1296.96875,
-      "right": 1430,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1920,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1920,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1920,
-      "slide": 1,
-      "innerScrollWidth": 1920,
-      "slideWidth": 1920,
-      "viewport": 1920,
-      "imageLeft": -2.90155029296875,
-      "imageRight": 1922.9016723632812,
-      "imageWidth": 1925.80322265625,
-      "overlayLeft": 470,
-      "overlayWidth": 980,
-      "frame": 1920,
-      "scrollWidth": 1920,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 1,
-      "left": 1296.96875,
-      "right": 1430,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1920,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1920,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 2560,
-      "slide": 0,
-      "innerScrollWidth": 2560,
-      "slideWidth": 2560,
-      "viewport": 2560,
-      "imageLeft": -11.3746337890625,
-      "imageRight": 2571.3743896484375,
-      "imageWidth": 2582.7490234375,
-      "overlayLeft": 790,
-      "overlayWidth": 980,
-      "frame": 2560,
-      "scrollWidth": 2560,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 1616.96875,
-      "right": 1750,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 2560,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 2560,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 2560,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 640,
-      "imageWidth": 640,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 2560,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 640,
-      "imageWidth": 640,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 2560,
-      "slide": 1,
-      "innerScrollWidth": 2560,
-      "slideWidth": 2560,
-      "viewport": 2560,
-      "imageLeft": -12.353515625,
-      "imageRight": 2572.353515625,
-      "imageWidth": 2584.70703125,
-      "overlayLeft": 790,
-      "overlayWidth": 980,
-      "frame": 2560,
-      "scrollWidth": 2560,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 1,
-      "left": 1616.96875,
-      "right": 1750,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 2560,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 2560,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 2560,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 640,
-      "imageWidth": 640,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 2560,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 640,
-      "imageWidth": 640,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1280,
-      "slide": 0,
-      "innerScrollWidth": 1280,
-      "slideWidth": 1280,
-      "viewport": 1280,
-      "imageLeft": -6.854736328125,
-      "imageRight": 1286.854736328125,
-      "imageWidth": 1293.70947265625,
-      "overlayLeft": 150,
-      "overlayWidth": 980,
-      "frame": 1280,
-      "scrollWidth": 1322,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 976.96875,
-      "right": 1110,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1280,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1280,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1280,
-      "slide": 1,
-      "innerScrollWidth": 1280,
-      "slideWidth": 1280,
-      "viewport": 1280,
-      "imageLeft": -7.379638671875,
-      "imageRight": 1287.379638671875,
-      "imageWidth": 1294.75927734375,
-      "overlayLeft": 150,
-      "overlayWidth": 980,
-      "frame": 1280,
-      "scrollWidth": 1322,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 1,
-      "left": 976.96875,
-      "right": 1110,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1280,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1280,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1920,
-      "slide": 0,
-      "innerScrollWidth": 1920,
-      "slideWidth": 1920,
-      "viewport": 1920,
-      "imageLeft": -12.151123046875,
-      "imageRight": 1932.151123046875,
-      "imageWidth": 1944.30224609375,
-      "overlayLeft": 470,
-      "overlayWidth": 980,
-      "frame": 1920,
-      "scrollWidth": 1920,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 1296.96875,
-      "right": 1430,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1920,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1920,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1920,
-      "slide": 1,
-      "innerScrollWidth": 1920,
-      "slideWidth": 1920,
-      "viewport": 1920,
-      "imageLeft": -12.9874267578125,
-      "imageRight": 1932.9874267578125,
-      "imageWidth": 1945.974853515625,
-      "overlayLeft": 470,
-      "overlayWidth": 980,
-      "frame": 1920,
-      "scrollWidth": 1920,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
-      "slide": 1,
-      "left": 1296.96875,
-      "right": 1430,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1920,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1920,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1920,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 480,
-      "imageWidth": 480,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "fr",
-      "width": 1024,
-      "slide": 0,
-      "innerScrollWidth": 1024,
-      "slideWidth": 1024,
-      "viewport": 1024,
-      "imageLeft": -0.0252685546875,
-      "imageRight": 1024.0252685546875,
-      "imageWidth": 1024.050537109375,
-      "overlayLeft": 22,
-      "overlayWidth": 980,
-      "frame": 1024,
-      "scrollWidth": 1194,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "fr",
-      "width": 133.03125,
-      "slide": 0,
-      "left": 848.96875,
-      "right": 982,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1024,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "fr",
-      "width": 1024,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "fr",
-      "width": 1024,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 256,
-      "imageWidth": 256,
-      "columnHeight": 527.0625,
-      "imageHeight": 527.0625,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "fr",
-      "width": 1024,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 256,
-      "imageWidth": 256,
-      "columnHeight": 527.0625,
-      "imageHeight": 527.0625,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "fr",
-      "width": 1024,
-      "slide": 1,
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
@@ -11671,6 +10520,1071 @@
     },
     {
       "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 848.96875,
+      "right": 982,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1024,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1024,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1024,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 256,
+      "imageWidth": 256,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1024,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 256,
+      "imageWidth": 256,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1024,
+      "slide": 1,
+      "innerScrollWidth": 1024,
+      "slideWidth": 1024,
+      "viewport": 1024,
+      "imageLeft": -0.18310546875,
+      "imageRight": 1024.18310546875,
+      "imageWidth": 1024.3662109375,
+      "overlayLeft": 22,
+      "overlayWidth": 980,
+      "frame": 1024,
+      "scrollWidth": 1194,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 1,
+      "left": 848.96875,
+      "right": 982,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1024,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1024,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1024,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 256,
+      "imageWidth": 256,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1024,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 256,
+      "imageWidth": 256,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1280,
+      "slide": 0,
+      "innerScrollWidth": 1280,
+      "slideWidth": 1280,
+      "viewport": 1280,
+      "imageLeft": -0.36431884765625,
+      "imageRight": 1280.3641967773438,
+      "imageWidth": 1280.728515625,
+      "overlayLeft": 150,
+      "overlayWidth": 980,
+      "frame": 1280,
+      "scrollWidth": 1322,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 976.96875,
+      "right": 1110,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1280,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1280,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1280,
+      "slide": 1,
+      "innerScrollWidth": 1280,
+      "slideWidth": 1280,
+      "viewport": 1280,
+      "imageLeft": -0.5281982421875,
+      "imageRight": 1280.5281982421875,
+      "imageWidth": 1281.056396484375,
+      "overlayLeft": 150,
+      "overlayWidth": 980,
+      "frame": 1280,
+      "scrollWidth": 1322,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 1,
+      "left": 976.96875,
+      "right": 1110,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1280,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1280,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1440,
+      "slide": 0,
+      "innerScrollWidth": 1440,
+      "slideWidth": 1440,
+      "viewport": 1440,
+      "imageLeft": -0.8870849609375,
+      "imageRight": 1440.8870849609375,
+      "imageWidth": 1441.774169921875,
+      "overlayLeft": 230,
+      "overlayWidth": 980,
+      "frame": 1440,
+      "scrollWidth": 1440,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 1056.96875,
+      "right": 1190,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1440,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1440,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1440,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 360,
+      "imageWidth": 360,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1440,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 360,
+      "imageWidth": 360,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1440,
+      "slide": 1,
+      "innerScrollWidth": 1440,
+      "slideWidth": 1440,
+      "viewport": 1440,
+      "imageLeft": -1.05279541015625,
+      "imageRight": 1441.0526733398438,
+      "imageWidth": 1442.10546875,
+      "overlayLeft": 230,
+      "overlayWidth": 980,
+      "frame": 1440,
+      "scrollWidth": 1440,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 1,
+      "left": 1056.96875,
+      "right": 1190,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1440,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1440,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1440,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 360,
+      "imageWidth": 360,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1440,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 360,
+      "imageWidth": 360,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1920,
+      "slide": 0,
+      "innerScrollWidth": 1920,
+      "slideWidth": 1920,
+      "viewport": 1920,
+      "imageLeft": -1.894775390625,
+      "imageRight": 1921.894775390625,
+      "imageWidth": 1923.78955078125,
+      "overlayLeft": 470,
+      "overlayWidth": 980,
+      "frame": 1920,
+      "scrollWidth": 1920,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 1296.96875,
+      "right": 1430,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1920,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1920,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1920,
+      "slide": 1,
+      "innerScrollWidth": 1920,
+      "slideWidth": 1920,
+      "viewport": 1920,
+      "imageLeft": -2.3031005859375,
+      "imageRight": 1922.3031005859375,
+      "imageWidth": 1924.606201171875,
+      "overlayLeft": 470,
+      "overlayWidth": 980,
+      "frame": 1920,
+      "scrollWidth": 1920,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 1,
+      "left": 1296.96875,
+      "right": 1430,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1920,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1920,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 2560,
+      "slide": 0,
+      "innerScrollWidth": 2560,
+      "slideWidth": 2560,
+      "viewport": 2560,
+      "imageLeft": -11.69873046875,
+      "imageRight": 2571.69873046875,
+      "imageWidth": 2583.3974609375,
+      "overlayLeft": 790,
+      "overlayWidth": 980,
+      "frame": 2560,
+      "scrollWidth": 2560,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 1616.96875,
+      "right": 1750,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 2560,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 2560,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 2560,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 640,
+      "imageWidth": 640,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 2560,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 640,
+      "imageWidth": 640,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 2560,
+      "slide": 1,
+      "innerScrollWidth": 2560,
+      "slideWidth": 2560,
+      "viewport": 2560,
+      "imageLeft": -12.6898193359375,
+      "imageRight": 2572.6900634765625,
+      "imageWidth": 2585.3798828125,
+      "overlayLeft": 790,
+      "overlayWidth": 980,
+      "frame": 2560,
+      "scrollWidth": 2560,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 1,
+      "left": 1616.96875,
+      "right": 1750,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 2560,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 2560,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 2560,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 640,
+      "imageWidth": 640,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 2560,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 640,
+      "imageWidth": 640,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1280,
+      "slide": 0,
+      "innerScrollWidth": 1280,
+      "slideWidth": 1280,
+      "viewport": 1280,
+      "imageLeft": -7.0274658203125,
+      "imageRight": 1287.0274658203125,
+      "imageWidth": 1294.054931640625,
+      "overlayLeft": 150,
+      "overlayWidth": 980,
+      "frame": 1280,
+      "scrollWidth": 1322,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 976.96875,
+      "right": 1110,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1280,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1280,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1280,
+      "slide": 1,
+      "innerScrollWidth": 1280,
+      "slideWidth": 1280,
+      "viewport": 1280,
+      "imageLeft": -7.55706787109375,
+      "imageRight": 1287.5571899414062,
+      "imageWidth": 1295.1142578125,
+      "overlayLeft": 150,
+      "overlayWidth": 980,
+      "frame": 1280,
+      "scrollWidth": 1322,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 1,
+      "left": 976.96875,
+      "right": 1110,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1280,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1280,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1920,
+      "slide": 0,
+      "innerScrollWidth": 1920,
+      "slideWidth": 1920,
+      "viewport": 1920,
+      "imageLeft": -12.4288330078125,
+      "imageRight": 1932.4288330078125,
+      "imageWidth": 1944.857666015625,
+      "overlayLeft": 470,
+      "overlayWidth": 980,
+      "frame": 1920,
+      "scrollWidth": 1920,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 1296.96875,
+      "right": 1430,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1920,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1920,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1920,
+      "slide": 1,
+      "innerScrollWidth": 1920,
+      "slideWidth": 1920,
+      "viewport": 1920,
+      "imageLeft": -13.27203369140625,
+      "imageRight": 1933.2719116210938,
+      "imageWidth": 1946.5439453125,
+      "overlayLeft": 470,
+      "overlayWidth": 980,
+      "frame": 1920,
+      "scrollWidth": 1920,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 1,
+      "left": 1296.96875,
+      "right": 1430,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1920,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1920,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1920,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 480,
+      "imageWidth": 480,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "fr",
+      "width": 1024,
+      "slide": 0,
+      "innerScrollWidth": 1024,
+      "slideWidth": 1024,
+      "viewport": 1024,
+      "imageLeft": -0.0391845703125,
+      "imageRight": 1024.0391845703125,
+      "imageWidth": 1024.078369140625,
+      "overlayLeft": 22,
+      "overlayWidth": 980,
+      "frame": 1024,
+      "scrollWidth": 1194,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "fr",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 848.96875,
+      "right": 982,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1024,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "fr",
+      "width": 1024,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "fr",
+      "width": 1024,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 256,
+      "imageWidth": 256,
+      "columnHeight": 527.0625,
+      "imageHeight": 527.0625,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "fr",
+      "width": 1024,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 256,
+      "imageWidth": 256,
+      "columnHeight": 527.0625,
+      "imageHeight": 527.0625,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "fr",
+      "width": 1024,
+      "slide": 1,
+      "innerScrollWidth": 1024,
+      "slideWidth": 1024,
+      "viewport": 1024,
+      "imageLeft": -0.0986328125,
+      "imageRight": 1024.0986328125,
+      "imageWidth": 1024.197265625,
+      "overlayLeft": 22,
+      "overlayWidth": 980,
+      "frame": 1024,
+      "scrollWidth": 1194,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
       "lang": "fr",
       "width": 133.03125,
       "slide": 1,
@@ -11731,9 +11645,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.190185546875,
-      "imageRight": 1280.190185546875,
-      "imageWidth": 1280.38037109375,
+      "imageLeft": -0.22894287109375,
+      "imageRight": 1280.2290649414062,
+      "imageWidth": 1280.4580078125,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -11802,9 +11716,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.31591796875,
-      "imageRight": 1280.31591796875,
-      "imageWidth": 1280.6318359375,
+      "imageLeft": -0.36407470703125,
+      "imageRight": 1280.3639526367188,
+      "imageWidth": 1280.72802734375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -11873,9 +11787,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -0.5941162109375,
-      "imageRight": 1440.5941162109375,
-      "imageWidth": 1441.188232421875,
+      "imageLeft": -0.66253662109375,
+      "imageRight": 1440.6626586914062,
+      "imageWidth": 1441.3251953125,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -11944,9 +11858,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -0.7340087890625,
-      "imageRight": 1440.7340087890625,
-      "imageWidth": 1441.468017578125,
+      "imageLeft": -0.80902099609375,
+      "imageRight": 1440.8091430664062,
+      "imageWidth": 1441.6181640625,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -12015,9 +11929,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -1.40313720703125,
-      "imageRight": 1921.4030151367188,
-      "imageWidth": 1922.80615234375,
+      "imageLeft": -1.640869140625,
+      "imageRight": 1921.640869140625,
+      "imageWidth": 1923.28173828125,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -12086,9 +12000,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -1.7652587890625,
-      "imageRight": 1921.7652587890625,
-      "imageWidth": 1923.530517578125,
+      "imageLeft": -1.89422607421875,
+      "imageRight": 1921.8943481445312,
+      "imageWidth": 1923.78857421875,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -12157,9 +12071,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -10.1162109375,
-      "imageRight": 2570.1162109375,
-      "imageWidth": 2580.232421875,
+      "imageLeft": -9.810791015625,
+      "imageRight": 2569.810791015625,
+      "imageWidth": 2579.62158203125,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -12228,9 +12142,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -11.053466796875,
-      "imageRight": 2571.053466796875,
-      "imageWidth": 2582.10693359375,
+      "imageLeft": -11.0556640625,
+      "imageRight": 2571.0556640625,
+      "imageWidth": 2582.111328125,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -12299,9 +12213,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -6.17669677734375,
-      "imageRight": 1286.1768188476562,
-      "imageWidth": 1292.353515625,
+      "imageLeft": -6.1778564453125,
+      "imageRight": 1286.1778564453125,
+      "imageWidth": 1292.355712890625,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -12370,9 +12284,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -6.683349609375,
-      "imageRight": 1286.683349609375,
-      "imageWidth": 1293.36669921875,
+      "imageLeft": -6.68304443359375,
+      "imageRight": 1286.6831665039062,
+      "imageWidth": 1293.3662109375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -12441,9 +12355,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -11.0682373046875,
-      "imageRight": 1931.0682373046875,
-      "imageWidth": 1942.136474609375,
+      "imageLeft": -11.07000732421875,
+      "imageRight": 1931.0701293945312,
+      "imageWidth": 1942.14013671875,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -12512,9 +12426,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -11.8785400390625,
-      "imageRight": 1931.8785400390625,
-      "imageWidth": 1943.757080078125,
+      "imageLeft": -11.87860107421875,
+      "imageRight": 1931.8787231445312,
+      "imageWidth": 1943.75732421875,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,

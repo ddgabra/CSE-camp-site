@@ -1,14 +1,14 @@
 {
-  "verifiedAt": "2026-09-08T22:50:07.606Z",
+  "verifiedAt": "2026-09-08T22:59:04.957Z",
   "results": [
     {
       "test": "FAQ expands through intermediate heights",
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "height": 134.65625,
+        "height": 134.609375,
         "target": 189,
-        "opacity": 0.712539,
+        "opacity": 0.712283,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -28,9 +28,9 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "height": 71.75,
+        "height": 71.734375,
         "target": 189,
-        "opacity": 0.380661,
+        "opacity": 0.380585,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -90,7 +90,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.907304,
+        "opacity": 0.854211,
         "animations": 1
       },
       "passed": true
@@ -100,7 +100,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.132996,
+        "opacity": 0.133303,
         "inert": true
       },
       "passed": true
@@ -109,7 +109,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.726624,
+      "opacity": 0.7269,
       "passed": true
     },
     {
@@ -130,9 +130,9 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "height": 156.75,
+        "height": 156.734375,
         "target": 220,
-        "opacity": 0.712559,
+        "opacity": 0.7125,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -152,9 +152,9 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "height": 83.734375,
+        "height": 83.75,
         "target": 220,
-        "opacity": 0.380635,
+        "opacity": 0.380723,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -214,7 +214,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.854518,
+        "opacity": 0.854359,
         "animations": 1
       },
       "passed": true
@@ -224,7 +224,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.0732841,
+        "opacity": 0.23462,
         "inert": true
       },
       "passed": true
@@ -233,7 +233,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.727006,
+      "opacity": 0.726119,
       "passed": true
     },
     {
@@ -254,9 +254,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.1875,
+        "height": 324.125,
         "target": 455,
-        "opacity": 0.712524,
+        "opacity": 0.712376,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -276,9 +276,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 173.015625,
+        "height": 172.90625,
         "target": 455,
-        "opacity": 0.380679,
+        "opacity": 0.380466,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -338,8 +338,8 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.805044,
-        "transform": "matrix(1, 0, 0, 1, 4.67895, 0)"
+        "opacity": 0.805123,
+        "transform": "matrix(1, 0, 0, 1, 4.67705, 0)"
       },
       "passed": true
     },
@@ -365,17 +365,16 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "opacity": 0.281901,
+        "opacity": 0.281999,
         "inert": true
       },
       "passed": true
     },
     {
-      "test": "Navigation transitions",
+      "test": "Native mobile language selector opens the selected language",
       "mode": "mobile",
       "lang": "en",
-      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"languages-dropdown-handle\"]').first()\n    - locator resolved to <button type=\"button\" class=\"clBgzu wixui-language-menu\" aria-label=\"Language Selector: English\" data-testid=\"languages-dropdown-handle\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <select>…</select> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
-      "passed": false
+      "passed": true
     },
     {
       "test": "Motion interactions have no JavaScript errors",
@@ -389,9 +388,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 369.125,
+        "height": 369.03125,
         "target": 518,
-        "opacity": 0.712623,
+        "opacity": 0.712436,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -411,9 +410,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 197.046875,
+        "height": 197.0625,
         "target": 518,
-        "opacity": 0.380767,
+        "opacity": 0.380805,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -473,8 +472,8 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.718081,
-        "transform": "matrix(1, 0, 0, 1, 6.76607, 0)"
+        "opacity": 0.805083,
+        "transform": "matrix(1, 0, 0, 1, 4.678, 0)"
       },
       "passed": true
     },
@@ -484,7 +483,7 @@
       "lang": "fr",
       "expanding": {
         "height": 77.40625,
-        "opacity": 0.691213
+        "opacity": 0.691201
       },
       "full": 112,
       "passed": true
@@ -500,17 +499,16 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "opacity": 0.281993,
+        "opacity": 0.282239,
         "inert": true
       },
       "passed": true
     },
     {
-      "test": "Navigation transitions",
+      "test": "Native mobile language selector opens the selected language",
       "mode": "mobile",
       "lang": "fr",
-      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=\"languages-dropdown-handle\"]').first()\n    - locator resolved to <button type=\"button\" class=\"clBgzu wixui-language-menu\" aria-label=\"Language Selector: French\" data-testid=\"languages-dropdown-handle\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <select>…</select> intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    56 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <select>…</select> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
-      "passed": false
+      "passed": true
     },
     {
       "test": "Motion interactions have no JavaScript errors",
@@ -524,11 +522,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.982114,
+          "opacity": 0.982112,
           "inert": true
         },
         {
-          "opacity": 0.40995,
+          "opacity": 0.409971,
           "inert": false
         }
       ],
@@ -561,11 +559,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.982114,
+          "opacity": 0.982145,
           "inert": true
         },
         {
-          "opacity": 0.409955,
+          "opacity": 0.40964,
           "inert": false
         }
       ],
@@ -1059,7 +1057,7 @@
       "mode": "desktop",
       "lang": "en",
       "route": "history",
-      "midway": 31,
+      "midway": 11,
       "end": 500,
       "passed": true
     },

@@ -1,0 +1,97 @@
+{
+  "verifiedAt": "2026-09-08T22:58:32.555Z",
+  "results": [
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "desktop",
+      "lang": "en",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "desktop",
+      "lang": "fr",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "en",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "en",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "mobile",
+      "lang": "en",
+      "errors": [],
+      "passed": true
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "fr",
+      "route": "contact-us",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility components",
+      "mode": "mobile",
+      "lang": "fr",
+      "route": "facility-rental",
+      "passed": false,
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+    },
+    {
+      "test": "Contact and facility have no JavaScript errors",
+      "mode": "mobile",
+      "lang": "fr",
+      "errors": [],
+      "passed": true
+    }
+  ]
+}
