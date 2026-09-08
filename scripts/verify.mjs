@@ -104,6 +104,7 @@ for(const mode of ['desktop','mobile']){
   await responsivePage.goto('http://127.0.0.1:4173/home?lang='+lang,{waitUntil:'domcontentloaded'});
   const frame=responsivePage.frames().find(f=>f.url().includes('home-slideshow.html'));
   await frame.waitForLoadState('load');
+  await responsivePage.waitForFunction(()=>['img_comp-lq2mfhza','img_comp-lq2mfhzn1'].every(id=>{const i=document.getElementById(id)?.querySelector('img');return i?.complete&&i.naturalWidth>0;}));
   for(const width of [1024,1280,1440,1920,2560,1280,1920]){
    await responsivePage.setViewportSize({width,height:1000});
    for(const slide of [0,1]){
@@ -116,6 +117,12 @@ for(const mode of ['desktop','mobile']){
     const pageBounds=await responsivePage.evaluate(()=>({viewport:document.documentElement.clientWidth,frame:document.querySelector('iframe').getBoundingClientRect().width,scrollWidth:document.documentElement.scrollWidth}));
     const passed=Math.abs(bounds.imageLeft)<1&&Math.abs(bounds.imageRight-bounds.viewport)<1&&Math.abs(pageBounds.frame-pageBounds.viewport)<1&&pageBounds.scrollWidth<=pageBounds.viewport+1;
     results.push({test:'Full-width responsive slideshow',lang,width,slide,...bounds,...pageBounds,passed});
+    const photos=await responsivePage.evaluate(()=>['img_comp-lq2mfhza','img_comp-lq2mfhzn1'].map(id=>{
+     const host=document.getElementById(id),image=host.querySelector('img'),h=host.getBoundingClientRect(),i=image.getBoundingClientRect();
+     return {id,columnWidth:h.width,imageWidth:i.width,columnHeight:h.height,imageHeight:i.height,leftDifference:i.left-h.left,naturalWidth:image.naturalWidth,position:getComputedStyle(image).objectPosition};
+    }));
+    for(const photo of photos)results.push({test:'Uncropped photo fills responsive column',lang,width,...photo,passed:Math.abs(photo.imageWidth-photo.columnWidth)<1&&Math.abs(photo.imageHeight-photo.columnHeight)<1&&Math.abs(photo.leftDifference)<1&&photo.naturalWidth>=1200});
+
    }
    if(width===1920)await responsivePage.screenshot({path:'migration/screenshots/desktop-'+lang+'-home-wide-replica.png',fullPage:false});
   }

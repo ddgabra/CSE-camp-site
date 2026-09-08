@@ -32,6 +32,8 @@ jobs:
       - name: Capture every accordion answer
         if: github.event_name == 'workflow_run' || inputs.capture_components
         run: node scripts/enrich.mjs
+      - name: Restore responsive home photos
+        run: node scripts/restore-responsive-images.mjs
       - name: Validate pages and interactions
         id: verify
         continue-on-error: true
