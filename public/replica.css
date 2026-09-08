@@ -30,3 +30,16 @@ html{scroll-behavior:smooth;scroll-padding-top:96px}
 
 /* Backgrounds must follow their live container, not Wix's captured pixel width. */
 wow-image:is(.bgImage,.bgVideoposter) > img{width:100%!important;height:100%!important;object-fit:cover}
+
+/* Mobile facility content flows with translated text instead of captured offsets. */
+.device-mobile-optimized [data-mesh-id="comp-ll18nunfinlineContent-gridContainer"]{grid-template-rows:none!important;grid-auto-rows:min-content}
+.device-mobile-optimized [data-mesh-id^="comp-ll18nunfinlineContent-wedge-"]{display:none!important}
+.device-mobile-optimized #comp-ll18nunf :is(#comp-ied9cin5,#comp-ied9c4i9,#comp-ied9hnjb,#comp-ied9lltk,#comp-jm2ifq3b,#comp-jm2ifq46,#comp-jm2ifq8d){left:auto!important;justify-self:center!important;margin:0 0 20px!important}
+.device-mobile-optimized #comp-ll18nunf #comp-ied9g7h7{grid-area:1/1/3/2!important;left:0!important;margin:0!important;width:100%!important;height:auto!important;align-self:stretch!important;justify-self:stretch!important}
+.device-mobile-optimized #comp-ll18nunf #comp-ied9cin5{grid-area:1/1/2/2!important;margin-top:24px!important}
+.device-mobile-optimized #comp-ll18nunf #comp-ied9c4i9{grid-area:2/1/3/2!important;margin-bottom:28px!important}
+.device-mobile-optimized #comp-ll18nunf #comp-ied9hnjb{grid-area:3/1/4/2!important;margin-top:28px!important}
+.device-mobile-optimized #comp-ll18nunf #comp-ied9lltk{grid-area:4/1/5/2!important}
+.device-mobile-optimized #comp-ll18nunf #comp-jm2ifq3b{grid-area:5/1/6/2!important}
+.device-mobile-optimized #comp-ll18nunf #comp-jm2ifq46{grid-area:6/1/7/2!important}
+.device-mobile-optimized #comp-ll18nunf #comp-jm2ifq8d{grid-area:7/1/8/2!important}

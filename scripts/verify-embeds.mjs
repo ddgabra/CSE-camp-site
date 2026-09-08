@@ -10,6 +10,10 @@ export async function verifyEmbeds(browser){
     await page.goto('http://127.0.0.1:4173/'+route+'?lang='+lang,{waitUntil:'domcontentloaded'});
     const map=page.locator('#cse-contact-map');
     await map.scrollIntoViewIfNeeded();
+    if(mode==='mobile'&&route==='facility-rental'){
+     const location=await page.locator('#comp-ied9cin5').boundingBox(),mapBox=await map.boundingBox(),info=await page.locator('#comp-ied9hnjb').boundingBox(),galleryBox=await page.locator('#comp-ied9lltk').boundingBox();
+     results.push({test:'Mobile facility text, map and gallery do not overlap',...data,location,mapBox,info,galleryBox,passed:location.y+location.height<=mapBox.y&&mapBox.y+mapBox.height<=info.y&&info.y+info.height<=galleryBox.y});
+    }
     const frame=await (await map.elementHandle()).contentFrame();
     await frame.waitForSelector('body',{timeout:20000});
     const zoom=frame.getByRole('button',{name:/^(Zoom in|Zoom avant|Agrandir)$/i,includeHidden:true});
