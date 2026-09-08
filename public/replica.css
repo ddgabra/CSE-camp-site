@@ -1,3 +1,9 @@
+[id="cse-camp-signup"]:focus-visible{outline:2px solid currentColor;outline-offset:-2px}
+/* Keep all three header options visible, including the longer French labels. */
+nav.wixui-horizontal-menu:has(#cse-camp-signup) > ul > li > div > [data-item-label]{margin-inline:15px}
+nav.wixui-horizontal-menu:has(#cse-camp-signup) > ul > li:first-child > div > [data-item-label]{margin-inline-start:0}
+nav.wixui-horizontal-menu:has(#cse-camp-signup) > ul > li:last-child > div > [data-item-label]{margin-inline-end:0}
+
 [data-cse-open] > [data-testid="positionBox"]{visibility:visible!important;pointer-events:auto!important;display:block!important}
 [data-cse-open] [class*="__animationBox"]{opacity:1!important;transform:none!important;visibility:visible!important}
 #cse-language-options{background:#204a4f;min-width:65px;box-shadow:0 3px 12px #0003}
