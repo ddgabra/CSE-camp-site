@@ -120,10 +120,10 @@ for(const mode of ['desktop','mobile']){
     const bounds=await frame.evaluate(()=>{
      const image=document.querySelector('.cycle-slide-active .img').getBoundingClientRect();
      const overlay=document.querySelector('.cycle-slide-active .overlay').getBoundingClientRect();
-     return {slideWidth:document.querySelector('.cycle-slide-active').getBoundingClientRect().width,viewport:innerWidth,imageLeft:image.left,imageRight:image.right,imageWidth:image.width,overlayLeft:overlay.left,overlayWidth:overlay.width};
+     return {innerScrollWidth:document.documentElement.scrollWidth,slideWidth:document.querySelector('.cycle-slide-active').getBoundingClientRect().width,viewport:innerWidth,imageLeft:image.left,imageRight:image.right,imageWidth:image.width,overlayLeft:overlay.left,overlayWidth:overlay.width};
     });
     const pageBounds=await responsivePage.evaluate(()=>({viewport:document.documentElement.clientWidth,frame:document.querySelector('iframe').getBoundingClientRect().width,scrollWidth:document.documentElement.scrollWidth}));
-    const passed=bounds.imageLeft<=1&&bounds.imageRight>=bounds.viewport-1&&Math.abs(bounds.slideWidth-bounds.viewport)<1&&Math.abs(pageBounds.frame-pageBounds.viewport)<1&&pageBounds.scrollWidth<=pageBounds.viewport+1;
+    const passed=bounds.imageLeft<=1&&bounds.imageRight>=bounds.viewport-1&&Math.abs(bounds.slideWidth-bounds.viewport)<1&&Math.abs(pageBounds.frame-pageBounds.viewport)<1&&bounds.innerScrollWidth<=bounds.viewport+1;
     results.push({test:'Full-width responsive slideshow',lang,width,slide,...bounds,...pageBounds,passed});
     const buttonBounds=await frame.locator('.cycle-slide-active .more').evaluate(button=>{
      const b=button.getBoundingClientRect();return {left:b.left,right:b.right,top:b.top,bottom:b.bottom,width:b.width,height:b.height,viewportWidth:innerWidth,viewportHeight:innerHeight};
