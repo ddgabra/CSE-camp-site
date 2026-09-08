@@ -10,7 +10,7 @@
   },
   "rewrites": [
     {
-      "source": "/:path((?!assets/|capture/|replica\\.|api/).*)",
+      "source": "/:path((?!assets/|capture/|replica\\.|slideshow\\.js|api/).*)",
       "destination": "/api/page?route=/:path"
     }
   ]

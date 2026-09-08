@@ -11,7 +11,7 @@ const contentTypes={'.html':'text/html','.css':'text/css','.js':'application/jav
 const server=createServer(async(req,res)=>{
  try{
   const u=new URL(req.url,'http://localhost:4173');
-  if(u.pathname.startsWith('/assets/')||u.pathname.startsWith('/replica.')||u.pathname.startsWith('/capture/')){
+  if(u.pathname.startsWith('/assets/')||u.pathname.startsWith('/replica.')||u.pathname.startsWith('/capture/')||u.pathname==='/slideshow.js'){
    const file=path.resolve('public','.'+u.pathname);
    if(!file.startsWith(path.resolve('public')+path.sep)){res.writeHead(400);res.end();return;}
    res.setHeader('Content-Type',contentTypes[path.extname(file)]||'application/octet-stream');
@@ -36,6 +36,13 @@ for(const mode of ['desktop','mobile']){
   const response=await page.goto(url,{waitUntil:'domcontentloaded'});
   await page.evaluate(()=>Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,5000))]));
   await page.evaluate(()=>Promise.race([Promise.all([...document.images].map(i=>i.complete?Promise.resolve():new Promise(r=>{i.addEventListener('load',r,{once:true});i.addEventListener('error',r,{once:true});}))),new Promise(r=>setTimeout(r,8000))]));
+  if(item.pathname==='/home'){
+   const frame=page.frames().find(f=>f.url().includes('home-slideshow.html'));
+   if(!frame)throw new Error('Missing standalone slideshow');
+   await frame.waitForLoadState('domcontentloaded');
+   const backgrounds=await frame.locator('.img').evaluateAll(nodes=>nodes.map(n=>getComputedStyle(n).backgroundImage.match(/url\(["']?(.*?)["']?\)/)?.[1]).filter(Boolean));
+   for(const src of new Set(backgrounds)){const r=await fetch(src);if(!r.ok())throw new Error('Broken slideshow image '+src);}
+  }
   const state=await page.evaluate(()=>({title:document.title,text:document.body.innerText,images:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>({src:i.src,alt:i.alt})),links:[...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')),forms:document.forms.length}));
   const missingText=item.text.split('\n').map(x=>x.trim()).filter(x=>x.length>30&&!state.text.includes(x));
   const result={pathname:item.pathname,lang:item.lang,mode,status:response.status(),missingText,brokenImages:state.images,sourceBrokenImages:item.media.filter(i=>!i.loaded).length,scriptErrors:errors};

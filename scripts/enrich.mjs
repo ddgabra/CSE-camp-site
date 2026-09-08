@@ -41,7 +41,7 @@ for(const item of report.pages){
   let content=frameHTML;
   for(const [url,a]of Object.entries(assets))content=content.split(url).join(a.dest).split(url.replaceAll('&','&amp;')).join(a.dest);
   const name='/capture/'+item.mode+'/'+item.lang+'/home-slideshow.html';
-  await writeFile('public'+name,content);
+  await writeFile('public'+name,content.replace('</body>','<script src="/slideshow.js"></script></body>'));
   html=html.replace(/(<iframe[^>]*src=")[^"]*StripSlideshow[^" ]*(")/, '$1'+name+'$2');
   await writeFile(file,html);
   enriched.push({pathname:item.pathname,lang:item.lang,mode:item.mode,slideshow:true});

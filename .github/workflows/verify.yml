@@ -1,6 +1,11 @@
 name: Enrich and verify replica
 on:
   workflow_dispatch:
+    inputs:
+      capture_components:
+        description: Recapture slideshow and FAQ content from Wix
+        type: boolean
+        default: false
   workflow_run:
     workflows: ["Capture original bilingual website"]
     types: [completed]
@@ -25,6 +30,7 @@ jobs:
         continue-on-error: true
         run: node scripts/repair.mjs
       - name: Capture every accordion answer
+        if: github.event_name == 'workflow_run' || inputs.capture_components
         run: node scripts/enrich.mjs
       - name: Validate pages and interactions
         id: verify
