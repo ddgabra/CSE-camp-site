@@ -1,0 +1,43 @@
+name: Enrich and verify replica
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Capture original bilingual website"]
+    types: [completed]
+permissions:
+  contents: write
+concurrency:
+  group: cse-verification
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Capture every accordion answer
+        run: node scripts/enrich.mjs
+      - name: Validate pages and interactions
+        id: verify
+        continue-on-error: true
+        run: npm run verify
+      - name: Save final content and visual reports
+        if: always()
+        run: |
+          git config user.name "CSE Site Capture"
+          git config user.email "295957221+ddgabra@users.noreply.github.com"
+          git add public migration
+          if ! git diff --cached --quiet; then
+            git commit -m "Preserve all FAQ answers and verify copied pages"
+            git pull --rebase origin main
+            git push
+          fi
+      - name: Require verification
+        if: steps.verify.outcome == 'failure'
+        run: exit 1
