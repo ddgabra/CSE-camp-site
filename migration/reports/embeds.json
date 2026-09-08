@@ -1,21 +1,85 @@
 {
-  "verifiedAt": "2026-09-08T23:05:15.856Z",
+  "verifiedAt": "2026-09-08T23:09:49.903Z",
   "results": [
     {
-      "test": "Contact and facility components",
+      "test": "Interactive location map loads and zooms",
       "mode": "desktop",
       "lang": "en",
       "route": "contact-us",
-      "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "bounds": {
+        "x": 470,
+        "y": 467.734375,
+        "width": 531,
+        "height": 257
+      },
+      "directions": 1,
+      "passed": true
     },
     {
-      "test": "Contact and facility components",
+      "test": "Contact photo uses the original uncropped file",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "contact-us",
+      "src": "/assets/cse-contact-original.jpg",
+      "width": 2016,
+      "height": 933,
+      "passed": true
+    },
+    {
+      "test": "Interactive location map loads and zooms",
       "mode": "desktop",
       "lang": "en",
       "route": "facility-rental",
-      "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "bounds": {
+        "x": 952,
+        "y": 717,
+        "width": 495,
+        "height": 283
+      },
+      "directions": 1,
+      "passed": true
+    },
+    {
+      "test": "Facility thumbnails scroll when hovering at the edge",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "facility-rental",
+      "shifted": 8,
+      "passed": true
+    },
+    {
+      "test": "All ten facility photos can be selected",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "facility-rental",
+      "count": 10,
+      "passed": true
+    },
+    {
+      "test": "Facility slideshow crossfades and wraps with keyboard navigation",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "facility-rental",
+      "mid": 0.533825,
+      "passed": true
+    },
+    {
+      "test": "Facility slideshow image fills its frame",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "facility-rental",
+      "width": 495,
+      "height": 353,
+      "imageWidth": 495,
+      "imageHeight": 353,
+      "passed": true
+    },
+    {
+      "test": "Facility slideshow respects reduced motion",
+      "mode": "desktop",
+      "lang": "en",
+      "route": "facility-rental",
+      "passed": true
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -25,20 +89,84 @@
       "passed": true
     },
     {
-      "test": "Contact and facility components",
+      "test": "Interactive location map loads and zooms",
       "mode": "desktop",
       "lang": "fr",
       "route": "contact-us",
-      "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "bounds": {
+        "x": 470,
+        "y": 467,
+        "width": 531,
+        "height": 257
+      },
+      "directions": 1,
+      "passed": true
     },
     {
-      "test": "Contact and facility components",
+      "test": "Contact photo uses the original uncropped file",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "contact-us",
+      "src": "/assets/cse-contact-original.jpg",
+      "width": 2016,
+      "height": 933,
+      "passed": true
+    },
+    {
+      "test": "Interactive location map loads and zooms",
       "mode": "desktop",
       "lang": "fr",
       "route": "facility-rental",
-      "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "bounds": {
+        "x": 952,
+        "y": 717,
+        "width": 495,
+        "height": 283
+      },
+      "directions": 1,
+      "passed": true
+    },
+    {
+      "test": "Facility thumbnails scroll when hovering at the edge",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "facility-rental",
+      "shifted": 8,
+      "passed": true
+    },
+    {
+      "test": "All ten facility photos can be selected",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "facility-rental",
+      "count": 10,
+      "passed": true
+    },
+    {
+      "test": "Facility slideshow crossfades and wraps with keyboard navigation",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "facility-rental",
+      "mid": 0.533994,
+      "passed": true
+    },
+    {
+      "test": "Facility slideshow image fills its frame",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "facility-rental",
+      "width": 495,
+      "height": 353,
+      "imageWidth": 495,
+      "imageHeight": 353,
+      "passed": true
+    },
+    {
+      "test": "Facility slideshow respects reduced motion",
+      "mode": "desktop",
+      "lang": "fr",
+      "route": "facility-rental",
+      "passed": true
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -48,12 +176,28 @@
       "passed": true
     },
     {
-      "test": "Contact and facility components",
+      "test": "Interactive location map loads and zooms",
       "mode": "mobile",
       "lang": "en",
       "route": "contact-us",
-      "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "bounds": {
+        "x": 20,
+        "y": 248.34375,
+        "width": 280,
+        "height": 240
+      },
+      "directions": 1,
+      "passed": true
+    },
+    {
+      "test": "Contact photo uses the original uncropped file",
+      "mode": "mobile",
+      "lang": "en",
+      "route": "contact-us",
+      "src": "/assets/cse-contact-original.jpg",
+      "width": 2016,
+      "height": 933,
+      "passed": true
     },
     {
       "test": "Contact and facility components",
@@ -61,7 +205,7 @@
       "lang": "en",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /camera controls|caméra/i })\n    - locator resolved to <button type=\"button\" draggable=\"false\" aria-expanded=\"false\" class=\"gm-control-active\" title=\"Map camera controls\" aria-label=\"Map camera controls\" aria-controls=\"99E3001D-F3D7-4A39-B62B-6B649F99C5B9\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <p class=\"font_7 wixui-rich-text__text\">The town of St. Malo has all the services you nee…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <p class=\"font_7 wixui-rich-text__text\">The CSE is located 45 minutes south of Winnipeg o…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 100ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <embed-place-card-element></embed-place-card-element> intercepts pointer events\n  - retrying click action\n    - waiting 100ms\n    14 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <p class=\"font_7 wixui-rich-text__text\">The town of St. Malo has all the services you nee…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <p class=\"font_7 wixui-rich-text__text\">The town of St. Malo has all the services you nee…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <p class=\"font_7 wixui-rich-text__text\">The CSE is located 45 minutes south of Winnipeg o…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <embed-place-card-element></embed-place-card-element> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -71,12 +215,28 @@
       "passed": true
     },
     {
-      "test": "Contact and facility components",
+      "test": "Interactive location map loads and zooms",
       "mode": "mobile",
       "lang": "fr",
       "route": "contact-us",
-      "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "bounds": {
+        "x": 20,
+        "y": 248.59375,
+        "width": 280,
+        "height": 240
+      },
+      "directions": 1,
+      "passed": true
+    },
+    {
+      "test": "Contact photo uses the original uncropped file",
+      "mode": "mobile",
+      "lang": "fr",
+      "route": "contact-us",
+      "src": "/assets/cse-contact-original.jpg",
+      "width": 2016,
+      "height": 933,
+      "passed": true
     },
     {
       "test": "Contact and facility components",
@@ -84,7 +244,7 @@
       "lang": "fr",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
+      "error": "locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /camera controls|caméra/i })\n    - locator resolved to <button type=\"button\" draggable=\"false\" aria-expanded=\"false\" class=\"gm-control-active\" title=\"Commandes de la caméra de la carte\" aria-label=\"Commandes de la caméra de la carte\" aria-controls=\"8EED1D5E-3CB4-49E7-A24D-EC7E5E558530\">…</button>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <p class=\"font_7 wixui-rich-text__text\"> La ville de Saint-Malo possède tous les services…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <p class=\"font_7 wixui-rich-text__text\"> Le CSE est situé à 45 minutes au sud de Winnipeg…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 100ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <embed-place-card-element></embed-place-card-element> intercepts pointer events\n  - retrying click action\n    - waiting 100ms\n    3 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <p class=\"font_7 wixui-rich-text__text\"> La ville de Saint-Malo possède tous les services…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <p class=\"font_7 wixui-rich-text__text\"> La ville de Saint-Malo possède tous les services…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <p class=\"font_7 wixui-rich-text__text\"> Le CSE est situé à 45 minutes au sud de Winnipeg…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <embed-place-card-element></embed-place-card-element> intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <p class=\"font_7 wixui-rich-text__text\"> La ville de Saint-Malo possède tous les services…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n  2 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <p class=\"font_7 wixui-rich-text__text\"> Le CSE est situé à 45 minutes au sud de Winnipeg…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n  10 × retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <embed-place-card-element></embed-place-card-element> intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <p class=\"font_7 wixui-rich-text__text\"> La ville de Saint-Malo possède tous les services…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <p class=\"font_7 wixui-rich-text__text\"> La ville de Saint-Malo possède tous les services…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n       - waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <p class=\"font_7 wixui-rich-text__text\"> Le CSE est situé à 45 minutes au sud de Winnipeg…</p> from <div id=\"comp-ied9cin5\" data-testid=\"richTextElement\" class=\"UwkEpO _v6ohL PO9MfV AWXfZq comp-ied9cin5 wixui-rich-text\">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <embed-place-card-element></embed-place-card-element> intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",

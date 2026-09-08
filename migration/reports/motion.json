@@ -1,14 +1,14 @@
 {
-  "verifiedAt": "2026-09-08T23:05:49.010Z",
+  "verifiedAt": "2026-09-08T23:10:22.851Z",
   "results": [
     {
       "test": "FAQ expands through intermediate heights",
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "height": 134.6875,
+        "height": 134.640625,
         "target": 189,
-        "opacity": 0.712657,
+        "opacity": 0.712411,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -28,9 +28,9 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "height": 71.71875,
+        "height": 71.734375,
         "target": 189,
-        "opacity": 0.380497,
+        "opacity": 0.380623,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -90,7 +90,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.854301,
+        "opacity": 0.854479,
         "animations": 1
       },
       "passed": true
@@ -100,7 +100,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.133512,
+        "opacity": 0.13314,
         "inert": true
       },
       "passed": true
@@ -109,7 +109,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.726811,
+      "opacity": 0.727185,
       "passed": true
     },
     {
@@ -130,9 +130,9 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "height": 156.734375,
+        "height": 156.765625,
         "target": 220,
-        "opacity": 0.712475,
+        "opacity": 0.712593,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -154,7 +154,7 @@
       "closing": {
         "height": 83.71875,
         "target": 220,
-        "opacity": 0.380541,
+        "opacity": 0.380591,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -214,7 +214,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.854231,
+        "opacity": 0.854087,
         "animations": 1
       },
       "passed": true
@@ -224,7 +224,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.132973,
+        "opacity": 0.132987,
         "inert": true
       },
       "passed": true
@@ -233,7 +233,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.726664,
+      "opacity": 0.72664,
       "passed": true
     },
     {
@@ -254,9 +254,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.203125,
+        "height": 324.15625,
         "target": 455,
-        "opacity": 0.712564,
+        "opacity": 0.712465,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -276,9 +276,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 173.078125,
+        "height": 172.953125,
         "target": 455,
-        "opacity": 0.38083,
+        "opacity": 0.380554,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -338,8 +338,8 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.805136,
-        "transform": "matrix(1, 0, 0, 1, 4.67673, 0)"
+        "opacity": 0.805022,
+        "transform": "matrix(1, 0, 0, 1, 4.67947, 0)"
       },
       "passed": true
     },
@@ -349,7 +349,7 @@
       "lang": "en",
       "expanding": {
         "height": 77.4375,
-        "opacity": 0.691425
+        "opacity": 0.691413
       },
       "full": 112,
       "passed": true
@@ -365,7 +365,7 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "opacity": 0.282177,
+        "opacity": 0.281944,
         "inert": true
       },
       "passed": true
@@ -388,9 +388,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 368.9375,
+        "height": 369,
         "target": 518,
-        "opacity": 0.712238,
+        "opacity": 0.712381,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -410,9 +410,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 196.96875,
+        "height": 196.984375,
         "target": 518,
-        "opacity": 0.380629,
+        "opacity": 0.380661,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -472,8 +472,8 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.804917,
-        "transform": "matrix(1, 0, 0, 1, 4.682, 0)"
+        "opacity": 0.805097,
+        "transform": "matrix(1, 0, 0, 1, 4.67768, 0)"
       },
       "passed": true
     },
@@ -482,8 +482,8 @@
       "mode": "mobile",
       "lang": "fr",
       "expanding": {
-        "height": 77.40625,
-        "opacity": 0.691213
+        "height": 77.390625,
+        "opacity": 0.691001
       },
       "full": 112,
       "passed": true
@@ -499,7 +499,7 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "opacity": 0.282091,
+        "opacity": 0.282232,
         "inert": true
       },
       "passed": true
@@ -522,11 +522,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.972765,
+          "opacity": 0.982115,
           "inert": true
         },
         {
-          "opacity": 0.491385,
+          "opacity": 0.40994,
           "inert": false
         }
       ],
@@ -559,11 +559,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.98211,
+          "opacity": 0.972708,
           "inert": true
         },
         {
-          "opacity": 0.409991,
+          "opacity": 0.491812,
           "inert": false
         }
       ],
@@ -1057,7 +1057,7 @@
       "mode": "desktop",
       "lang": "en",
       "route": "history",
-      "midway": 11,
+      "midway": 31,
       "end": 500,
       "passed": true
     },
@@ -1397,7 +1397,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "mission-en",
-      "midway": 71,
+      "midway": 31,
       "end": 500,
       "passed": true
     },
@@ -1527,7 +1527,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "history",
-      "midway": 11,
+      "midway": 31,
       "end": 500,
       "passed": true
     },
