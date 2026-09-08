@@ -7,11 +7,11 @@ import pixelmatch from 'pixelmatch';
 import handler from '../api/page.js';
 const report=JSON.parse(await readFile('migration/reports/capture.json','utf8'));
 const results=[];
-const contentTypes={'.css':'text/css','.js':'application/javascript','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml','.webp':'image/webp','.woff2':'font/woff2','.woff':'font/woff','.pdf':'application/pdf'};
+const contentTypes={'.html':'text/html','.css':'text/css','.js':'application/javascript','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.svg':'image/svg+xml','.webp':'image/webp','.woff2':'font/woff2','.woff':'font/woff','.pdf':'application/pdf'};
 const server=createServer(async(req,res)=>{
  try{
   const u=new URL(req.url,'http://localhost:4173');
-  if(u.pathname.startsWith('/assets/')||u.pathname.startsWith('/replica.')){
+  if(u.pathname.startsWith('/assets/')||u.pathname.startsWith('/replica.')||u.pathname.startsWith('/capture/')){
    const file=path.resolve('public','.'+u.pathname);
    if(!file.startsWith(path.resolve('public')+path.sep)){res.writeHead(400);res.end();return;}
    res.setHeader('Content-Type',contentTypes[path.extname(file)]||'application/octet-stream');
@@ -32,7 +32,7 @@ for(const mode of ['desktop','mobile']){
   if(item.redirect){results.push({pathname:item.pathname,lang:item.lang,mode,redirect:item.redirect,preserved:true});continue;}
   const url='http://127.0.0.1:4173'+item.pathname+(item.lang==='fr'?'?lang=fr':'');
   const errors=[];
-  page.removeAllListeners('pageerror');page.on('pageerror',e=>errors.push(e.message));
+  page.removeAllListeners('pageerror');page.on('pageerror',e=>errors.push({message:e.message,stack:e.stack}));
   const response=await page.goto(url,{waitUntil:'domcontentloaded'});
   await page.evaluate(()=>Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,5000))]));
   await page.evaluate(()=>Promise.race([Promise.all([...document.images].map(i=>i.complete?Promise.resolve():new Promise(r=>{i.addEventListener('load',r,{once:true});i.addEventListener('error',r,{once:true});}))),new Promise(r=>setTimeout(r,8000))]));
