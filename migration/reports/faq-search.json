@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T22:15:02.193Z",
+  "verifiedAt": "2026-09-08T22:17:09.176Z",
   "results": [
     {
       "test": "Opening another FAQ closes the previous answer",
@@ -62,10 +62,10 @@
       "query": "pakcing",
       "expected": "bring to camp",
       "titles": [
-        "What if my child is nervous about coming to an overnight camp?",
-        "What should my kid bring to camp?"
+        "What should my kid bring to camp?",
+        "What if my child is nervous about coming to an overnight camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -225,11 +225,7 @@
       "query": "cout",
       "expected": "coût",
       "titles": [
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Armes, violence et intimidation",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Et si mon enfant a le mal du pays?",
-        "S'habiller modestement"
+        "Quelqu'un peut-il m'aider avec le coût des camps?"
       ],
       "passed": true
     },
@@ -373,10 +369,10 @@
       "query": "pakcing",
       "expected": "bring to camp",
       "titles": [
-        "What if my child is nervous about coming to an overnight camp?",
-        "What should my kid bring to camp?"
+        "What should my kid bring to camp?",
+        "What if my child is nervous about coming to an overnight camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -536,11 +532,7 @@
       "query": "cout",
       "expected": "coût",
       "titles": [
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Armes, violence et intimidation",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Et si mon enfant a le mal du pays?",
-        "S'habiller modestement"
+        "Quelqu'un peut-il m'aider avec le coût des camps?"
       ],
       "passed": true
     },

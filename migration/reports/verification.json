@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T22:16:11.048Z",
+  "verifiedAt": "2026-09-08T22:18:21.776Z",
   "results": [
     {
       "test": "Opening another FAQ closes the previous answer",
@@ -62,10 +62,10 @@
       "query": "pakcing",
       "expected": "bring to camp",
       "titles": [
-        "What if my child is nervous about coming to an overnight camp?",
-        "What should my kid bring to camp?"
+        "What should my kid bring to camp?",
+        "What if my child is nervous about coming to an overnight camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -225,11 +225,7 @@
       "query": "cout",
       "expected": "coût",
       "titles": [
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Armes, violence et intimidation",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Et si mon enfant a le mal du pays?",
-        "S'habiller modestement"
+        "Quelqu'un peut-il m'aider avec le coût des camps?"
       ],
       "passed": true
     },
@@ -373,10 +369,10 @@
       "query": "pakcing",
       "expected": "bring to camp",
       "titles": [
-        "What if my child is nervous about coming to an overnight camp?",
-        "What should my kid bring to camp?"
+        "What should my kid bring to camp?",
+        "What if my child is nervous about coming to an overnight camp?"
       ],
-      "passed": false
+      "passed": true
     },
     {
       "test": "Search result opens its original answer",
@@ -536,11 +532,7 @@
       "query": "cout",
       "expected": "coût",
       "titles": [
-        "Quelqu'un peut-il m'aider avec le coût des camps?",
-        "Armes, violence et intimidation",
-        "À quel camp dois-je inscrire mon enfant?",
-        "Et si mon enfant a le mal du pays?",
-        "S'habiller modestement"
+        "Quelqu'un peut-il m'aider avec le coût des camps?"
       ],
       "passed": true
     },
@@ -640,8 +632,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.064265,
-      "second": 0.430323,
+      "first": 0.0642955,
+      "second": 0.430398,
       "passed": true
     },
     {
@@ -953,8 +945,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642461,
-      "second": 0.430417,
+      "first": 0.0642989,
+      "second": 0.430406,
       "passed": true
     },
     {
@@ -2066,7 +2058,7 @@
           2442
         ]
       },
-      "pixelDifference": 0.022049037674037673,
+      "pixelDifference": 0.021955478205478204,
       "newScriptErrors": []
     },
     {
@@ -2088,7 +2080,7 @@
           2433
         ]
       },
-      "pixelDifference": 0.025008848244051696,
+      "pixelDifference": 0.025144997031556836,
       "newScriptErrors": []
     },
     {
@@ -2110,7 +2102,7 @@
           6142
         ]
       },
-      "pixelDifference": 0.03806894243641232,
+      "pixelDifference": 0.05459846141322045,
       "newScriptErrors": []
     },
     {
@@ -2132,7 +2124,7 @@
           6060
         ]
       },
-      "pixelDifference": 0.027824647048038137,
+      "pixelDifference": 0.027828543270993766,
       "newScriptErrors": []
     },
     {
@@ -3456,7 +3448,7 @@
           9831
         ]
       },
-      "pixelDifference": 0.004884315769843692,
+      "pixelDifference": 0.004870541314888279,
       "newScriptErrors": []
     },
     {
@@ -3478,7 +3470,7 @@
           28224
         ]
       },
-      "pixelDifference": 0.019165389680177627,
+      "pixelDifference": 0,
       "newScriptErrors": []
     },
     {
@@ -4761,9 +4753,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.02520751953125,
-      "imageRight": 1024.0250854492188,
-      "imageWidth": 1024.05029296875,
+      "imageLeft": -0.18304443359375,
+      "imageRight": 1024.1831665039062,
+      "imageWidth": 1024.3662109375,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -5755,9 +5747,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.1522216796875,
-      "imageRight": 1024.1522216796875,
-      "imageWidth": 1024.304443359375,
+      "imageLeft": -0.25286865234375,
+      "imageRight": 1024.2529907226562,
+      "imageWidth": 1024.505859375,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
