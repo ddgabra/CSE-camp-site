@@ -1,0 +1,39 @@
+name: Capture original bilingual website
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/capture.mjs'
+      - '.github/workflows/capture.yml'
+permissions:
+  contents: write
+concurrency:
+  group: cse-capture
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Capture source pages, languages and assets
+        id: capture
+        continue-on-error: true
+        run: npm run capture
+      - name: Commit captured source and report
+        if: always()
+        run: |
+          git config user.name "CSE Site Capture"
+          git config user.email "295957221+ddgabra@users.noreply.github.com"
+          git add public migration package-lock.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Capture original site pages and media in English and French"
+            git push
+          fi
+      - name: Validate capture
+        run: npm run build
