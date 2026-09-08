@@ -1,4 +1,65 @@
 (()=>{
+
+ // Replay Wix entrance effects using their captured keyframes, timing and direction.
+ // Captures can contain both completed effects and off-screen paused effects.
+ const entranceElements=new Set();
+ const findEntrances=rules=>{
+  for(const rule of rules){
+   if(rule.selectorText?.includes('data-motion-enter')){
+    for(const match of rule.selectorText.matchAll(/#([\w-]+):not\(\[data-motion-enter=["']done["']\]\)/g)){
+     const element=document.getElementById(match[1]);if(element)entranceElements.add(element);
+    }
+   }
+   if(rule.cssRules)findEntrances(rule.cssRules);
+  }
+ };
+ for(const sheet of document.styleSheets){try{findEntrances(sheet.cssRules);}catch{/* External styles cannot be inspected. */}}
+ const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+ const entranceTimers=new Map();
+ let entranceObserver;
+ const finishEntrance=element=>{
+  clearTimeout(entranceTimers.get(element));entranceTimers.delete(element);
+  element.setAttribute('data-motion-enter','done');
+  element.style.removeProperty('animation-play-state');
+  entranceObserver?.unobserve(element);
+ };
+ if(reducedMotion.matches||!('IntersectionObserver' in window)){
+  entranceElements.forEach(finishEntrance);
+ }else{
+  entranceObserver=new IntersectionObserver(entries=>{
+   for(const entry of entries){
+    if(!entry.isIntersecting)continue;
+    const element=entry.target;
+    entranceObserver.unobserve(element);
+    element.setAttribute('data-motion-enter','running');
+    element.style.animationPlayState='running';
+    const style=getComputedStyle(element);
+    const milliseconds=value=>parseFloat(value)*(value.trim().endsWith('ms')?1:1000);
+    const duration=Math.max(...style.animationDuration.split(',').map(milliseconds));
+    const delay=Math.max(0,...style.animationDelay.split(',').map(milliseconds));
+    const onEnd=event=>{
+     if(event.target===element&&event.animationName.startsWith('motion-')){
+      element.removeEventListener('animationend',onEnd);finishEntrance(element);
+     }
+    };
+    element.addEventListener('animationend',onEnd);
+    // Keep content available if an animation is interrupted or its end event is lost.
+    entranceTimers.set(element,setTimeout(()=>{element.removeEventListener('animationend',onEnd);finishEntrance(element);},duration+delay+250));
+   }
+  },{threshold:0,rootMargin:'0px 0px -24px 0px'});
+  entranceElements.forEach(element=>{
+   element.removeAttribute('data-motion-enter');
+   element.style.removeProperty('animation-play-state');
+  });
+  entranceElements.forEach(element=>{
+   if(getComputedStyle(element).animationName.split(',').some(name=>name.trim().startsWith('motion-'))){
+    element.setAttribute('data-motion-enter','pending');entranceObserver.observe(element);
+   }else finishEntrance(element);
+  });
+  reducedMotion.addEventListener('change',event=>{
+   if(event.matches){entranceObserver.disconnect();entranceElements.forEach(finishEntrance);}
+  });
+ }
  const lang=new URLSearchParams(location.search).get('lang')==='fr'?'fr':'en';
  const closeMenus=()=>document.querySelectorAll('[data-cse-open]').forEach(e=>{e.removeAttribute('data-cse-open');e.removeAttribute('data-hovered');e.removeAttribute('data-shown');delete e.dataset.cseClicked;e.querySelector('[aria-expanded]')?.setAttribute('aria-expanded','false');});
  document.querySelectorAll('[data-testid="menuItemDepth0"]').forEach(item=>{

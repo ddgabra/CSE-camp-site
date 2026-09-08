@@ -5,6 +5,7 @@ import {chromium,devices} from 'playwright';
 import {PNG} from 'pngjs';
 import pixelmatch from 'pixelmatch';
 import handler from '../api/page.js';
+import {verifyEntrances} from './verify-entrances.mjs';
 const report=JSON.parse(await readFile('migration/reports/capture.json','utf8'));
 const results=[];
 async function getSlideshowFrame(page){
@@ -33,6 +34,10 @@ const server=createServer(async(req,res)=>{
 await new Promise(r=>server.listen(4173,'127.0.0.1',r));
 await mkdir('migration/screenshots',{recursive:true});
 const browser=await chromium.launch();
+const entranceResults=await verifyEntrances(browser);
+results.push(...entranceResults);
+await writeFile('migration/reports/entrances.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:entranceResults},null,2));
+entranceResults.forEach(result=>console.log(JSON.stringify(result)));
 for(const mode of ['desktop','mobile']){
  const ctx=await browser.newContext(mode==='mobile'?{...devices['iPhone 13'],locale:'en-CA'}:{viewport:{width:1440,height:1000},deviceScaleFactor:1,locale:'en-CA'});
  const page=await ctx.newPage();
@@ -45,8 +50,7 @@ for(const mode of ['desktop','mobile']){
   await page.evaluate(()=>Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,5000))]));
   await page.evaluate(()=>Promise.race([Promise.all([...document.images].map(i=>i.complete?Promise.resolve():new Promise(r=>{i.addEventListener('load',r,{once:true});i.addEventListener('error',r,{once:true});}))),new Promise(r=>setTimeout(r,8000))]));
   if(item.pathname==='/home'){
-   const frame=page.frames().find(f=>f.url().includes('home-slideshow.html'));
-   if(!frame)throw new Error('Missing standalone slideshow');
+   const frame=await getSlideshowFrame(page);
    await frame.waitForLoadState('domcontentloaded');
    const backgrounds=await frame.locator('.img').evaluateAll(nodes=>nodes.map(n=>getComputedStyle(n).backgroundImage.match(/url\(["']?(.*?)["']?\)/)?.[1]).filter(Boolean));
    for(const src of new Set(backgrounds)){const r=await fetch(src);if(!r.ok)throw new Error('Broken slideshow image '+src);}
