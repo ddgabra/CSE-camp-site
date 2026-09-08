@@ -12,7 +12,7 @@ export async function verifyEmbeds(browser){
     await map.scrollIntoViewIfNeeded();
     const frame=await (await map.elementHandle()).contentFrame();
     await frame.waitForSelector('body',{timeout:20000});
-    const zoom=frame.getByRole('button',{name:/^(Zoom in|Zoom avant|Agrandir)$/i});
+    const zoom=frame.getByRole('button',{name:/^(Zoom in|Zoom avant|Agrandir)$/i,includeHidden:true});
     await zoom.waitFor({state:'attached',timeout:25000});
     if(!(await zoom.isVisible()))await frame.getByRole('button',{name:/camera controls|caméra/i}).click();
     await zoom.click();
