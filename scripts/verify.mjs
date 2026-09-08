@@ -37,7 +37,7 @@ await mkdir('migration/screenshots',{recursive:true});
 const browser=await chromium.launch();
 const faqResults=await verifyFaq(browser);
 results.push(...faqResults);
-await writeFile('migration/reports/faq-search.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:faqResults},null,2));
+await writeFile('migration/reports/faq.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:faqResults},null,2));
 faqResults.forEach(result=>console.log(JSON.stringify(result)));
 const entranceResults=await verifyEntrances(browser);
 results.push(...entranceResults);
