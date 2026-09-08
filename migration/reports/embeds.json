@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T22:58:32.555Z",
+  "verifiedAt": "2026-09-08T23:05:15.856Z",
   "results": [
     {
       "test": "Contact and facility components",
@@ -7,7 +7,7 @@
       "lang": "en",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -15,7 +15,7 @@
       "lang": "en",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -30,7 +30,7 @@
       "lang": "fr",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -38,7 +38,7 @@
       "lang": "fr",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -53,7 +53,7 @@
       "lang": "en",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -61,7 +61,7 @@
       "lang": "en",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -76,7 +76,7 @@
       "lang": "fr",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -84,7 +84,7 @@
       "lang": "fr",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",

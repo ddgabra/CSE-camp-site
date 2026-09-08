@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T22:59:24.604Z",
+  "verifiedAt": "2026-09-08T23:06:08.673Z",
   "results": [
     {
       "test": "All subsidy entrance components restored",
@@ -18,8 +18,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642455,
-      "second": 0.430416,
+      "first": 0.0642805,
+      "second": 0.430361,
       "passed": true
     },
     {
@@ -331,8 +331,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642237,
-      "second": 0.430362,
+      "first": 0.0642053,
+      "second": 0.430458,
       "passed": true
     },
     {

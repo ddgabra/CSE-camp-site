@@ -129,42 +129,5 @@
       "dest": "/assets/cse-bg-original-2574685a5653c782.jpg"
     }
   ],
-  "updatedPages": [
-    "public/capture/desktop/en/archived-dfp-costs.html",
-    "public/capture/desktop/en/banquet.html",
-    "public/capture/desktop/en/camps.html",
-    "public/capture/desktop/en/contact-us.html",
-    "public/capture/desktop/en/dfp.html",
-    "public/capture/desktop/en/donate.html",
-    "public/capture/desktop/en/facility-rental.html",
-    "public/capture/desktop/en/men.html",
-    "public/capture/desktop/en/policies.html",
-    "public/capture/desktop/fr/archived-dfp-costs.html",
-    "public/capture/desktop/fr/banquet.html",
-    "public/capture/desktop/fr/camps.html",
-    "public/capture/desktop/fr/contact-us.html",
-    "public/capture/desktop/fr/dfp.html",
-    "public/capture/desktop/fr/donate.html",
-    "public/capture/desktop/fr/facility-rental.html",
-    "public/capture/desktop/fr/men.html",
-    "public/capture/desktop/fr/policies.html",
-    "public/capture/mobile/en/archived-dfp-costs.html",
-    "public/capture/mobile/en/banquet.html",
-    "public/capture/mobile/en/camps.html",
-    "public/capture/mobile/en/contact-us.html",
-    "public/capture/mobile/en/dfp.html",
-    "public/capture/mobile/en/donate.html",
-    "public/capture/mobile/en/facility-rental.html",
-    "public/capture/mobile/en/men.html",
-    "public/capture/mobile/en/policies.html",
-    "public/capture/mobile/fr/archived-dfp-costs.html",
-    "public/capture/mobile/fr/banquet.html",
-    "public/capture/mobile/fr/camps.html",
-    "public/capture/mobile/fr/contact-us.html",
-    "public/capture/mobile/fr/dfp.html",
-    "public/capture/mobile/fr/donate.html",
-    "public/capture/mobile/fr/facility-rental.html",
-    "public/capture/mobile/fr/men.html",
-    "public/capture/mobile/fr/policies.html"
-  ]
+  "updatedPages": []
 }

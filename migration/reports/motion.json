@@ -1,14 +1,14 @@
 {
-  "verifiedAt": "2026-09-08T22:59:04.957Z",
+  "verifiedAt": "2026-09-08T23:05:49.010Z",
   "results": [
     {
       "test": "FAQ expands through intermediate heights",
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "height": 134.609375,
+        "height": 134.6875,
         "target": 189,
-        "opacity": 0.712283,
+        "opacity": 0.712657,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -28,9 +28,9 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "height": 71.734375,
+        "height": 71.71875,
         "target": 189,
-        "opacity": 0.380585,
+        "opacity": 0.380497,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -90,7 +90,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.854211,
+        "opacity": 0.854301,
         "animations": 1
       },
       "passed": true
@@ -100,7 +100,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.133303,
+        "opacity": 0.133512,
         "inert": true
       },
       "passed": true
@@ -109,7 +109,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.7269,
+      "opacity": 0.726811,
       "passed": true
     },
     {
@@ -132,7 +132,7 @@
       "opening": {
         "height": 156.734375,
         "target": 220,
-        "opacity": 0.7125,
+        "opacity": 0.712475,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -152,9 +152,9 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "height": 83.75,
+        "height": 83.71875,
         "target": 220,
-        "opacity": 0.380723,
+        "opacity": 0.380541,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -214,7 +214,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.854359,
+        "opacity": 0.854231,
         "animations": 1
       },
       "passed": true
@@ -224,7 +224,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.23462,
+        "opacity": 0.132973,
         "inert": true
       },
       "passed": true
@@ -233,7 +233,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.726119,
+      "opacity": 0.726664,
       "passed": true
     },
     {
@@ -254,9 +254,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.125,
+        "height": 324.203125,
         "target": 455,
-        "opacity": 0.712376,
+        "opacity": 0.712564,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -276,9 +276,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 172.90625,
+        "height": 173.078125,
         "target": 455,
-        "opacity": 0.380466,
+        "opacity": 0.38083,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -338,8 +338,8 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.805123,
-        "transform": "matrix(1, 0, 0, 1, 4.67705, 0)"
+        "opacity": 0.805136,
+        "transform": "matrix(1, 0, 0, 1, 4.67673, 0)"
       },
       "passed": true
     },
@@ -348,8 +348,8 @@
       "mode": "mobile",
       "lang": "en",
       "expanding": {
-        "height": 77.390625,
-        "opacity": 0.690989
+        "height": 77.4375,
+        "opacity": 0.691425
       },
       "full": 112,
       "passed": true
@@ -365,7 +365,7 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "opacity": 0.281999,
+        "opacity": 0.282177,
         "inert": true
       },
       "passed": true
@@ -388,9 +388,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 369.03125,
+        "height": 368.9375,
         "target": 518,
-        "opacity": 0.712436,
+        "opacity": 0.712238,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -410,9 +410,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 197.0625,
+        "height": 196.96875,
         "target": 518,
-        "opacity": 0.380805,
+        "opacity": 0.380629,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -472,8 +472,8 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.805083,
-        "transform": "matrix(1, 0, 0, 1, 4.678, 0)"
+        "opacity": 0.804917,
+        "transform": "matrix(1, 0, 0, 1, 4.682, 0)"
       },
       "passed": true
     },
@@ -483,7 +483,7 @@
       "lang": "fr",
       "expanding": {
         "height": 77.40625,
-        "opacity": 0.691201
+        "opacity": 0.691213
       },
       "full": 112,
       "passed": true
@@ -499,7 +499,7 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "opacity": 0.282239,
+        "opacity": 0.282091,
         "inert": true
       },
       "passed": true
@@ -522,11 +522,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.982112,
+          "opacity": 0.972765,
           "inert": true
         },
         {
-          "opacity": 0.409971,
+          "opacity": 0.491385,
           "inert": false
         }
       ],
@@ -559,11 +559,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.982145,
+          "opacity": 0.98211,
           "inert": true
         },
         {
-          "opacity": 0.40964,
+          "opacity": 0.409991,
           "inert": false
         }
       ],
@@ -1397,7 +1397,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "mission-en",
-      "midway": 31,
+      "midway": 71,
       "end": 500,
       "passed": true
     },

@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T23:00:52.987Z",
+  "verifiedAt": "2026-09-08T23:07:37.075Z",
   "results": [
     {
       "test": "Contact and facility components",
@@ -7,7 +7,7 @@
       "lang": "en",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -15,7 +15,7 @@
       "lang": "en",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -30,7 +30,7 @@
       "lang": "fr",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -38,7 +38,7 @@
       "lang": "fr",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -53,7 +53,7 @@
       "lang": "en",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -61,7 +61,7 @@
       "lang": "en",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -76,7 +76,7 @@
       "lang": "fr",
       "route": "contact-us",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility components",
@@ -84,7 +84,7 @@
       "lang": "fr",
       "route": "facility-rental",
       "passed": false,
-      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i }) to be visible\n"
+      "error": "locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: /^(Zoom in|Zoom avant|Agrandir)$/i })\n"
     },
     {
       "test": "Contact and facility have no JavaScript errors",
@@ -98,9 +98,9 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "height": 134.609375,
+        "height": 134.6875,
         "target": 189,
-        "opacity": 0.712283,
+        "opacity": 0.712657,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -120,9 +120,9 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "height": 71.734375,
+        "height": 71.71875,
         "target": 189,
-        "opacity": 0.380585,
+        "opacity": 0.380497,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -182,7 +182,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.854211,
+        "opacity": 0.854301,
         "animations": 1
       },
       "passed": true
@@ -192,7 +192,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.133303,
+        "opacity": 0.133512,
         "inert": true
       },
       "passed": true
@@ -201,7 +201,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.7269,
+      "opacity": 0.726811,
       "passed": true
     },
     {
@@ -224,7 +224,7 @@
       "opening": {
         "height": 156.734375,
         "target": 220,
-        "opacity": 0.7125,
+        "opacity": 0.712475,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -244,9 +244,9 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "height": 83.75,
+        "height": 83.71875,
         "target": 220,
-        "opacity": 0.380723,
+        "opacity": 0.380541,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -306,7 +306,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.854359,
+        "opacity": 0.854231,
         "animations": 1
       },
       "passed": true
@@ -316,7 +316,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.23462,
+        "opacity": 0.132973,
         "inert": true
       },
       "passed": true
@@ -325,7 +325,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.726119,
+      "opacity": 0.726664,
       "passed": true
     },
     {
@@ -346,9 +346,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.125,
+        "height": 324.203125,
         "target": 455,
-        "opacity": 0.712376,
+        "opacity": 0.712564,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -368,9 +368,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 172.90625,
+        "height": 173.078125,
         "target": 455,
-        "opacity": 0.380466,
+        "opacity": 0.38083,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -430,8 +430,8 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.805123,
-        "transform": "matrix(1, 0, 0, 1, 4.67705, 0)"
+        "opacity": 0.805136,
+        "transform": "matrix(1, 0, 0, 1, 4.67673, 0)"
       },
       "passed": true
     },
@@ -440,8 +440,8 @@
       "mode": "mobile",
       "lang": "en",
       "expanding": {
-        "height": 77.390625,
-        "opacity": 0.690989
+        "height": 77.4375,
+        "opacity": 0.691425
       },
       "full": 112,
       "passed": true
@@ -457,7 +457,7 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "opacity": 0.281999,
+        "opacity": 0.282177,
         "inert": true
       },
       "passed": true
@@ -480,9 +480,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 369.03125,
+        "height": 368.9375,
         "target": 518,
-        "opacity": 0.712436,
+        "opacity": 0.712238,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -502,9 +502,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 197.0625,
+        "height": 196.96875,
         "target": 518,
-        "opacity": 0.380805,
+        "opacity": 0.380629,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -564,8 +564,8 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.805083,
-        "transform": "matrix(1, 0, 0, 1, 4.678, 0)"
+        "opacity": 0.804917,
+        "transform": "matrix(1, 0, 0, 1, 4.682, 0)"
       },
       "passed": true
     },
@@ -575,7 +575,7 @@
       "lang": "fr",
       "expanding": {
         "height": 77.40625,
-        "opacity": 0.691201
+        "opacity": 0.691213
       },
       "full": 112,
       "passed": true
@@ -591,7 +591,7 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "opacity": 0.282239,
+        "opacity": 0.282091,
         "inert": true
       },
       "passed": true
@@ -614,11 +614,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.982112,
+          "opacity": 0.972765,
           "inert": true
         },
         {
-          "opacity": 0.409971,
+          "opacity": 0.491385,
           "inert": false
         }
       ],
@@ -651,11 +651,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.982145,
+          "opacity": 0.98211,
           "inert": true
         },
         {
-          "opacity": 0.40964,
+          "opacity": 0.409991,
           "inert": false
         }
       ],
@@ -1489,7 +1489,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "mission-en",
-      "midway": 31,
+      "midway": 71,
       "end": 500,
       "passed": true
     },
@@ -1908,8 +1908,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642455,
-      "second": 0.430416,
+      "first": 0.0642805,
+      "second": 0.430361,
       "passed": true
     },
     {
@@ -2221,8 +2221,8 @@
         "name": "motion-floatIn",
         "duration": "1.2s"
       },
-      "first": 0.0642237,
-      "second": 0.430362,
+      "first": 0.0642053,
+      "second": 0.430458,
       "passed": true
     },
     {
@@ -3424,7 +3424,7 @@
           2442
         ]
       },
-      "pixelDifference": 0.022846710346710347,
+      "pixelDifference": 0.022825097825097826,
       "newScriptErrors": []
     },
     {
@@ -3476,7 +3476,7 @@
           2433
         ]
       },
-      "pixelDifference": 0.025798910809699958,
+      "pixelDifference": 0.025770082659725076,
       "newScriptErrors": []
     },
     {
@@ -3528,7 +3528,7 @@
           6142
         ]
       },
-      "pixelDifference": 0.05341161945077608,
+      "pixelDifference": 0.02941721842324252,
       "newScriptErrors": []
     },
     {
@@ -8092,7 +8092,7 @@
           9678
         ]
       },
-      "pixelDifference": 0.0073232029689329755,
+      "pixelDifference": 0.007328369325618241,
       "newScriptErrors": []
     },
     {
@@ -8124,7 +8124,7 @@
           9831
         ]
       },
-      "pixelDifference": 0.004876263011562065,
+      "pixelDifference": 0.004847654528193131,
       "newScriptErrors": []
     },
     {
@@ -8156,7 +8156,7 @@
           28224
         ]
       },
-      "pixelDifference": 0.028599145821523054,
+      "pixelDifference": 0.0001489940594293273,
       "newScriptErrors": []
     },
     {
@@ -10509,9 +10509,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.075927734375,
-      "imageRight": 1024.075927734375,
-      "imageWidth": 1024.15185546875,
+      "imageLeft": -0.0252685546875,
+      "imageRight": 1024.0252685546875,
+      "imageWidth": 1024.050537109375,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -10580,9 +10580,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.18310546875,
-      "imageRight": 1024.18310546875,
-      "imageWidth": 1024.3662109375,
+      "imageLeft": -0.09857177734375,
+      "imageRight": 1024.0986938476562,
+      "imageWidth": 1024.197265625,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -10651,8 +10651,79 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.36431884765625,
-      "imageRight": 1280.3641967773438,
+      "imageLeft": -0.270751953125,
+      "imageRight": 1280.270751953125,
+      "imageWidth": 1280.54150390625,
+      "overlayLeft": 150,
+      "overlayWidth": 980,
+      "frame": 1280,
+      "scrollWidth": 1322,
+      "passed": true
+    },
+    {
+      "test": "Read more button is visible within its slide",
+      "lang": "en",
+      "width": 133.03125,
+      "slide": 0,
+      "left": 976.96875,
+      "right": 1110,
+      "top": 285,
+      "bottom": 327,
+      "height": 42,
+      "viewportWidth": 1280,
+      "viewportHeight": 603,
+      "passed": true
+    },
+    {
+      "test": "Quick News Facebook preview has visible dimensions",
+      "lang": "en",
+      "width": 1280,
+      "containerWidth": 483,
+      "containerHeight": 588,
+      "frameWidth": 483,
+      "frameHeight": 588,
+      "wrapperWidth": 483,
+      "wrapperHeight": 588,
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhza",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1200,
+      "position": "50% 50%",
+      "passed": true
+    },
+    {
+      "test": "Uncropped photo fills responsive column",
+      "lang": "en",
+      "width": 1280,
+      "id": "img_comp-lq2mfhzn1",
+      "columnWidth": 320,
+      "imageWidth": 320,
+      "columnHeight": 488,
+      "imageHeight": 488,
+      "leftDifference": 0,
+      "naturalWidth": 1253,
+      "position": "100% 0%",
+      "passed": true
+    },
+    {
+      "test": "Full-width responsive slideshow",
+      "lang": "en",
+      "width": 1280,
+      "slide": 1,
+      "innerScrollWidth": 1280,
+      "slideWidth": 1280,
+      "viewport": 1280,
+      "imageLeft": -0.3642578125,
+      "imageRight": 1280.3642578125,
       "imageWidth": 1280.728515625,
       "overlayLeft": 150,
       "overlayWidth": 980,
@@ -10664,77 +10735,6 @@
       "test": "Read more button is visible within its slide",
       "lang": "en",
       "width": 133.03125,
-      "slide": 0,
-      "left": 976.96875,
-      "right": 1110,
-      "top": 285,
-      "bottom": 327,
-      "height": 42,
-      "viewportWidth": 1280,
-      "viewportHeight": 603,
-      "passed": true
-    },
-    {
-      "test": "Quick News Facebook preview has visible dimensions",
-      "lang": "en",
-      "width": 1280,
-      "containerWidth": 483,
-      "containerHeight": 588,
-      "frameWidth": 483,
-      "frameHeight": 588,
-      "wrapperWidth": 483,
-      "wrapperHeight": 588,
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhza",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1200,
-      "position": "50% 50%",
-      "passed": true
-    },
-    {
-      "test": "Uncropped photo fills responsive column",
-      "lang": "en",
-      "width": 1280,
-      "id": "img_comp-lq2mfhzn1",
-      "columnWidth": 320,
-      "imageWidth": 320,
-      "columnHeight": 488,
-      "imageHeight": 488,
-      "leftDifference": 0,
-      "naturalWidth": 1253,
-      "position": "100% 0%",
-      "passed": true
-    },
-    {
-      "test": "Full-width responsive slideshow",
-      "lang": "en",
-      "width": 1280,
-      "slide": 1,
-      "innerScrollWidth": 1280,
-      "slideWidth": 1280,
-      "viewport": 1280,
-      "imageLeft": -0.5281982421875,
-      "imageRight": 1280.5281982421875,
-      "imageWidth": 1281.056396484375,
-      "overlayLeft": 150,
-      "overlayWidth": 980,
-      "frame": 1280,
-      "scrollWidth": 1322,
-      "passed": true
-    },
-    {
-      "test": "Read more button is visible within its slide",
-      "lang": "en",
-      "width": 133.03125,
       "slide": 1,
       "left": 976.96875,
       "right": 1110,
@@ -10793,9 +10793,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -0.8870849609375,
-      "imageRight": 1440.8870849609375,
-      "imageWidth": 1441.774169921875,
+      "imageLeft": -0.662353515625,
+      "imageRight": 1440.662353515625,
+      "imageWidth": 1441.32470703125,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -10864,9 +10864,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -1.05279541015625,
-      "imageRight": 1441.0526733398438,
-      "imageWidth": 1442.10546875,
+      "imageLeft": -0.80877685546875,
+      "imageRight": 1440.8088989257812,
+      "imageWidth": 1441.61767578125,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -10935,9 +10935,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -1.894775390625,
-      "imageRight": 1921.894775390625,
-      "imageWidth": 1923.78955078125,
+      "imageLeft": -1.64111328125,
+      "imageRight": 1921.64111328125,
+      "imageWidth": 1923.2822265625,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -11006,9 +11006,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -2.3031005859375,
-      "imageRight": 1922.3031005859375,
-      "imageWidth": 1924.606201171875,
+      "imageLeft": -2.1629638671875,
+      "imageRight": 1922.1629638671875,
+      "imageWidth": 1924.325927734375,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -11077,9 +11077,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -11.69873046875,
-      "imageRight": 2571.69873046875,
-      "imageWidth": 2583.3974609375,
+      "imageLeft": -10.4259033203125,
+      "imageRight": 2570.4256591796875,
+      "imageWidth": 2580.8515625,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -11148,9 +11148,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -12.6898193359375,
-      "imageRight": 2572.6900634765625,
-      "imageWidth": 2585.3798828125,
+      "imageLeft": -11.6962890625,
+      "imageRight": 2571.6962890625,
+      "imageWidth": 2583.392578125,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -11219,9 +11219,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -7.0274658203125,
-      "imageRight": 1287.0274658203125,
-      "imageWidth": 1294.054931640625,
+      "imageLeft": -6.5130615234375,
+      "imageRight": 1286.5130615234375,
+      "imageWidth": 1293.026123046875,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -11290,9 +11290,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -7.55706787109375,
-      "imageRight": 1287.5571899414062,
-      "imageWidth": 1295.1142578125,
+      "imageLeft": -7.027099609375,
+      "imageRight": 1287.027099609375,
+      "imageWidth": 1294.05419921875,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -11361,9 +11361,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -12.4288330078125,
-      "imageRight": 1932.4288330078125,
-      "imageWidth": 1944.857666015625,
+      "imageLeft": -11.60577392578125,
+      "imageRight": 1931.6056518554688,
+      "imageWidth": 1943.21142578125,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -11432,9 +11432,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -13.27203369140625,
-      "imageRight": 1933.2719116210938,
-      "imageWidth": 1946.5439453125,
+      "imageLeft": -12.42840576171875,
+      "imageRight": 1932.4285278320312,
+      "imageWidth": 1944.85693359375,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -11503,9 +11503,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.0391845703125,
-      "imageRight": 1024.0391845703125,
-      "imageWidth": 1024.078369140625,
+      "imageLeft": -0.0252685546875,
+      "imageRight": 1024.0252685546875,
+      "imageWidth": 1024.050537109375,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -11574,9 +11574,9 @@
       "innerScrollWidth": 1024,
       "slideWidth": 1024,
       "viewport": 1024,
-      "imageLeft": -0.0986328125,
-      "imageRight": 1024.0986328125,
-      "imageWidth": 1024.197265625,
+      "imageLeft": -0.07586669921875,
+      "imageRight": 1024.0759887695312,
+      "imageWidth": 1024.15185546875,
       "overlayLeft": 22,
       "overlayWidth": 980,
       "frame": 1024,
@@ -11645,9 +11645,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.22894287109375,
-      "imageRight": 1280.2290649414062,
-      "imageWidth": 1280.4580078125,
+      "imageLeft": -0.19036865234375,
+      "imageRight": 1280.1904907226562,
+      "imageWidth": 1280.380859375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -11716,9 +11716,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -0.36407470703125,
-      "imageRight": 1280.3639526367188,
-      "imageWidth": 1280.72802734375,
+      "imageLeft": -0.31591796875,
+      "imageRight": 1280.31591796875,
+      "imageWidth": 1280.6318359375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -11787,9 +11787,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -0.66253662109375,
-      "imageRight": 1440.6626586914062,
-      "imageWidth": 1441.3251953125,
+      "imageLeft": -0.529296875,
+      "imageRight": 1440.529296875,
+      "imageWidth": 1441.05859375,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -11858,9 +11858,9 @@
       "innerScrollWidth": 1440,
       "slideWidth": 1440,
       "viewport": 1440,
-      "imageLeft": -0.80902099609375,
-      "imageRight": 1440.8091430664062,
-      "imageWidth": 1441.6181640625,
+      "imageLeft": -0.734130859375,
+      "imageRight": 1440.734130859375,
+      "imageWidth": 1441.46826171875,
       "overlayLeft": 230,
       "overlayWidth": 980,
       "frame": 1440,
@@ -11929,9 +11929,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -1.640869140625,
-      "imageRight": 1921.640869140625,
-      "imageWidth": 1923.28173828125,
+      "imageLeft": -1.40325927734375,
+      "imageRight": 1921.4033813476562,
+      "imageWidth": 1922.806640625,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -12000,8 +12000,8 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -1.89422607421875,
-      "imageRight": 1921.8943481445312,
+      "imageLeft": -1.89434814453125,
+      "imageRight": 1921.8942260742188,
       "imageWidth": 1923.78857421875,
       "overlayLeft": 470,
       "overlayWidth": 980,
@@ -12071,9 +12071,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -9.810791015625,
-      "imageRight": 2569.810791015625,
-      "imageWidth": 2579.62158203125,
+      "imageLeft": -9.50732421875,
+      "imageRight": 2569.50732421875,
+      "imageWidth": 2579.0146484375,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -12142,9 +12142,9 @@
       "innerScrollWidth": 2560,
       "slideWidth": 2560,
       "viewport": 2560,
-      "imageLeft": -11.0556640625,
-      "imageRight": 2571.0556640625,
-      "imageWidth": 2582.111328125,
+      "imageLeft": -11.053955078125,
+      "imageRight": 2571.053955078125,
+      "imageWidth": 2582.10791015625,
       "overlayLeft": 790,
       "overlayWidth": 980,
       "frame": 2560,
@@ -12213,9 +12213,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -6.1778564453125,
-      "imageRight": 1286.1778564453125,
-      "imageWidth": 1292.355712890625,
+      "imageLeft": -6.01287841796875,
+      "imageRight": 1286.0130004882812,
+      "imageWidth": 1292.02587890625,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -12284,9 +12284,9 @@
       "innerScrollWidth": 1280,
       "slideWidth": 1280,
       "viewport": 1280,
-      "imageLeft": -6.68304443359375,
-      "imageRight": 1286.6831665039062,
-      "imageWidth": 1293.3662109375,
+      "imageLeft": -6.512451171875,
+      "imageRight": 1286.512451171875,
+      "imageWidth": 1293.02490234375,
       "overlayLeft": 150,
       "overlayWidth": 980,
       "frame": 1280,
@@ -12355,9 +12355,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -11.07000732421875,
-      "imageRight": 1931.0701293945312,
-      "imageWidth": 1942.14013671875,
+      "imageLeft": -10.80377197265625,
+      "imageRight": 1930.8036499023438,
+      "imageWidth": 1941.607421875,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
@@ -12426,9 +12426,9 @@
       "innerScrollWidth": 1920,
       "slideWidth": 1920,
       "viewport": 1920,
-      "imageLeft": -11.87860107421875,
-      "imageRight": 1931.8787231445312,
-      "imageWidth": 1943.75732421875,
+      "imageLeft": -11.6053466796875,
+      "imageRight": 1931.6053466796875,
+      "imageWidth": 1943.210693359375,
       "overlayLeft": 470,
       "overlayWidth": 980,
       "frame": 1920,
