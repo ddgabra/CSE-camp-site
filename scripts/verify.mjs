@@ -10,6 +10,7 @@ import {verifyFaq} from './verify-faq.mjs';
 import {verifyMotion} from './verify-motion.mjs';
 const report=JSON.parse(await readFile('migration/reports/capture.json','utf8'));
 const results=[];
+const imageWidths=[];
 async function getSlideshowFrame(page){
  const element=await page.waitForSelector('iframe[src*="home-slideshow.html"]');
  const frame=await element.contentFrame();
@@ -80,6 +81,30 @@ for(const mode of ['desktop','mobile']){
     await writeFile(prefix+'-diff.png',PNG.sync.write(diff));
    }
   }
+
+  // Audit every captured page at desktop widths larger than the original capture.
+  // A cover/fill image must cover its own container, including the right edge.
+  const widthChecks=[];
+  for(const width of mode==='desktop'?[1440,1920,2560]:[390]){
+   if(mode==='desktop')await page.setViewportSize({width,height:1000});
+   await page.waitForTimeout(50);
+   const audit=await page.evaluate(()=>{
+    const photos=[...document.querySelectorAll('wow-image > img,wix-image > img')].flatMap(image=>{
+     const host=image.parentElement,style=getComputedStyle(image);
+     let info={};try{info=JSON.parse(host.getAttribute('data-image-info')||'{}');}catch{}
+     const isFill=style.objectFit==='cover'||host.classList.contains('bgImage')||info.displayMode==='fill';
+     const h=host.getBoundingClientRect(),i=image.getBoundingClientRect();
+     if(!isFill||h.width<80||h.height<50||style.display==='none'||!image.naturalWidth)return [];
+     return [{id:host.id,src:image.getAttribute('src'),fit:style.objectFit,host:{x:h.x,y:h.y,width:h.width,height:h.height},image:{x:i.x,y:i.y,width:i.width,height:i.height},rightGap:h.right-i.right,leftGap:i.left-h.left,bottomGap:h.bottom-i.bottom,topGap:i.top-h.top}];
+    });
+    return {checked:photos.length,issues:photos.filter(p=>p.rightGap>1||p.leftGap>1||p.bottomGap>1||p.topGap>1)};
+   });
+   widthChecks.push({width,...audit});
+   const entry={test:'Every page has no cut-off cover images',pathname:item.pathname,lang:item.lang,mode,width,...audit,passed:audit.issues.length===0};
+   imageWidths.push(entry);results.push(entry);
+  }
+  if(mode==='desktop')await page.setViewportSize({width:1440,height:1000});
+
   if(item.pathname==='/camp-faq'){
    const headers=page.locator('[data-hook="accordion-item-header"]');
    result.accordionCount=await headers.count();
@@ -174,5 +199,6 @@ for(const mode of ['desktop','mobile']){
  await responsiveContext.close();
 
 await browser.close();server.close();
+await writeFile('migration/reports/image-widths.json',JSON.stringify({verifiedAt:new Date().toISOString(),results:imageWidths},null,2));
 await writeFile('migration/reports/verification.json',JSON.stringify({verifiedAt:new Date().toISOString(),results},null,2));
 if(results.some(r=>r.status&&r.status!==200||r.missingText?.length||r.newScriptErrors?.length||r.passed===false||r.emptyAnswers>0||r.accordionOpens===false||r.brokenImages?.length>r.sourceBrokenImages))process.exitCode=1;
