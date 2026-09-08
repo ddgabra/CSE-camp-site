@@ -57,6 +57,16 @@ for(const mode of ['desktop','mobile']){
    result.emptyAnswers=await page.locator('[data-hook="accordion-item-content"]').evaluateAll(nodes=>nodes.filter(n=>!n.textContent.trim()).length);
    if(result.accordionCount){const b=headers.first();await b.click();const id=await b.getAttribute('aria-controls');result.accordionOpens=await page.locator('[id="'+id+'"]').isVisible();}
   }
+  if(errors.length){
+   const sourceContext=await browser.newContext(mode==='mobile'?{...devices['iPhone 13']}:{viewport:{width:1440,height:1000}});
+   const sourcePage=await sourceContext.newPage();const baseline=[];
+   sourcePage.on('pageerror',e=>baseline.push({message:e.message,stack:e.stack}));
+   await sourcePage.goto(item.url,{waitUntil:'domcontentloaded',timeout:60000}).catch(()=>{});
+   await sourcePage.waitForTimeout(3000);
+   result.sourceScriptErrors=baseline;
+   result.newScriptErrors=errors.filter(e=>!baseline.some(b=>b.message===e.message));
+   await sourceContext.close();
+  }else result.newScriptErrors=[];
   results.push(result);console.log(JSON.stringify(result));
  }
  if(mode==='desktop'){
@@ -81,4 +91,4 @@ for(const mode of ['desktop','mobile']){
 }
 await browser.close();server.close();
 await writeFile('migration/reports/verification.json',JSON.stringify({verifiedAt:new Date().toISOString(),results},null,2));
-if(results.some(r=>r.status&&r.status!==200||r.missingText?.length||r.scriptErrors?.length||r.passed===false||r.emptyAnswers>0||r.accordionOpens===false||r.brokenImages?.length>r.sourceBrokenImages))process.exitCode=1;
+if(results.some(r=>r.status&&r.status!==200||r.missingText?.length||r.newScriptErrors?.length||r.passed===false||r.emptyAnswers>0||r.accordionOpens===false||r.brokenImages?.length>r.sourceBrokenImages))process.exitCode=1;
