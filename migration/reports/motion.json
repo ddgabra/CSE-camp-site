@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T23:17:27.788Z",
+  "verifiedAt": "2026-09-08T23:58:38.197Z",
   "results": [
     {
       "test": "FAQ expands through intermediate heights",
@@ -28,9 +28,9 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "height": 71.765625,
+        "height": 71.71875,
         "target": 189,
-        "opacity": 0.380761,
+        "opacity": 0.380547,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -90,7 +90,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.854285,
+        "opacity": 0.854471,
         "animations": 1
       },
       "passed": true
@@ -100,7 +100,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.234768,
+        "opacity": 0.132992,
         "inert": true
       },
       "passed": true
@@ -109,7 +109,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.726778,
+      "opacity": 0.727445,
       "passed": true
     },
     {
@@ -130,9 +130,9 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "height": 156.734375,
+        "height": 156.6875,
         "target": 220,
-        "opacity": 0.71249,
+        "opacity": 0.712278,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -152,9 +152,9 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "height": 83.703125,
+        "height": 83.71875,
         "target": 220,
-        "opacity": 0.380522,
+        "opacity": 0.380579,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -214,7 +214,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.854308,
+        "opacity": 0.774237,
         "animations": 1
       },
       "passed": true
@@ -224,7 +224,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.133345,
+        "opacity": 0.133108,
         "inert": true
       },
       "passed": true
@@ -233,7 +233,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.726827,
+      "opacity": 0.727242,
       "passed": true
     },
     {
@@ -254,9 +254,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.09375,
+        "height": 324.140625,
         "target": 455,
-        "opacity": 0.712322,
+        "opacity": 0.712411,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -276,9 +276,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 173.125,
+        "height": 172.984375,
         "target": 455,
-        "opacity": 0.380937,
+        "opacity": 0.380623,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -338,43 +338,17 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.805127,
-        "transform": "matrix(1, 0, 0, 1, 4.67694, 0)"
+        "opacity": 0.805141,
+        "transform": "matrix(1, 0, 0, 1, 4.67663, 0)"
       },
       "passed": true
     },
     {
-      "test": "Mobile submenu expands gradually",
+      "test": "Navigation transitions",
       "mode": "mobile",
       "lang": "en",
-      "expanding": {
-        "height": 77.40625,
-        "opacity": 0.691213
-      },
-      "full": 112,
-      "passed": true
-    },
-    {
-      "test": "Mobile submenu finishes closed",
-      "mode": "mobile",
-      "lang": "en",
-      "passed": true
-    },
-    {
-      "test": "Mobile drawer fades out before hiding",
-      "mode": "mobile",
-      "lang": "en",
-      "closing": {
-        "opacity": 0.281993,
-        "inert": true
-      },
-      "passed": true
-    },
-    {
-      "test": "Native mobile language selector opens the selected language",
-      "mode": "mobile",
-      "lang": "en",
-      "passed": true
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#MENU_AS_CONTAINER').locator('li > ul').first()\n",
+      "passed": false
     },
     {
       "test": "Motion interactions have no JavaScript errors",
@@ -388,9 +362,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 369.015625,
+        "height": 368.953125,
         "target": 518,
-        "opacity": 0.712406,
+        "opacity": 0.712293,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -410,9 +384,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 197.078125,
+        "height": 196.9375,
         "target": 518,
-        "opacity": 0.380855,
+        "opacity": 0.38056,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -472,43 +446,17 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.597895,
-        "transform": "matrix(1, 0, 0, 1, 9.65053, 0)"
+        "opacity": 0.804978,
+        "transform": "matrix(1, 0, 0, 1, 4.68053, 0)"
       },
       "passed": true
     },
     {
-      "test": "Mobile submenu expands gradually",
+      "test": "Navigation transitions",
       "mode": "mobile",
       "lang": "fr",
-      "expanding": {
-        "height": 77.40625,
-        "opacity": 0.691213
-      },
-      "full": 112,
-      "passed": true
-    },
-    {
-      "test": "Mobile submenu finishes closed",
-      "mode": "mobile",
-      "lang": "fr",
-      "passed": true
-    },
-    {
-      "test": "Mobile drawer fades out before hiding",
-      "mode": "mobile",
-      "lang": "fr",
-      "closing": {
-        "opacity": 0.281962,
-        "inert": true
-      },
-      "passed": true
-    },
-    {
-      "test": "Native mobile language selector opens the selected language",
-      "mode": "mobile",
-      "lang": "fr",
-      "passed": true
+      "error": "locator.evaluate: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('#MENU_AS_CONTAINER').locator('li > ul').first()\n",
+      "passed": false
     },
     {
       "test": "Motion interactions have no JavaScript errors",
@@ -522,11 +470,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.972745,
+          "opacity": 0.982121,
           "inert": true
         },
         {
-          "opacity": 0.491529,
+          "opacity": 0.409883,
           "inert": false
         }
       ],
@@ -559,11 +507,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.972746,
+          "opacity": 0.982145,
           "inert": true
         },
         {
-          "opacity": 0.491525,
+          "opacity": 0.40964,
           "inert": false
         }
       ],
@@ -1397,7 +1345,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "mission-en",
-      "midway": 11,
+      "midway": 31,
       "end": 500,
       "passed": true
     },

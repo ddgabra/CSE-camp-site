@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T23:16:56.718Z",
+  "verifiedAt": "2026-09-08T23:57:07.535Z",
   "results": [
     {
       "test": "Interactive location map loads and zooms",
@@ -44,7 +44,7 @@
       "mode": "desktop",
       "lang": "en",
       "route": "facility-rental",
-      "shifted": 8,
+      "shifted": 11,
       "passed": true
     },
     {
@@ -60,7 +60,7 @@
       "mode": "desktop",
       "lang": "en",
       "route": "facility-rental",
-      "mid": 0.534095,
+      "mid": 0.463036,
       "passed": true
     },
     {
@@ -131,7 +131,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "facility-rental",
-      "shifted": 8,
+      "shifted": 3,
       "passed": true
     },
     {
@@ -147,7 +147,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "facility-rental",
-      "mid": 0.534063,
+      "mid": 0.53434,
       "passed": true
     },
     {
@@ -257,7 +257,7 @@
       "mode": "mobile",
       "lang": "en",
       "route": "facility-rental",
-      "mid": 0.533894,
+      "mid": 0.534228,
       "passed": true
     },
     {
@@ -367,7 +367,7 @@
       "mode": "mobile",
       "lang": "fr",
       "route": "facility-rental",
-      "mid": 0.534316,
+      "mid": 0.534256,
       "passed": true
     },
     {
