@@ -222,6 +222,25 @@
  // Keep the original Wix submission service until a replacement backend is configured.
  // Never claim a form succeeded without submitting it.
  document.querySelectorAll('form').forEach(form=>{
+  if(location.pathname.replace(/\/$/,'')==='/contact-us'&&form.querySelector('input[type="email"]')&&form.querySelector('textarea')){
+   form.action='https://formsubmit.co/wess@catholicway.net';
+   form.method='POST';
+   form.querySelector('input[type="email"]').name='email';
+   const message=form.querySelector('textarea');
+   message.name='message';message.required=true;
+   const phone=form.querySelector('input[type="tel"]');
+   if(phone)phone.removeAttribute('pattern');
+   const addHidden=(name,value)=>{const input=document.createElement('input');input.type='hidden';input.name=name;input.value=value;form.append(input);};
+   addHidden('_subject',lang==='fr'?'Message du site CSE':'CSE website message');
+   addHidden('_template','table');
+   addHidden('_captcha','true');
+   const trap=document.createElement('input');trap.type='text';trap.name='_honey';trap.tabIndex=-1;trap.autocomplete='off';trap.style.display='none';trap.setAttribute('aria-hidden','true');form.append(trap);
+   const button=form.querySelector('button');if(button)button.type='submit';
+   const note=document.createElement('p');note.className='cse-form-note';
+   note.textContent=lang==='fr'?'Votre message sera transmis à wess@catholicway.net par FormSubmit. Une vérification anti-spam peut être demandée.':'Your message will be forwarded to wess@catholicway.net by FormSubmit. A spam check may be required.';
+   form.append(note);
+   return;
+  }
   form.addEventListener('submit',e=>{e.preventDefault();location.href='https://www.catholicway.net'+location.pathname+location.search;});
   const note=document.createElement('p');note.className='cse-form-note';note.textContent=lang==='fr'?'Ce formulaire s’ouvre sur notre site actuel pour être envoyé en toute sécurité.':'This form opens on our current website for secure submission.';form.append(note);
  });
