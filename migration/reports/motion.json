@@ -1,5 +1,5 @@
 {
-  "verifiedAt": "2026-09-08T23:58:38.197Z",
+  "verifiedAt": "2026-09-09T17:01:33.696Z",
   "results": [
     {
       "test": "FAQ expands through intermediate heights",
@@ -8,7 +8,7 @@
       "opening": {
         "height": 134.625,
         "target": 189,
-        "opacity": 0.712303,
+        "opacity": 0.712357,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -30,7 +30,7 @@
       "closing": {
         "height": 71.71875,
         "target": 189,
-        "opacity": 0.380547,
+        "opacity": 0.380491,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -90,7 +90,7 @@
       "mode": "desktop",
       "lang": "en",
       "opening": {
-        "opacity": 0.854471,
+        "opacity": 0.854153,
         "animations": 1
       },
       "passed": true
@@ -100,7 +100,7 @@
       "mode": "desktop",
       "lang": "en",
       "closing": {
-        "opacity": 0.132992,
+        "opacity": 0.133373,
         "inert": true
       },
       "passed": true
@@ -109,7 +109,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "en",
-      "opacity": 0.727445,
+      "opacity": 0.726778,
       "passed": true
     },
     {
@@ -130,9 +130,9 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "height": 156.6875,
+        "height": 156.75,
         "target": 220,
-        "opacity": 0.712278,
+        "opacity": 0.712569,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -152,9 +152,9 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "height": 83.71875,
+        "height": 83.734375,
         "target": 220,
-        "opacity": 0.380579,
+        "opacity": 0.380623,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -214,7 +214,7 @@
       "mode": "desktop",
       "lang": "fr",
       "opening": {
-        "opacity": 0.774237,
+        "opacity": 0.85404,
         "animations": 1
       },
       "passed": true
@@ -224,7 +224,7 @@
       "mode": "desktop",
       "lang": "fr",
       "closing": {
-        "opacity": 0.133108,
+        "opacity": 0.132894,
         "inert": true
       },
       "passed": true
@@ -233,7 +233,7 @@
       "test": "Language menu fades into view",
       "mode": "desktop",
       "lang": "fr",
-      "opacity": 0.727242,
+      "opacity": 0.726265,
       "passed": true
     },
     {
@@ -254,9 +254,9 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "height": 324.140625,
+        "height": 324.203125,
         "target": 455,
-        "opacity": 0.712411,
+        "opacity": 0.712539,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -276,9 +276,9 @@
       "mode": "mobile",
       "lang": "en",
       "closing": {
-        "height": 172.984375,
+        "height": 173.015625,
         "target": 455,
-        "opacity": 0.380623,
+        "opacity": 0.380686,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -338,8 +338,8 @@
       "mode": "mobile",
       "lang": "en",
       "opening": {
-        "opacity": 0.805141,
-        "transform": "matrix(1, 0, 0, 1, 4.67663, 0)"
+        "opacity": 0.805127,
+        "transform": "matrix(1, 0, 0, 1, 4.67694, 0)"
       },
       "passed": true
     },
@@ -362,9 +362,9 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "height": 368.953125,
+        "height": 369.0625,
         "target": 518,
-        "opacity": 0.712293,
+        "opacity": 0.71248,
         "hidden": false,
         "inert": false,
         "animations": 1
@@ -384,9 +384,9 @@
       "mode": "mobile",
       "lang": "fr",
       "closing": {
-        "height": 196.9375,
+        "height": 197.03125,
         "target": 518,
-        "opacity": 0.38056,
+        "opacity": 0.380761,
         "hidden": false,
         "inert": true,
         "animations": 1
@@ -446,8 +446,8 @@
       "mode": "mobile",
       "lang": "fr",
       "opening": {
-        "opacity": 0.804978,
-        "transform": "matrix(1, 0, 0, 1, 4.68053, 0)"
+        "opacity": 0.80507,
+        "transform": "matrix(1, 0, 0, 1, 4.67831, 0)"
       },
       "passed": true
     },
@@ -470,11 +470,11 @@
       "lang": "en",
       "mid": [
         {
-          "opacity": 0.982121,
+          "opacity": 0.982171,
           "inert": true
         },
         {
-          "opacity": 0.409883,
+          "opacity": 0.409376,
           "inert": false
         }
       ],
@@ -507,11 +507,11 @@
       "lang": "fr",
       "mid": [
         {
-          "opacity": 0.982145,
+          "opacity": 0.982108,
           "inert": true
         },
         {
-          "opacity": 0.40964,
+          "opacity": 0.410012,
           "inert": false
         }
       ],
@@ -1475,7 +1475,7 @@
       "mode": "desktop",
       "lang": "fr",
       "route": "history",
-      "midway": 31,
+      "midway": 11,
       "end": 500,
       "passed": true
     },
