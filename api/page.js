@@ -6,10 +6,9 @@ const campRegistrationUrl='https://cse-camps-claude.vercel.app/camps';
 
 // The desktop response and its shared assets are deliberately left untouched.
 export function improveMobile(html,mobile){
- if(!mobile||html.includes('/replica.mobile.js'))return html;
- return html.replace(/(<meta\b[^>]*name="viewport"[^>]*content=")[^"]*/i,'$1width=device-width, initial-scale=1, viewport-fit=cover')
-  .replace('</head>','<link rel="stylesheet" href="/replica.mobile.css?v=1"></head>')
-  .replace('</body>','<script src="/replica.mobile.js?v=1" defer></script></body>');
+ if(!mobile||html.includes('/replica.mobile.css'))return html;
+ // Preserve the original mobile viewport, navigation and document structure.
+ return html.replace('</head>','<link rel="stylesheet" href="/replica.mobile.css?v=2"></head>');
 }
 
 // Apply the connection when serving captures so future Wix recaptures keep it.
