@@ -5,10 +5,15 @@ const campRegistrationPath='/camp-registration';
 const campRegistrationUrl='https://cse-camps-claude.vercel.app/camps';
 
 // The desktop response and its shared assets are deliberately left untouched.
-export function improveMobile(html,mobile){
+export function improveMobile(html,mobile,desktopHtml=''){
  if(!mobile||html.includes('/replica.mobile.css'))return html;
- // Preserve the original mobile viewport, navigation and document structure.
- return html.replace('</head>','<link rel="stylesheet" href="/replica.mobile.css?v=2"></head>');
+ // Reuse the actual desktop branding and navigation, including its destinations.
+ const header=desktopHtml.match(/<header\b[^>]*id="SITE_HEADER"[^>]*>[\s\S]*?<\/header>/)?.[0];
+ if(header)html=html.replace(/<header\b[^>]*id="SITE_HEADER"[^>]*>[\s\S]*?<\/header>/,()=>header.replace('id="SITE_HEADER"','id="SITE_HEADER" data-cse-desktop-header').replace('>CAMP SIGN UP<','>Register for Camps<'));
+ const news=desktopHtml.match(/<div\b[^>]*id="comp-ieegdwnf"[^>]*>[\s\S]*?<\/div>/)?.[0];
+ if(news&&!html.includes('id="comp-ieegdwnf"'))html=html.replace(/(<div\b[^>]*data-mesh-id="comp-ll18nuq3inlineContent-gridContainer"[^>]*>)/,match=>match+news);
+ return html.replace(/(<meta\b[^>]*name="viewport"[^>]*content=")[^"]*/i,'$1width=device-width, initial-scale=1')
+  .replace('</head>','<link rel="stylesheet" href="/replica.mobile.css?v=3"></head>');
 }
 
 // Apply the connection when serving captures so future Wix recaptures keep it.
@@ -46,7 +51,8 @@ export default async function handler(req,res){
   res.setHeader('Cache-Control','public, max-age=0, must-revalidate');
   res.setHeader('Vary','User-Agent');
   res.setHeader('X-Robots-Tag','noindex, nofollow');
-  res.status(200).send(improveMobile(connectCampRegistration(html,lang,mobile),mobile));
+  const desktopHtml=mobile?connectCampRegistration(await readFile(path.join(process.cwd(),'public','capture','desktop',lang,clean+'.html'),'utf8').catch(()=>''),lang,false):'';
+  res.status(200).send(improveMobile(connectCampRegistration(html,lang,mobile),mobile,desktopHtml));
  }catch{
   res.status(404).send('<!doctype html><html lang="'+lang+'"><meta charset="utf-8"><title>404</title><h1>'+(lang==='fr'?'Page introuvable':'Page not found')+'</h1><a href="/'+(lang==='fr'?'?lang=fr':'')+'">'+(lang==='fr'?'Accueil':'Home')+'</a></html>');
  }
