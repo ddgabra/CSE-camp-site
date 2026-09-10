@@ -4,6 +4,14 @@ import path from 'node:path';
 const campRegistrationPath='/camp-registration';
 const campRegistrationUrl='https://cse-camps-claude.vercel.app/camps';
 
+// The desktop response and its shared assets are deliberately left untouched.
+export function improveMobile(html,mobile){
+ if(!mobile||html.includes('/replica.mobile.js'))return html;
+ return html.replace(/(<meta\b[^>]*name="viewport"[^>]*content=")[^"]*/i,'$1width=device-width, initial-scale=1, viewport-fit=cover')
+  .replace('</head>','<link rel="stylesheet" href="/replica.mobile.css?v=1"></head>')
+  .replace('</body>','<script src="/replica.mobile.js?v=1" defer></script></body>');
+}
+
 // Apply the connection when serving captures so future Wix recaptures keep it.
 export function connectCampRegistration(html,lang,mobile){
  const label=lang==='fr'?'INSCRIPTION AUX CAMPS':'CAMP SIGN UP';
@@ -39,7 +47,7 @@ export default async function handler(req,res){
   res.setHeader('Cache-Control','public, max-age=0, must-revalidate');
   res.setHeader('Vary','User-Agent');
   res.setHeader('X-Robots-Tag','noindex, nofollow');
-  res.status(200).send(connectCampRegistration(html,lang,mobile));
+  res.status(200).send(improveMobile(connectCampRegistration(html,lang,mobile),mobile));
  }catch{
   res.status(404).send('<!doctype html><html lang="'+lang+'"><meta charset="utf-8"><title>404</title><h1>'+(lang==='fr'?'Page introuvable':'Page not found')+'</h1><a href="/'+(lang==='fr'?'?lang=fr':'')+'">'+(lang==='fr'?'Accueil':'Home')+'</a></html>');
  }
