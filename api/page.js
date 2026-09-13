@@ -16,19 +16,33 @@ export function improveMobile(html,mobile,desktopHtml=''){
   .replace('</head>','<link rel="stylesheet" href="/replica.mobile.css?v=3"></head>');
 }
 
+function connectDonateButton(html,lang,mobile){
+ const label=lang==='fr'?'FAIRE UN DON':'DONATE';
+ if(html.includes('id="cse-donate-button"'))return html;
+ if(mobile){
+  const item='<li class="FWN1UT GrMktH WIf5uD wixui-vertical-menu__item"><div data-testid="itemWrapper" class="keDKhi"><span data-testid="linkWrapper" class="j945c8"><a id="cse-donate-button" data-testid="linkElement" href="/donate" class="G7GdaI wixui-vertical-menu__item-label">'+label+'</a></span></div></li>';
+  return html.replace(/(<nav\b[^>]*\bid="MENU_AS_CONTAINER_EXPANDABLE_MENU"[^>]*>\s*<ul\b[^>]*>)/,'$1'+item);
+ }
+ const item='<li class="itemDepth02233374943__itemWrapper wixui-horizontal-menu__item" data-testid="menuItemDepth0" data-item-depth="0"><div class="itemShared2352141355__rootContainer itemShared2352141355--isRow"><a id="cse-donate-button" data-item-label="true" data-testid="linkElement" href="/donate" class="itemDepth02233374943__root StylableHorizontalMenu3372578893__menuItem itemShared2352141355__menuItem"><div class="itemDepth02233374943__container"><span class="itemDepth02233374943__label wixui-horizontal-menu__item-label">'+label+'</span></div></a></div></li>';
+ return html.replace(/(<nav\b[^>]*\bwixui-horizontal-menu\b[^>]*>\s*<ul\b[^>]*>)/,'$1'+item);
+}
+
 // Apply the connection when serving captures so future Wix recaptures keep it.
 export function connectCampRegistration(html,lang,mobile){
  const label=lang==='fr'?'INSCRIPTION AUX CAMPS':'CAMP SIGN UP';
  // Existing camp registration buttons should use the same destination as the header.
  html=html.replace(/<a\b[^>]*\bhref="https?:\/\/(?:www\.)?stmalocamps\.net\/?"[^>]*>/gi,tag=>
   tag.replace(/href="[^"]*"/i,'href="'+campRegistrationPath+'"').replace(/target="[^"]*"/i,'target="_self"'));
- if(html.includes('id="cse-camp-signup"'))return html;
- if(mobile){
-  const item='<li class="FWN1UT GrMktH WIf5uD wixui-vertical-menu__item"><div data-testid="itemWrapper" class="keDKhi"><span data-testid="linkWrapper" class="j945c8"><a id="cse-camp-signup" data-testid="linkElement" href="'+campRegistrationPath+'" class="G7GdaI wixui-vertical-menu__item-label">'+label+'</a></span></div></li>';
-  return html.replace(/(<nav\b[^>]*\bid="MENU_AS_CONTAINER_EXPANDABLE_MENU"[^>]*>\s*<ul\b[^>]*>)/,'$1'+item);
+ if(!html.includes('id="cse-camp-signup"')){
+  if(mobile){
+   const item='<li class="FWN1UT GrMktH WIf5uD wixui-vertical-menu__item"><div data-testid="itemWrapper" class="keDKhi"><span data-testid="linkWrapper" class="j945c8"><a id="cse-camp-signup" data-testid="linkElement" href="'+campRegistrationPath+'" class="G7GdaI wixui-vertical-menu__item-label">'+label+'</a></span></div></li>';
+   html=html.replace(/(<nav\b[^>]*\bid="MENU_AS_CONTAINER_EXPANDABLE_MENU"[^>]*>\s*<ul\b[^>]*>)/,'$1'+item);
+  }else{
+   const item='<li class="itemDepth02233374943__itemWrapper wixui-horizontal-menu__item" data-testid="menuItemDepth0" data-item-depth="0"><div class="itemShared2352141355__rootContainer itemShared2352141355--isRow"><a id="cse-camp-signup" data-item-label="true" data-testid="linkElement" href="'+campRegistrationPath+'" class="itemDepth02233374943__root StylableHorizontalMenu3372578893__menuItem itemShared2352141355__menuItem"><div class="itemDepth02233374943__container"><span class="itemDepth02233374943__label wixui-horizontal-menu__item-label">'+label+'</span></div></a></div></li>';
+   html=html.replace(/(<nav\b[^>]*\bwixui-horizontal-menu\b[^>]*>\s*<ul\b[^>]*>)/,'$1'+item);
+  }
  }
- const item='<li class="itemDepth02233374943__itemWrapper wixui-horizontal-menu__item" data-testid="menuItemDepth0" data-item-depth="0"><div class="itemShared2352141355__rootContainer itemShared2352141355--isRow"><a id="cse-camp-signup" data-item-label="true" data-testid="linkElement" href="'+campRegistrationPath+'" class="itemDepth02233374943__root StylableHorizontalMenu3372578893__menuItem itemShared2352141355__menuItem"><div class="itemDepth02233374943__container"><span class="itemDepth02233374943__label wixui-horizontal-menu__item-label">'+label+'</span></div></a></div></li>';
- return html.replace(/(<nav\b[^>]*\bwixui-horizontal-menu\b[^>]*>\s*<ul\b[^>]*>)/,'$1'+item);
+ return connectDonateButton(html,lang,mobile);
 }
 
 export default async function handler(req,res){
