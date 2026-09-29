@@ -4,6 +4,40 @@ import path from 'node:path';
 const campRegistrationPath='/camp-registration';
 const campRegistrationUrl='https://cse-camps-claude.vercel.app/camps';
 
+// Keep the ministries menu label as Men's Conference after source recaptures.
+export function renameMenMenu(html,lang){
+ const heading=lang==='fr'?'CONFÉRENCE POUR HOMMES':"MEN'S CONFERENCE";
+ const linkLabel=lang==='fr'?'Conférence pour hommes':"Men's Conference";
+ const menHref=lang==='fr'?'/men?lang=fr':'/men';
+ const oldHeading='DISCIPLESHIP FORMATION PROGRAM|PROGRAMME DE FORMATIONS? DES DISCIPLES|MEN[\'\u2019]S|HOMMES';
+ const oldLink='About the DFP|À propos du [Pp][Ff][Dd]|Men[\'\u2019]s Conference|Conférence pour hommes';
+ // Desktop mega-menu category heading (also covers live "MEN'S" / "HOMMES").
+ html=html.replace(
+  new RegExp('(<div id="comp-lvpf8fj05"[\\s\\S]*?class="color_11 wixui-rich-text__text">)(?:'+oldHeading+')(<\\/span>)'),
+  '$1'+heading+'$2'
+ );
+ // Desktop mega-menu link under that heading.
+ html=html.replace(
+  new RegExp('(<div id="comp-lvpf8fj15"[\\s\\S]*?<a href=")(?:\\/dfp(?:\\?lang=fr)?|\\/men(?:\\?lang=fr)?)("[^>]*>[\\s\\S]*?<span style="font-size:12px;" class="wixui-rich-text__text">)(?:'+oldLink+')(<\\/span>)'),
+  '$1'+menHref+'$2'+linkLabel+'$3'
+ );
+ // Mobile drawer parent label + aria-label.
+ html=html.replace(
+  new RegExp('(MENU_AS_CONTAINER_EXPANDABLE_MENU-0-1"[\\s\\S]*?wixui-vertical-menu__item-label">)(?:'+oldHeading+')(<\\/div>)'),
+  '$1'+heading+'$2'
+ );
+ html=html.replace(
+  new RegExp('(MENU_AS_CONTAINER_EXPANDABLE_MENU-0-1"[\\s\\S]*?aria-label=")(?:'+oldHeading+')(")'),
+  '$1'+heading+'$2'
+ );
+ // Mobile drawer child link.
+ html=html.replace(
+  new RegExp('(MENU_AS_CONTAINER_EXPANDABLE_MENU-0-1-0"[\\s\\S]*?<a data-testid="linkElement" href=")(?:\\/dfp(?:\\?lang=fr)?|\\/men(?:\\?lang=fr)?)("[^>]*class="G7GdaI wixui-vertical-menu__item-label">)(?:'+oldLink+')(<\\/a>)'),
+  '$1'+menHref+'$2'+linkLabel+'$3'
+ );
+ return html;
+}
+
 // The desktop response and its shared assets are deliberately left untouched.
 export function improveMobile(html,mobile,desktopHtml=''){
  if(!mobile||html.includes('/replica.mobile.css'))return html;
@@ -42,7 +76,7 @@ export function connectCampRegistration(html,lang,mobile){
    html=html.replace(/(<nav\b[^>]*\bwixui-horizontal-menu\b[^>]*>\s*<ul\b[^>]*>)/,'$1'+item);
   }
  }
- return connectDonateButton(html,lang,mobile);
+ return renameMenMenu(connectDonateButton(html,lang,mobile),lang);
 }
 
 export default async function handler(req,res){
