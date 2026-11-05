@@ -219,32 +219,35 @@
    setFaqExpanded(button,open);
   });
  });
- // Keep the original Wix submission service until a replacement backend is configured.
- // Never claim a form succeeded without submitting it.
+ // Submit through the configured server-side email service. Never claim success on failure.
  document.querySelectorAll('form').forEach(form=>{
-  if(location.pathname.replace(/\/$/,'')==='/contact-us'&&form.querySelector('input[type="email"]')&&form.querySelector('textarea')){
-   form.action='https://formsubmit.co/wess@catholicway.net';
-   form.method='POST';
-   form.querySelector('input[type="email"]').name='email';
-   const message=form.querySelector('textarea');
-   message.name='message';message.required=true;
-   const phone=form.querySelector('input[type="tel"]');
-   if(phone)phone.removeAttribute('pattern');
-   const addHidden=(name,value)=>{const input=document.createElement('input');input.type='hidden';input.name=name;input.value=value;form.append(input);};
-   addHidden('_subject',lang==='fr'?'Message du site CSE':'CSE website message');
-   addHidden('_template','table');
-   addHidden('_captcha','true');
-   const trap=document.createElement('input');trap.type='text';trap.name='_honey';trap.tabIndex=-1;trap.autocomplete='off';trap.style.display='none';trap.setAttribute('aria-hidden','true');form.append(trap);
-   const button=form.querySelector('button');if(button)button.type='submit';
-   const note=document.createElement('p');note.className='cse-form-note';
-   note.textContent=lang==='fr'?'Votre message sera transmis à wess@catholicway.net par FormSubmit. Une vérification anti-spam peut être demandée.':'Your message will be forwarded to wess@catholicway.net by FormSubmit. A spam check may be required.';
-   form.append(note);
-   return;
-  }
-  form.addEventListener('submit',e=>{e.preventDefault();location.href='https://www.catholicway.net'+location.pathname+location.search;});
-  const note=document.createElement('p');note.className='cse-form-note';note.textContent=lang==='fr'?'Ce formulaire s’ouvre sur notre site actuel pour être envoyé en toute sécurité.':'This form opens on our current website for secure submission.';form.append(note);
+  if(!form.querySelector('input,textarea,select'))return;
+  const note=document.createElement('p');note.className='cse-form-note';note.setAttribute('role','status');note.setAttribute('aria-live','polite');
+  form.append(note);
+  form.addEventListener('submit',async event=>{
+   event.preventDefault();
+   if(!form.reportValidity())return;
+   const button=form.querySelector('button[type="submit"],input[type="submit"],button');
+   const fields=new FormData(form);
+   const data={_form:document.title||location.pathname,_honey:String(fields.get('_honey')||'')};
+   for(const [key,value] of fields){
+    if(value instanceof File){if(value.size){note.textContent=lang==='fr'?'Les pièces jointes ne sont pas encore prises en charge. Veuillez les envoyer par courriel.':'File attachments are not supported yet. Please send them by email.';return;}continue;}
+    if(key in data)data[key]+='; '+value;else data[key]=value;
+   }
+   if(!data.email){const email=form.querySelector('input[type="email"]');if(email)data.email=email.value;}
+   const oldDisabled=button?.disabled;if(button)button.disabled=true;
+   note.textContent=lang==='fr'?'Envoi en cours…':'Sending…';
+   try{
+    const response=await fetch('/api/forms',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+    if(!response.ok)throw new Error('Submission failed');
+    note.textContent=lang==='fr'?'Message envoyé. Merci!':'Your form was sent successfully. Thank you!';
+    form.reset();
+   }catch{
+    note.textContent=lang==='fr'?'Envoi impossible. Veuillez réessayer ou envoyer un courriel à wess@catholicway.net.':'Unable to send. Please try again or email wess@catholicway.net.';
+   }finally{if(button)button.disabled=oldDisabled;}
+  });
  });
-
+ 
  // Animate the original mobile drawer and its nested navigation.
  const mobileButton=document.getElementById('MENU_AS_CONTAINER_TOGGLE');
  const mobileMenu=document.getElementById('MENU_AS_CONTAINER');
